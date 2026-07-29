@@ -62,11 +62,9 @@ build understanding incrementally — testing isolated functions and
 primitives before attempting any larger integration.
 
 The first experiments focus on **scatter/gather operations** for paged
-KV caches, based on work in the
-[kv-press branch](https://github.com/vllm-project/vllm/compare/main...fax4ever:vllm:kv-press)
-of the vLLM fork. These operations are fundamental to any compression
-scheme that needs to read KV cache pages into a contiguous buffer,
-apply compression, and write the results back.
+KV caches. These operations are fundamental to any compression scheme
+that needs to read KV cache pages into a contiguous buffer, apply
+compression, and write the results back.
 
 ## Environment
 
@@ -99,7 +97,7 @@ to attempt it.
 - N. F. Liu et al. *Lost in the Middle: How Language Models Use Long Contexts.* TACL, 2024.
 - [kvpress](https://github.com/NVIDIA/kvpress) — NVIDIA's KV cache compression library
 - [vLLM](https://github.com/vllm-project/vllm) — High-throughput LLM serving engine
-- [vLLM fork (kv-press branch)](https://github.com/vllm-project/vllm/compare/main...fax4ever:vllm:kv-press) — Scatter/gather experiments
+- [vLLM fork](https://github.com/fax4ever/vllm) — Fork used for testing Python-level modifications
 
 ## License
 
