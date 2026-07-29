@@ -83,7 +83,9 @@ The notebooks are designed to run on an **OpenShift AI Workbench** with:
 - **Container size:** Large (8+ CPU, 32+ GB RAM)
 
 Key dependencies: vLLM 0.18, kvpress 0.5.4, Transformers 4.57,
-Qwen3-8B. Full install instructions are in notebook `00_setup_check`.
+Qwen3-8B. For step-by-step setup instructions — from creating the
+RHOAI workbench to running the first notebook — see
+[`setup/rhoai-workbench.md`](setup/rhoai-workbench.md).
 
 ## Future Directions
 
