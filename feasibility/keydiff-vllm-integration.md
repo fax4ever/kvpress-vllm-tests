@@ -54,6 +54,12 @@ incompatible:
   from non-contiguous pages with a simple index, and you cannot shrink a
   block table by tensor operations.
 
+At a deeper level, KeyDiff fundamentally breaks vLLM's core invariant:
+**cached tokens are immutable once written.** vLLM's architecture —
+append-only block tables, prefix caching, reference counting,
+scheduling — is built on the assumption that the cache only grows.
+Compaction reverses this.
+
 Bridging this gap requires an explicit gather-compress-scatter cycle:
 read from the paged cache into a dense buffer, run compression, and
 write the survivors back.
@@ -327,8 +333,14 @@ unused and should be returned to the block pool. This requires:
 - Identifying which blocks are no longer needed
 - Updating the block table (truncate unused entries)
 - Freeing blocks via the block allocator
-- Correct interaction with reference counting and (if enabled) prefix
-  caching
+- Copy-on-write for shared blocks: prefix caching (enabled by default
+  in vLLM) allows multiple sequences to share physical blocks when
+  they have the same prefix tokens — the sharing is safe because the
+  data is identical. Compaction breaks this invariant by overwriting
+  block content with compressed data. Before compacting a block with
+  `ref_cnt > 1`, we must fork it: allocate a fresh block, copy the
+  data, and update the block table to point to the private copy. Only
+  then is it safe to write compacted data.
 
 ### When to Compress
 
@@ -402,11 +414,18 @@ An incremental path from where we are to a working prototype:
 
 7. **Block management** — free unused blocks after compaction, update
    block tables, handle edge cases (partial blocks, last-block
-   boundaries).
+   boundaries). Must handle copy-on-write for blocks shared via prefix
+   caching (`ref_cnt > 1`): fork shared blocks into private copies
+   before compacting. Note that vLLM v1's block table is append-only,
+   so truncating freed blocks may require working around this
+   constraint.
 
 8. **Multi-sequence and continuous batching** — handle compaction in the
    presence of batched sequences, chunked prefill, and the scheduler's
-   allocation decisions.
+   allocation decisions. The scheduler must decide which sequences to
+   compress and when, without stalling the batch. Sequences sharing
+   prefix blocks add a further constraint: compacting one sequence
+   must not affect others that share the same prefix.
 
 Steps 3–5 can likely be tackled in parallel with experimentation.
 Steps 6–8 require deeper integration with vLLM internals and are where

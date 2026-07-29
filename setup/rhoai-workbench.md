@@ -136,11 +136,3 @@ Notebooks 01 and 02 each take several minutes to run — they load the
 Qwen3-8B model and run inference at multiple context lengths and needle
 depths.
 
-### vLLM Experiments (`vllm-experiments/`)
-
-| Notebook | What it does |
-|----------|--------------|
-| `01_scatter_gather` | Validates scatter/gather round-trip and compaction on the paged KV cache |
-
-These notebooks explore vLLM internals and can be run independently
-from the NIAH comparison.
