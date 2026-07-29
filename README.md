@@ -27,7 +27,7 @@ block allocator that compression algorithms were never designed for.
 
 ## What's in This Repo
 
-The work is organized in two parts.
+The work is organized in three parts.
 
 ### Notebooks — NIAH Comparison (`notebooks/`)
 
@@ -66,6 +66,14 @@ KV caches. These operations are fundamental to any compression scheme
 that needs to read KV cache pages into a contiguous buffer, apply
 compression, and write the results back.
 
+### Feasibility Analysis (`feasibility/`)
+
+The third part is a feasibility assessment for integrating KeyDiff
+compression into vLLM. It evaluates the approach (gather, score,
+select, scatter), identifies the hard problems (metadata tracking,
+block management, scheduler integration), and proposes an incremental
+roadmap from the current validated primitives to a working prototype.
+
 ## Environment
 
 The notebooks are designed to run on an **OpenShift AI Workbench** with:
@@ -80,15 +88,13 @@ Qwen3-8B. Full install instructions are in notebook `00_setup_check`.
 ## Future Directions
 
 The long-term research direction is to implement KV cache compression
-directly inside vLLM. This would require solving several hard problems:
-gathering non-contiguous paged KV entries into a dense buffer, running
-a compression pass (like KeyDiff's key-similarity scoring), and
-scattering the survivors back into the page table — all without breaking
-vLLM's block allocator, scheduler, or continuous batching guarantees.
+directly inside vLLM. The feasibility analysis
+(`feasibility/keydiff-vllm-integration.md`) lays out the full picture:
+the proposed approach, the open problems, and the incremental roadmap
+from validated primitives to a working prototype.
 
-This is very much research-stage work. The `vllm-experiments/` notebooks
-are the first steps toward understanding the building blocks well enough
-to attempt it.
+The `vllm-experiments/` notebooks are the hands-on side of this
+effort — building understanding of vLLM's internals one piece at a time.
 
 ## References
 
