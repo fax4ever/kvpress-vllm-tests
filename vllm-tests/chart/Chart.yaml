@@ -1,0 +1,5 @@
+apiVersion: v2
+name: vllm-tests
+description: Run vLLM test suites on OpenShift with NVIDIA GPUs
+version: 0.1.0
+type: application

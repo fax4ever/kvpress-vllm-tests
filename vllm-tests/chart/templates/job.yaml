@@ -1,0 +1,75 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ .Release.Name }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app.kubernetes.io/name: {{ .Chart.Name }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ .Chart.Name }}
+        app.kubernetes.io/instance: {{ .Release.Name }}
+    spec:
+      serviceAccountName: {{ .Release.Name }}-runner
+      restartPolicy: Never
+      containers:
+        - name: vllm-test
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          workingDir: /vllm-workspace
+          command: ["pytest"]
+          args:
+            - {{ .Values.pytest.testPath | quote }}
+            {{- range .Values.pytest.ignores }}
+            - "--ignore={{ . }}"
+            {{- end }}
+            {{- if .Values.pytest.filterExpression }}
+            - "-k"
+            - {{ .Values.pytest.filterExpression | quote }}
+            {{- end }}
+            {{- if .Values.pytest.timeout }}
+            - "--timeout={{ .Values.pytest.timeout }}"
+            {{- end }}
+            {{- range .Values.pytest.extraArgs }}
+            - {{ . | quote }}
+            {{- end }}
+          env:
+            {{- if .Values.huggingface.token }}
+            - name: HF_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-hf-token
+                  key: token
+            {{- end }}
+            {{- if .Values.modelCache.enabled }}
+            - name: HF_HOME
+              value: /model-cache/huggingface
+            - name: TRANSFORMERS_CACHE
+              value: /model-cache/huggingface/hub
+            {{- end }}
+            - name: VLLM_TARGET_DEVICE
+              value: cuda
+          resources:
+            limits:
+              nvidia.com/gpu: {{ .Values.gpu.count }}
+          volumeMounts:
+            {{- if .Values.modelCache.enabled }}
+            - name: model-cache
+              mountPath: /model-cache
+            {{- end }}
+            - name: shm
+              mountPath: /dev/shm
+      volumes:
+        {{- if .Values.modelCache.enabled }}
+        - name: model-cache
+          persistentVolumeClaim:
+            claimName: {{ .Release.Name }}-model-cache
+        {{- end }}
+        - name: shm
+          emptyDir:
+            medium: Memory
+            sizeLimit: {{ .Values.shmSizeLimit }}

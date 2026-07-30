@@ -1,0 +1,42 @@
+ARG VLLM_IMAGE=vllm/vllm-openai:v0.18.1-x86_64
+FROM ${VLLM_IMAGE}
+
+USER root
+WORKDIR /vllm-workspace
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends git && \
+    rm -rf /var/lib/apt/lists/*
+
+ARG VLLM_REPO=https://github.com/fax4ever/vllm.git
+ARG VLLM_REF=fax-0.18
+RUN git clone --depth 1 --branch ${VLLM_REF} \
+        ${VLLM_REPO} /tmp/vllm-src
+
+# Overlay Python source from the fork over the installed vLLM package,
+# so Python-level changes are picked up while preserving the pre-compiled
+# C++ extensions (.so files) from the base image.
+RUN SITE=$(python3 -c "import site; print(site.getsitepackages()[0])") && \
+    cp -r /tmp/vllm-src/vllm/* "${SITE}/vllm/"
+
+RUN cp -r /tmp/vllm-src/tests . && \
+    cp -r /tmp/vllm-src/examples . && \
+    cp -r /tmp/vllm-src/benchmarks . && \
+    cp -r /tmp/vllm-src/requirements . && \
+    cp /tmp/vllm-src/vllm/collect_env.py . 2>/dev/null || true && \
+    rm -rf /tmp/vllm-src
+
+RUN pip install --no-cache-dir \
+        -r requirements/dev.txt \
+        --extra-index-url https://download.pytorch.org/whl/cu$(python3 -c "import torch; print(torch.version.cuda.replace('.','')[:3])") \
+    || pip install --no-cache-dir \
+        pytest pytest-asyncio pytest-timeout pytest-forked \
+        requests aiohttp sentence-transformers peft einops
+
+RUN pip install --no-cache-dir -e tests/vllm_test_utils
+
+ENV HF_XET_HIGH_PERFORMANCE=1
+ENV HF_HUB_DOWNLOAD_TIMEOUT=60
+
+ENTRYPOINT []
+CMD ["bash"]

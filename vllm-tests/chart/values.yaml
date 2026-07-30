@@ -1,0 +1,39 @@
+image:
+  repository: quay.io/fercoli/vllm-test
+  tag: v0.18-fax
+  pullPolicy: Always
+
+huggingface:
+  # REQUIRED — your HuggingFace token (for gated model access)
+  token: ""
+
+modelCache:
+  enabled: true
+  size: 200Gi
+  # Leave empty to use the cluster default StorageClass
+  storageClass: ""
+  accessMode: ReadWriteOnce
+
+gpu:
+  count: 1
+
+# Size of the /dev/shm tmpfs mount (PyTorch shared memory).
+# The container default (64MB) is too small for most workloads.
+shmSizeLimit: 8Gi
+
+pytest:
+  testPath: "tests/"
+  # Directories to skip entirely (--ignore per entry)
+  ignores:
+    - tests/compile/h100
+    - tests/distributed
+    - tests/multi_step
+    - tests/kv_transfer
+  # pytest -k expression — exclude tests by name pattern
+  filterExpression: "not (fp8 or FP8 or deepgemm or DeepGEMM)"
+  # Per-test timeout in seconds
+  timeout: 600
+  extraArgs:
+    - "-v"
+    - "--tb=short"
+    - "-x"
