@@ -35,6 +35,9 @@ RUN pip install --no-cache-dir \
 
 RUN pip install --no-cache-dir -e tests/vllm_test_utils
 
+COPY run-tests.sh .
+RUN chmod +x run-tests.sh
+
 ENV HF_XET_HIGH_PERFORMANCE=1
 ENV HF_HUB_DOWNLOAD_TIMEOUT=60
 

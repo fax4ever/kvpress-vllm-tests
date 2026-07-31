@@ -31,8 +31,14 @@ pytest:
     - tests/entrypoints/
   # Directories to skip entirely (--ignore per entry)
   ignores: []
-  # pytest -k expression — exclude tests by name pattern
-  filterExpression: "not (fp8 or FP8 or deepgemm or DeepGEMM or test_cpu_offload or test_cumem)"
+  # Tests excluded by name pattern (joined as: not (a or b or ...))
+  filterExcludes:
+    - fp8
+    - FP8
+    - deepgemm
+    - DeepGEMM
+    - test_cpu_offload
+    - test_cumem
   # Per-test timeout in seconds
   timeout: 600
   extraArgs:
