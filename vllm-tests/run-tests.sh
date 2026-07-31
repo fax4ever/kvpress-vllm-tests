@@ -15,7 +15,7 @@ fmt_duration() {
     fi
 }
 
-stop_on_first=false
+max_failures=0
 timeout_val=""
 tb_style="short"
 verbose=""
@@ -24,7 +24,11 @@ collect_args=()
 while [[ $# -gt 0 ]]; do
     case "$1" in
         -x)
-            stop_on_first=true
+            max_failures=1
+            shift
+            ;;
+        --max-failures=*)
+            max_failures="${1#--max-failures=}"
             shift
             ;;
         --timeout=*)
@@ -106,9 +110,9 @@ for i in "${!test_ids[@]}"; do
         echo "$output"
         failed=$((failed + 1))
         failed_tests+=("$test_id")
-        if $stop_on_first; then
+        if [[ $max_failures -gt 0 && $failed -ge $max_failures ]]; then
             echo ""
-            echo "=== Stopping after first failure (-x) ==="
+            echo "=== Stopping after $max_failures failure(s) ==="
             break
         fi
     fi

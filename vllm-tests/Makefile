@@ -1,6 +1,6 @@
 IMAGE_REPO   ?= quay.io/fercoli/vllm-test
 IMAGE_TAG    ?= v0.18-fax
-NAMESPACE    ?= vllm-tests
+NAMESPACE    := vllm-tests-research
 RELEASE_NAME ?= vllm-tests
 HF_TOKEN     ?=
 

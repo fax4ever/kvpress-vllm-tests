@@ -17,10 +17,12 @@ spec:
       serviceAccountName: {{ .Release.Name }}-runner
       restartPolicy: Never
       tolerations:
-        - key: "g5-gpu"
+        {{- range .Values.gpu.tolerations }}
+        - key: {{ . | quote }}
           operator: "Equal"
           value: "true"
           effect: "NoSchedule"
+        {{- end }}
       containers:
         - name: vllm-test
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -41,6 +43,9 @@ spec:
             {{- end }}
             {{- if .Values.pytest.timeout }}
             - "--timeout={{ .Values.pytest.timeout }}"
+            {{- end }}
+            {{- if .Values.pytest.maxFailures }}
+            - "--max-failures={{ .Values.pytest.maxFailures }}"
             {{- end }}
             {{- range .Values.pytest.extraArgs }}
             - {{ . | quote }}

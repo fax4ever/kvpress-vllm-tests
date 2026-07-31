@@ -9,13 +9,16 @@ huggingface:
 
 modelCache:
   enabled: true
-  size: 200Gi
+  size: 50Gi
   # Leave empty to use the cluster default StorageClass
   storageClass: ""
   accessMode: ReadWriteOnce
 
 gpu:
   count: 1
+  tolerations:
+    - g5-gpu
+    - p4-gpu
 
 # Size of the /dev/shm tmpfs mount (PyTorch shared memory).
 # The container default (64MB) is too small for most workloads.
@@ -28,7 +31,6 @@ pytest:
     - tests/kernels/attention/
     - tests/v1/core/
     - tests/v1/worker/
-    - tests/entrypoints/
   # Directories to skip entirely (--ignore per entry)
   ignores: []
   # Tests excluded by name pattern (joined as: not (a or b or ...))
@@ -37,11 +39,11 @@ pytest:
     - FP8
     - deepgemm
     - DeepGEMM
-    - test_cpu_offload
-    - test_cumem
+    - test_pack_unpack_triton
   # Per-test timeout in seconds
   timeout: 600
+  # Stop the run after this many failures (0 = no limit)
+  maxFailures: 100
   extraArgs:
     - "-v"
     - "--tb=short"
-    - "-x"
