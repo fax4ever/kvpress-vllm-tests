@@ -6,7 +6,7 @@ HF_TOKEN     ?=
 
 IMAGE = $(IMAGE_REPO):$(IMAGE_TAG)
 
-.PHONY: build push deploy undeploy
+.PHONY: build push deploy undeploy redeploy
 
 build:
 	podman build -f Containerfile -t $(IMAGE) .
@@ -23,3 +23,5 @@ deploy:
 
 undeploy:
 	helm uninstall $(RELEASE_NAME) -n $(NAMESPACE)
+
+redeploy: undeploy deploy

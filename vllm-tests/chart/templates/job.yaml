@@ -16,6 +16,11 @@ spec:
     spec:
       serviceAccountName: {{ .Release.Name }}-runner
       restartPolicy: Never
+      tolerations:
+        - key: "g5-gpu"
+          operator: "Equal"
+          value: "true"
+          effect: "NoSchedule"
       containers:
         - name: vllm-test
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -23,7 +28,9 @@ spec:
           workingDir: /vllm-workspace
           command: ["pytest"]
           args:
-            - {{ .Values.pytest.testPath | quote }}
+            {{- range .Values.pytest.testPaths }}
+            - {{ . | quote }}
+            {{- end }}
             {{- range .Values.pytest.ignores }}
             - "--ignore={{ . }}"
             {{- end }}
@@ -53,6 +60,8 @@ spec:
             {{- end }}
             - name: VLLM_TARGET_DEVICE
               value: cuda
+            - name: HOME
+              value: /tmp
           resources:
             limits:
               nvidia.com/gpu: {{ .Values.gpu.count }}
