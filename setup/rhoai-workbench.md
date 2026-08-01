@@ -127,10 +127,11 @@ Once setup is complete, the experiments can be run in order:
 
 | Order | Notebook | What it does |
 |-------|----------|--------------|
-| 1 | `01_kvpress_niah` | KeyDiffPress NIAH at compression ratios 0%, 25%, 50%, 75% |
-| 2 | `02a_vllm_fork_setup` | *(Optional)* Prepares a vLLM fork for testing modifications |
-| 3 | `02_vllm_niah` | vLLM baseline NIAH (no compression) |
-| 4 | `03_compare_results` | Loads results, produces comparison heatmaps and charts |
+| 1 | `01_kvpress_fork_setup` | *(Optional)* Installs kvpress from a fork for testing unreleased changes |
+| 2 | `02_kvpress_niah` | KeyDiffPress NIAH at compression ratios 0%, 25%, 50%, 75% |
+| 3 | `03_vllm_fork_setup` | *(Optional)* Prepares a vLLM fork for testing modifications |
+| 4 | `04_vllm_niah` | vLLM baseline NIAH (no compression) |
+| 5 | `05_compare_results` | Loads results, produces comparison heatmaps and charts |
 
 Notebooks 01 and 02 each take several minutes to run — they load the
 Qwen3-8B model and run inference at multiple context lengths and needle

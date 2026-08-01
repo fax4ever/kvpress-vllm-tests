@@ -43,10 +43,11 @@ The notebooks are numbered sequentially:
 | Notebook | Description |
 |----------|-------------|
 | `00_setup_check` | Verifies GPU access, installs dependencies, runs smoke tests |
-| `01_kvpress_niah` | Runs NIAH with KeyDiffPress at compression ratios 0%, 25%, 50%, 75% |
-| `02_vllm_niah` | Runs the same NIAH benchmark on vLLM (no compression baseline) |
-| `02a_vllm_fork_setup` | Prepares a [vLLM fork](https://github.com/fax4ever/vllm) for testing Python-level modifications |
-| `03_compare_results` | Loads results from both frameworks, produces heatmaps and comparison charts |
+| `01_kvpress_fork_setup` | Installs kvpress from a fork for testing unreleased changes |
+| `02_kvpress_niah` | Runs NIAH with KeyDiffPress at compression ratios 0%, 25%, 50%, 75% |
+| `03_vllm_fork_setup` | Prepares a [vLLM fork](https://github.com/fax4ever/vllm) for testing Python-level modifications |
+| `04_vllm_niah` | Runs the same NIAH benchmark on vLLM (no compression baseline) |
+| `05_compare_results` | Loads results from both frameworks, produces heatmaps and comparison charts |
 
 The kvpress configuration uses **PrefillDecodingPress**, combining
 BlockPress(KeyDiffPress) for prefill-phase compression with
