@@ -1,0 +1,50 @@
+ARG BASE_IMAGE=nvidia/cuda:13.0.1-devel-ubuntu24.04
+FROM ${BASE_IMAGE}
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        python3.12 python3.12-venv python3.12-dev \
+        python3-pip git curl && \
+    rm -rf /var/lib/apt/lists/* && \
+    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.12 1 && \
+    update-alternatives --install /usr/bin/python python /usr/bin/python3.12 1
+
+WORKDIR /kvpress-workspace
+
+RUN umask 0002 && python3 -m venv /opt/venv
+ENV VIRTUAL_ENV=/opt/venv
+ENV PATH="/opt/venv/bin:${PATH}"
+
+RUN umask 0002 && pip install \
+        "torch==2.11.0+cu130" \
+        --index-url https://download.pytorch.org/whl/cu130
+
+RUN umask 0002 && pip install \
+        "flash-attn==2.8.3+cu130torch2.11" \
+        --find-links https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/expanded_assets/v0.9.4
+
+RUN umask 0002 && pip install \
+        "transformers>=4.56.0,<5.3" \
+        "datasets>=2.21.0" \
+        "numpy>=2.0.0,<3" \
+        "pandas>=2.2.2,<3" \
+        "accelerate>=1.0.0,<2" \
+        "requests>=2.32.3,<3" \
+        "cachetools>=5.5.2,<6" \
+        "fire>=0.6.0,<0.7" \
+        "pytest>=7.0.0,<8" \
+        "pytest-cov>=5.0.0,<6" \
+        "pytest-dependency>=0.6.0,<0.7" \
+        "sentencepiece>=0.2.0,<0.3" \
+        "protobuf>=5.27.2,<6"
+
+COPY run-tests.sh .
+RUN chmod +x run-tests.sh
+
+ENV HF_XET_HIGH_PERFORMANCE=1
+ENV HF_HUB_DOWNLOAD_TIMEOUT=60
+
+ENTRYPOINT []
+CMD ["bash"]

@@ -1,0 +1,5 @@
+apiVersion: v2
+name: kvpress-tests
+description: Run kvpress test suite on OpenShift with NVIDIA GPUs
+version: 0.1.0
+type: application

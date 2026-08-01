@@ -1,0 +1,34 @@
+image:
+  repository: quay.io/fercoli/kvpress-test
+  tag: cu130-py312
+  pullPolicy: Always
+
+fork:
+  url: https://github.com/fax4ever/kvpress.git
+  branch: main
+
+huggingface:
+  # REQUIRED — your HuggingFace token (for gated model access)
+  token: ""
+
+modelCache:
+  enabled: true
+  size: 30Gi
+  # Leave empty to use the cluster default StorageClass
+  storageClass: ""
+  accessMode: ReadWriteOnce
+
+gpu:
+  count: 1
+  tolerations:
+    - g5-gpu
+    - p4-gpu
+
+# Size of the /dev/shm tmpfs mount (PyTorch shared memory).
+shmSizeLimit: 4Gi
+
+pytest:
+  args:
+    - "tests/"
+    - "-v"
+    - "--tb=short"

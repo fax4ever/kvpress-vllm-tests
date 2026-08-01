@@ -1,8 +1,9 @@
-IMAGE_REPO   ?= quay.io/fercoli/vllm-test
-IMAGE_TAG    ?= v0.18-fax
-NAMESPACE    := vllm-tests-research
-RELEASE_NAME ?= vllm-tests
+IMAGE_REPO   ?= quay.io/fercoli/kvpress-test
+IMAGE_TAG    ?= cu130-py312
+NAMESPACE    := kvpress-tests-research
+RELEASE_NAME ?= kvpress-tests
 HF_TOKEN     ?=
+FORK_BRANCH  ?= main
 
 IMAGE = $(IMAGE_REPO):$(IMAGE_TAG)
 
@@ -19,7 +20,8 @@ deploy:
 		--create-namespace -n $(NAMESPACE) \
 		--set image.repository=$(IMAGE_REPO) \
 		--set image.tag=$(IMAGE_TAG) \
-		--set huggingface.token=$(HF_TOKEN)
+		--set huggingface.token=$(HF_TOKEN) \
+		--set fork.branch=$(FORK_BRANCH)
 
 undeploy:
 	helm uninstall $(RELEASE_NAME) -n $(NAMESPACE)
