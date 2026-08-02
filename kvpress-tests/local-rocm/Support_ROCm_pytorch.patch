@@ -1,0 +1,39 @@
+Subject: [PATCH] Support ROCm pytorch
+---
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	(revision 8bb3315aa552d2d0b33f38ef0835e68cfa49a11a)
++++ b/pyproject.toml	(revision beb5c33c85b8cde81a02df80f6e0560b15f83f01)
+@@ -20,6 +20,7 @@
+     "requests>=2.32.3,<3",
+     "cachetools>=5.5.2,<6",
+     "fire>=0.6.0,<0.7",
++    "pytorch-triton-rocm; sys_platform == 'linux'",
+ ]
+ 
+ [project.optional-dependencies]
+@@ -63,6 +64,20 @@
+ [tool.uv]
+ no-build-isolation-package = ["flash-attn"]
+ 
++[tool.uv.sources]
++torch = [
++    { index = "pytorch-rocm", marker = "sys_platform == 'linux'" },
++]
++# ROCm6 support relies on `pytorch-triton-rocm`, which should also be installed from the PyTorch index.
++pytorch-triton-rocm = [
++    { index = "pytorch-rocm", marker = "sys_platform == 'linux'" },
++]
++
++[[tool.uv.index]]
++name = "pytorch-rocm"
++url = "https://download.pytorch.org/whl/rocm6.2.4"
++explicit = true
++
+ [tool.black]
+ line-length = 120
+ target_version = ["py310"]
