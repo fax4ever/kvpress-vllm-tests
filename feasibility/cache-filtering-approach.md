@@ -165,7 +165,7 @@ Cache filtering requires an **online** scoring algorithm:
 
 No existing kvpress press type supports this mode. A new press type
 would be needed — an `OnlineKeyDiffPress` or `StreamingKeyDiffPress`
-that:
+(implemented as `FilteringPress` wrapping any `ScorerPress`) that:
 
 - Accepts a single new key (or a small batch of new keys during
   chunked prefill)
@@ -231,20 +231,15 @@ The threshold may need to be:
   document QA vs code generation) may tolerate different compression
   levels
 
-### Prefill vs Decode
+### Filtering Scope
 
-During **prefill**, many tokens arrive at once. Filtering can compare
-all prefill tokens against each other (a semi-retroactive approach
-within the prefill window), which is closer to what kvpress does today.
-A 1000-token prompt could be filtered to, say, 500 cached tokens
-immediately.
-
-During **decode**, tokens arrive one at a time. This is where
-filtering matters most for a serving engine: decode is where the cache
-grows unboundedly — long generations, multi-turn conversations, and
-streaming use cases all accumulate cache token by token during decode.
-Filtering only during prefill would miss the primary source of cache
-pressure.
+1. **Prefill**: no. vLLM writes all prompt tokens to the paged cache in a
+   single `reshape_and_cache_flash` call — dense tensors, no prior history.
+   Filtering is equivalent to retroactive eviction here.
+2. **Decoding**: yes. Tokens arrive one at a time, prior tokens are committed
+   and append-only — this is where filtering is a distinct operation.
+3. **Continuation**: relevant in vLLM, but not implemented in kvpress, so we
+   have no baseline to compare against. Phase 1 validation skips it.
 
 The scoring overhead per decode step (one gather + one comparison) must
 be kept low to avoid adding latency. But the gather can be limited to

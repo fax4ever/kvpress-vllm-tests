@@ -1,5 +1,7 @@
 # Local ROCm development
 
+## Environment verify
+
 To work with kvpress on workstation supporting ROCm. 
 First of all, apply [the patch](Support_ROCm_pytorch.patch).
 Then verify in a `uv run python` session:
@@ -45,3 +47,15 @@ uuid=65346161-3739-3838-3061-336432616431, L2_cache_size=4MB)
 ```
 
 Also it is good to verify the [rocminfo](rocminfo.txt) and `rocm-smi`.
+
+# Run the tests
+
+```bash
+uv run pytest
+```
+
+or to run new test we added:
+
+```bash
+uv run pytest tests/test_filtering_press.py -v
+```

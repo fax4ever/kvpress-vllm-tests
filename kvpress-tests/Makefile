@@ -3,7 +3,7 @@ IMAGE_TAG    ?= cu130-py312
 NAMESPACE    := kvpress-tests-research
 RELEASE_NAME ?= kvpress-tests
 HF_TOKEN     ?=
-FORK_BRANCH  ?= main
+FORK_BRANCH  ?= filtering
 
 IMAGE = $(IMAGE_REPO):$(IMAGE_TAG)
 
