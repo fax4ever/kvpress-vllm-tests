@@ -3,6 +3,7 @@ IMAGE_TAG    ?= v0.18-fax
 NAMESPACE    := vllm-tests-research
 RELEASE_NAME ?= vllm-tests
 HF_TOKEN     ?=
+FULL_FP8     ?= false
 
 IMAGE = $(IMAGE_REPO):$(IMAGE_TAG)
 
@@ -19,7 +20,9 @@ deploy:
 		--create-namespace -n $(NAMESPACE) \
 		--set image.repository=$(IMAGE_REPO) \
 		--set image.tag=$(IMAGE_TAG) \
-		--set huggingface.token=$(HF_TOKEN)
+		--set huggingface.token=$(HF_TOKEN) \
+		--set gpu.fullFp8Support=$(FULL_FP8) \
+		--set pytest.parallel=$(FULL_FP8)
 
 undeploy:
 	helm uninstall $(RELEASE_NAME) -n $(NAMESPACE)

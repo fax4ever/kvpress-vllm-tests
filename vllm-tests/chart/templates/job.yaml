@@ -28,7 +28,11 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           workingDir: /vllm-workspace
+          {{- if .Values.pytest.parallel }}
+          command: ["pytest"]
+          {{- else }}
           command: ["/vllm-workspace/run-tests.sh"]
+          {{- end }}
           args:
             {{- range .Values.pytest.testPaths }}
             - {{ . | quote }}
@@ -36,7 +40,7 @@ spec:
             {{- range .Values.pytest.ignores }}
             - "--ignore={{ . }}"
             {{- end }}
-            {{- if .Values.pytest.filterExcludes }}
+            {{- if and .Values.pytest.filterExcludes (not .Values.gpu.fullFp8Support) }}
             {{- $expr := join " or " .Values.pytest.filterExcludes }}
             - "-k"
             - {{ printf "not (%s)" $expr | quote }}
@@ -44,7 +48,7 @@ spec:
             {{- if .Values.pytest.timeout }}
             - "--timeout={{ .Values.pytest.timeout }}"
             {{- end }}
-            {{- if .Values.pytest.maxFailures }}
+            {{- if and .Values.pytest.maxFailures (not .Values.pytest.parallel) }}
             - "--max-failures={{ .Values.pytest.maxFailures }}"
             {{- end }}
             {{- range .Values.pytest.extraArgs }}

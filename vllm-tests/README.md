@@ -9,4 +9,12 @@ Commands:
 
 3. make deploy
 
+On clusters with A100+ GPUs (full FP8 support), deploy with:
+
+```
+FULL_FP8=true make deploy
+```
+
+This disables test filtering so that FP8, DeepGEMM and Triton unified attention tests run as well.
+
 * open the Makefile to see the options you can configure using environment variables.

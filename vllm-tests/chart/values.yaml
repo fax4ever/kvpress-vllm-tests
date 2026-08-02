@@ -16,6 +16,8 @@ modelCache:
 
 gpu:
   count: 1
+  # Set to true on A100+ GPUs to run all tests (including FP8, DeepGEMM)
+  fullFp8Support: false
   tolerations:
     - g5-gpu
     - p4-gpu
@@ -40,8 +42,11 @@ pytest:
     - deepgemm
     - DeepGEMM
     - test_pack_unpack_triton
+    - test_triton_unified_attention
   # Per-test timeout in seconds
   timeout: 600
+  # Run all tests in a single pytest process (faster, needs more VRAM)
+  parallel: false
   # Stop the run after this many failures (0 = no limit)
   maxFailures: 100
   extraArgs:
