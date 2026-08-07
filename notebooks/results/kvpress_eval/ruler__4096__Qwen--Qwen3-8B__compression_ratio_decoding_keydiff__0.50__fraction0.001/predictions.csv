@@ -1,0 +1,25 @@
+predicted_answer,answer,task,question,max_new_tokens,answer_prefix
+ **6188935**.,['6188935'],niah_single_2,What is the special magic number for questionable-tangerine mentioned in the provided text? ,128,The special magic number for questionable-tangerine mentioned in the provided text is
+" as follows:
+
+- **Swift-pigeon**: 7373495  
+- **Mammoth-caution**: 6573679  
+- **Homeless-octagon**: 1113537  
+- **Impossible-frenzy**: 8385715  
+
+These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the listed categories.",['7373495' '6573679' '1113537' '8385715'],niah_multiquery,"What are all the special magic numbers for swift-pigeon, mammoth-caution, homeless-octagon, and impossible-frenzy mentioned in the provided text? ",128,"The special magic numbers for swift-pigeon, mammoth-caution, homeless-octagon, and impossible-frenzy mentioned in the provided text are"
+ San Diego metropolitan area,['Inland Empire' 'Temecula and Murrieta'],qa_1,"Answer the question based on the given documents. Only give me the answer and do not output any other words.
+
+Question: Other than the San Diego metropolitan area, what other area are the communities along Interstates 15 and 215 connected with? ",32,Answer:
+ **8387112**.,['8387112'],niah_single_2,What is the special magic number for chivalrous-barometer mentioned in the provided text? ,128,The special magic number for chivalrous-barometer mentioned in the provided text is
+":
+
+**23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50**.",['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],niah_multikey_3,What is the special magic uuid for a1fd4187-9c3a-4e0b-b5f3-f8aadc6dafff mentioned in the provided text? ,128,The special magic uuid for a1fd4187-9c3a-4e0b-b5f3-f8aadc6dafff mentioned in the provided text is
+" as follows:
+
+- **Exotic-rape**: 9742856  
+- **Noxious-pearl**: 8590804  
+- **Plain-weed**: 6843509  
+- **Periodic-orchard**: 2637842  
+
+These numbers are explicitly stated in the text and are associated with the respective terms.",['9742856' '8590804' '6843509' '2637842'],niah_multiquery,"What are all the special magic numbers for exotic-rape, noxious-pearl, plain-weed, and periodic-orchard mentioned in the provided text? ",128,"The special magic numbers for exotic-rape, noxious-pearl, plain-weed, and periodic-orchard mentioned in the provided text are"
