@@ -102,38 +102,25 @@ git clone https://github.com/fax4ever/kvpress-vllm-tests.git
 cd kvpress-vllm-tests
 ```
 
-Then open and run **`notebooks/00_setup_check.ipynb`**. This notebook:
-
-1. Verifies GPU access (`nvidia-smi` and PyTorch CUDA check)
-2. Installs all Python dependencies (kvpress, vLLM, transformers,
-   datasets, etc.)
-3. Verifies imports and versions
-4. Runs a CUDA smoke test
-5. Checks dataset access
-
-**Important:** set your Hugging Face token in the notebook before
-running it. The cell near the top has
-`os.environ["HF_TOKEN"] = "YOUR_TOKEN_HERE"` — replace this with your
-actual token. You need it to download the Qwen3-8B model.
-
-If the pod gets recreated (e.g., after a cluster restart), re-run
-`00_setup_check.ipynb` — pip will skip already-installed packages.
-
 ## Run the Experiments
 
-Once setup is complete, the experiments can be run in order:
+Sometimes the Jupyter UI becomes unresponsive — the WebSocket disconnects after long-running tasks,
+and you lose visibility on what's happening. This does not mean the inference has stopped.
 
-### NIAH Comparison (`notebooks/`)
+```bash
+oc logs podname --tail=1
+```
 
-| Order | Notebook | What it does |
-|-------|----------|--------------|
-| 1 | `01_kvpress_fork_setup` | *(Optional)* Installs kvpress from a fork for testing unreleased changes |
-| 2 | `02_kvpress_niah` | KeyDiffPress NIAH at compression ratios 0%, 25%, 50%, 75% |
-| 3 | `03_vllm_fork_setup` | *(Optional)* Prepares a vLLM fork for testing modifications |
-| 4 | `04_vllm_niah` | vLLM baseline NIAH (no compression) |
-| 5 | `05_compare_results` | Loads results, produces comparison heatmaps and charts |
+that will produce:
 
-Notebooks 01 and 02 each take several minutes to run — they load the
-Qwen3-8B model and run inference at multiple context lengths and needle
-depths.
+```bash
+fax@fercoli-mac kvpress-vllm-tests % oc logs pods/kvcache-notebooks-0 --tail=1
+Defaulted container "kvcache-notebooks" out of: kvcache-notebooks, kube-rbac-proxy
+Running Inference:  50%|████▉     | 3227/6500 [2:18:16<1:59:13,  2.19s/it]%
+```
 
+To monitor progress continuously:
+
+```bash
+while true; do oc logs pod/kvcache-notebooks-0 --tail=1; sleep 10; done
+```
