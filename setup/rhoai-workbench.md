@@ -124,3 +124,22 @@ To monitor progress continuously:
 ```bash
 while true; do oc logs pod/kvcache-notebooks-0 --tail=1; sleep 10; done
 ```
+
+## Install Pytorch and Flash Attention
+On notebook:
+
+```
+%pip install vllm==0.18.0
+```
+
+On Jupyter's Lab's terminal:
+
+```bash
+MAX_JOBS=1 pip install flash_attn==2.8.3 --no-build-isolation --no-deps
+```
+
+Or try this workaround:
+
+```bash
+pip install "https://github.com/lesj0610/flash-attention/releases/download/v2.8.3-cu12-torch2.10-cp312/flash_attn-2.8.3%2Bcu12torch2.10cxx11abi TRUE-cp312-cp312-linux_x86_64.whl" --no-deps
+```
