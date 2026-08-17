@@ -141,9 +141,9 @@ slower than expected.
 
 | Subsystem | Full compression | Cache filtering |
 |-----------|-----------------|-----------------|
-| **Block allocator** | Must free blocks after compaction, handle partial blocks, update ref counts | **Untouched** — blocks allocated normally, never freed mid-sequence |
+| **Block allocator** | Must free blocks after compaction, handle partial blocks, update ref counts | **Needs change** — must allocate based on cached tokens, not computed tokens (see note below) |
 | **Block tables** | Must truncate entries for freed blocks (conflicts with append-only design in V1) | **Untouched** — tables only grow |
-| **Scheduler** | Must understand compressed sequences, decide when to compress, avoid stalling batches | **Untouched** — sees normal sequences |
+| **Scheduler** | Must understand compressed sequences, decide when to compress, avoid stalling batches | **Needs change** — `num_computed_tokens` conflates computation cursor and cache occupancy (see note below) |
 | **Prefix caching / CoW** | Must fork shared blocks before compacting (ref_cnt > 1) | **Untouched** — shared blocks are never modified |
 | **Cache coherence** | Broken — per-head compaction makes slots hold composite entries | **Preserved** — each slot holds a single token's data |
 | **Attention metadata builder** | Must separate logical vs physical seq_len for RoPE, attention bounds, slot mapping | **Minimal change** — track logical position for RoPE only |
@@ -151,7 +151,7 @@ slower than expected.
 
 ### What actually changes in vLLM
 
-The changes are confined to the attention layer's cache write path:
+The changes involve the cache write path **and** the allocation chain:
 
 1. **Gather** existing keys from the paged cache for scoring (read-only
    — the same primitive validated in `01_scatter_gather`)
@@ -160,11 +160,23 @@ The changes are confined to the attention layer's cache write path:
 3. **Track logical position** separately from cache position for RoPE
    — the logical position always increments, the cache position only
    increments when a token is actually cached
+4. **Separate computation cursor from cache occupancy.** Currently
+   `request.num_computed_tokens` serves two roles: (a) where to resume
+   the forward pass, and (b) how many cache slots are occupied. The
+   block allocator (`KVCacheManager.allocate_slots`,
+   `kv_cache_manager.py:218`) uses it to compute
+   `ceil(total_tokens / block_size)` blocks to allocate. With filtering,
+   these two roles must diverge — the computation cursor must always
+   increment (the model processed the token), but the cache occupancy
+   should reflect only the tokens actually written to cache. Without
+   this separation, blocks are allocated for all computed tokens
+   including filtered ones, and no memory is saved.
 
-Everything else — block allocator, block tables, scheduler, prefix
-caching, continuous batching — works exactly as it does today. The
-"hard part" from the full compression roadmap (steps 6–8) disappears
-entirely.
+This is simpler than the full compression approach (no scatter back,
+no block freeing, no copy-on-write on shared prefixes), but the block
+allocator and scheduler are **not** untouched as originally claimed.
+The allocation chain must be aware of filtering to achieve actual
+memory savings.
 
 ## The kvpress Gap (resolved)
 
