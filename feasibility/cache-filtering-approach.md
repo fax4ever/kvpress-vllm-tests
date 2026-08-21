@@ -61,6 +61,21 @@ token is worth caching:
    same token — a property that proved essential for quality at
    aggressive compression ratios (see Phase 1 Results).
 
+   **Example.** Suppose 2 heads, 4 cached tokens, 1 new token, and
+   `n_kept = 3`:
+
+   ```
+            tok0  tok1  tok2  tok3  NEW
+   head 0: [ 0.1,  0.8,  0.3,  0.5, 0.2 ]
+   head 1: [ 0.4,  0.1,  0.7,  0.3, 0.6 ]
+   ```
+
+   Top-3 scores per head: `[0.8, 0.5, 0.3]` and `[0.7, 0.6, 0.4]`.
+   The last (smallest) of each top-3 is the threshold: `[0.3, 0.4]`.
+   The new token's scores are `[0.2, 0.6]`. Comparing: head 0 rejects
+   (0.2 < 0.3), head 1 accepts (0.6 >= 0.4). Each head decides
+   independently.
+
 4. **Manage ragged lengths.** Because heads decide independently, the
    valid prefix length can differ across heads. A `PaddedTensor`
    abstraction tracks the per-head valid length. When a head accepts
