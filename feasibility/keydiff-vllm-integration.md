@@ -102,7 +102,7 @@ query vector.
 **Paged cache** — `kv_cache: [2, num_blocks, block_size, num_kv_heads, head_size]`
 
 The leading dimension stores keys (index 0) and values (index 1)
-together. `split_kv_cache` splits this into two views, each with shape
+together. `kv_cache.unbind(0)` splits this into two views, each with shape
 `[num_blocks, block_size, num_kv_heads, head_size]`. `num_blocks` is
 the total number of physical blocks in the pool (shared across all
 sequences). `block_size` is the number of token slots per block.
@@ -224,25 +224,33 @@ in memory at a time. Peak temporary memory per sequence is
 
 ### Where It Fits
 
-The current `Attention.forward()` call tree is:
+The current `Attention.forward()` call tree on the FLASH_ATTN backend is
+(the KV cache update is a separate custom op — the backend sets
+`forward_includes_kv_cache_update = False`):
 
 ```text
 Attention.forward()
-  ├── do_kv_cache_update(key, value, kv_cache, slot_mapping)
-  │     ├── split_kv_cache(kv_cache) → key_cache, value_cache
-  │     └── reshape_and_cache(key, value, key_cache, value_cache, slot_mapping)
-  └── chunked_prefill_paged_decode(query, key, value, key_cache, value_cache, ...)
+  ├── torch.ops.vllm.unified_kv_cache_update(key, value, layer_name)
+  │     └── FlashAttentionImpl.do_kv_cache_update(key, value, kv_cache, slot_mapping)
+  │           ├── key_cache, value_cache = kv_cache.unbind(0)
+  │           └── reshape_and_cache_flash(key, value, key_cache, value_cache, slot_mapping)
+  └── torch.ops.vllm.unified_attention_with_output(...)
+        └── FlashAttentionImpl.forward()
+              └── flash_attn_varlen_func(q, key_cache, value_cache, block_table, seqused_k, ...)
 ```
 
 Compaction inserts between these two operations:
 
 ```text
 Attention.forward()
-  ├── do_kv_cache_update(key, value, kv_cache, slot_mapping)
-  │     ├── split_kv_cache(kv_cache) → key_cache, value_cache
-  │     └── reshape_and_cache(key, value, key_cache, value_cache, slot_mapping)
+  ├── torch.ops.vllm.unified_kv_cache_update(key, value, layer_name)
+  │     └── FlashAttentionImpl.do_kv_cache_update(key, value, kv_cache, slot_mapping)
+  │           ├── key_cache, value_cache = kv_cache.unbind(0)
+  │           └── reshape_and_cache_flash(key, value, key_cache, value_cache, slot_mapping)
   ├── compact_kv_cache(key_cache, value_cache, ...)              ← NEW
-  └── chunked_prefill_paged_decode(query, key, value, key_cache, value_cache, ...)
+  └── torch.ops.vllm.unified_attention_with_output(...)
+        └── FlashAttentionImpl.forward()
+              └── flash_attn_varlen_func(q, key_cache, value_cache, block_table, seqused_k, ...)
 ```
 
 This placement works because:
@@ -252,16 +260,17 @@ This placement works because:
   location.
 - KeyDiff scoring only needs keys, not attention scores, so compaction
   can run before attention.
-- `chunked_prefill_paged_decode` then computes attention over the
+- `flash_attn_varlen_func` then computes attention over the
   compacted cache without knowing anything changed — it just sees fewer
-  entries via the updated `seq_lens`.
+  entries via the updated `seq_lens` (`seqused_k`).
 
-Note that `do_kv_cache_update` does not have per-sequence metadata (no
-block tables, no sequence lengths) — it only has the flat slot mapping.
-Compaction needs per-sequence information (block table, sequence length)
-to gather and scatter for individual sequences. This metadata is
-available through `attn_metadata`, which is accessible at the
-`Attention.forward()` level.
+Note that `do_kv_cache_update` receives only the flat slot mapping (no
+block tables, no sequence lengths). Compaction needs per-sequence
+information (block table, sequence length) to gather and scatter for
+individual sequences. This metadata is available through
+`attn_metadata`, which is accessible via
+`get_forward_context().attn_metadata` — both the custom ops and
+`Attention.forward()` can reach it.
 
 ### NVIDIA / Flash Attention 2
 

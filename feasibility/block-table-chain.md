@@ -21,7 +21,7 @@ pool — no new pool is created per batch or per sequence.
 ```
 vLLM engine init
 │
-└→ BlockPool.__init__()                                 # block_pool.py:161
+└→ BlockPool.__init__()                                 # block_pool.py:148
     │
     └→ creates KVCacheBlock(0), KVCacheBlock(1), ..., KVCacheBlock(N-1)
         all placed in a free queue
@@ -30,55 +30,56 @@ vLLM engine init
 ## At each inference step
 
 ```
-EngineCore.step()                                       # engine/core.py:389
+EngineCore.step()                                       # engine/core.py:378
 │
 ├→ scheduler.schedule()                                 # scheduler.py:338
+│   │  (scheduling logic is inline in schedule();
+│   │   there is no separate _schedule() helper)
 │   │
-│   └→ _schedule()                                      # scheduler.py:451
-│       │
-│       └→ for each request (sequence):
-│       │   │
-│       │   │  [NEW REQUEST] num_computed_tokens = cached  # scheduler.py:804
-│       │   │  (0 if no cache hit, or jumps ahead)
-│       │   │
-│       │   │  [PREEMPTED] num_computed_tokens = 0         # scheduler.py:941
-│       │   │  (if request was preempted — KV cache freed)
-│       │   │
-│       │   │  1) allocate blocks:
-│       │   │
-│       │   ├→ KVCacheManager.allocate_slots()          # kv_cache_manager.py:218
-│       │   │   │
-│       │   │   │  READS num_computed_tokens to compute
-│       │   │   │  how many blocks are needed.
-│       │   │   │
-│       │   │   └→ BlockPool.get_new_blocks()           # block_pool.py:320
-│       │   │       (only if the last block is full —
-│       │   │        pops blocks from the free queue)
-│       │   │
-│       │   │  2) then advance the cursor:
-│       │   │
-│       │   └→ num_computed_tokens += num_scheduled       # scheduler.py:964
-│       │       (after allocate_slots returns)
-│       │
-│       └→ returns SchedulerOutput with block IDs
+│   └→ for each request (sequence):
+│   │   │
+│   │   │  [NEW REQUEST] num_computed_tokens = cached  # scheduler.py:804
+│   │   │  (0 if no cache hit, or jumps ahead)
+│   │   │
+│   │   │  [PREEMPTED] num_computed_tokens = 0         # scheduler.py:941
+│   │   │  (if request was preempted — KV cache freed)
+│   │   │
+│   │   │  1) allocate blocks:
+│   │   │
+│   │   ├→ KVCacheManager.allocate_slots()          # kv_cache_manager.py:218
+│   │   │   │
+│   │   │   │  READS num_computed_tokens to compute
+│   │   │   │  how many blocks are needed.
+│   │   │   │
+│   │   │   └→ BlockPool.get_new_blocks()           # block_pool.py:320
+│   │   │       (only if the last block is full —
+│   │   │        pops blocks from the free queue)
+│   │   │
+│   │   │  2) then advance the cursor:
+│   │   │
+│   │   └→ num_computed_tokens += num_scheduled       # scheduler.py:964
+│   │       (after allocate_slots returns)
+│   │
+│   └→ returns SchedulerOutput with block IDs
 │
 └→ executor.execute_model(scheduler_output)
     │
     └→ WorkerWrapperBase.execute_model()                # worker_base.py:327
         │
-        └→ Worker.execute_model()                       # gpu_worker.py:822
+        └→ Worker.execute_model()                       # gpu_worker.py:762
             │
             └→ GPUModelRunner.execute_model()           # gpu_model_runner.py:3537
                 │
                 ├→ _update_states(scheduler_output)     # gpu_model_runner.py:3583
                 │   │
-                │   ├→ block_table.add_row(block_ids)   # block_table.py:82
+                │   ├→ block_table.add_row(block_ids)   # block_table.py:118
                 │   │   (new requests — writes a full row)
                 │   │
                 │   └→ block_table.append_row(...)      # block_table.py:100
                 │       (existing requests that need more blocks)
                 │
                 ├→ commit_block_table()                 # block_table.py:193
+                │   │   (called from _prepare_inputs)
                 │   │
                 │   └→ gpu_tensor.copy_(cpu_tensor, non_blocking=True)
                 │       Last step that changes the data.
@@ -89,14 +90,26 @@ EngineCore.step()                                       # engine/core.py:389
                         │
                         └→ Attention.forward()
                             │
-                            ├→ do_kv_cache_update(key, value, kv_cache, slot_mapping)
-                            │   │
-                            │   ├→ split_kv_cache(kv_cache) → key_cache, value_cache
-                            │   │
-                            │   └→ reshape_and_cache(key, value, key_cache, value_cache, slot_mapping)
+                            │  (on the FLASH_ATTN backend the KV cache update
+                            │   is a separate custom op that runs before the
+                            │   attention op — forward_includes_kv_cache_update
+                            │   is False)
                             │
-                            └→ chunked_prefill_paged_decode(query, key, value, ...)
-                                (reads block_table to locate K/V blocks)
+                            ├→ torch.ops.vllm.unified_kv_cache_update(key, value, layer_name)
+                            │   │
+                            │   └→ FlashAttentionImpl.do_kv_cache_update(...)
+                            │       │
+                            │       ├→ key_cache, value_cache = kv_cache.unbind(0)
+                            │       │
+                            │       └→ reshape_and_cache_flash(key, value, key_cache, value_cache, slot_mapping)
+                            │
+                            └→ torch.ops.vllm.unified_attention_with_output(...)
+                                │
+                                └→ FlashAttentionImpl.forward()
+                                    │
+                                    └→ flash_attn_varlen_func(q, key_cache, value_cache,
+                                        block_table=..., seqused_k=seq_lens, ...)
+                                        (reads block_table to locate K/V blocks)
 ```
 
 Block allocation is **conditional** — during decoding (1 token per step),
@@ -113,7 +126,7 @@ whether a sequence needs more physical memory.
 
 The core algorithm (for a running sequence, the common case) is simple
 arithmetic in `SingleTypeKVCacheManager.get_num_blocks_to_allocate`
-(`single_type_kv_cache_manager.py:105`):
+(`single_type_kv_cache_manager.py:78`):
 
 ```python
 num_required_blocks = ceil(total_tokens / block_size)

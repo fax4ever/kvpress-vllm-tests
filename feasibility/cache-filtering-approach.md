@@ -104,27 +104,35 @@ not an exact token count.
 
 ## Where It Fits in vLLM
 
-The current cache write path:
+The current cache write path on the FLASH_ATTN backend (the KV cache
+update is a separate custom op — the backend sets
+`forward_includes_kv_cache_update = False`):
 
 ```text
 Attention.forward()
-  ├── do_kv_cache_update(key, value, kv_cache, slot_mapping)
-  │     ├── split_kv_cache(kv_cache) → key_cache, value_cache
-  │     └── reshape_and_cache(key, value, key_cache, value_cache, slot_mapping)
-  └── chunked_prefill_paged_decode(query, key, value, ...)
+  ├── torch.ops.vllm.unified_kv_cache_update(key, value, layer_name)
+  │     └── FlashAttentionImpl.do_kv_cache_update(key, value, kv_cache, slot_mapping)
+  │           ├── key_cache, value_cache = kv_cache.unbind(0)
+  │           └── reshape_and_cache_flash(key, value, key_cache, value_cache, slot_mapping)
+  └── torch.ops.vllm.unified_attention_with_output(...)
+        └── FlashAttentionImpl.forward()
+              └── flash_attn_varlen_func(q, key_cache, value_cache, block_table, seqused_k, ...)
 ```
 
 Cache filtering modifies the cache write step:
 
 ```text
 Attention.forward()
-  ├── do_kv_cache_update(key, value, kv_cache, slot_mapping)
-  │     ├── split_kv_cache(kv_cache) → key_cache, value_cache
-  │     ├── gather_recent_keys(key_cache, block_table, ...)          ← NEW
-  │     ├── score_new_tokens(key, gathered_keys, ...)                ← NEW
-  │     ├── filter slot_mapping to keep only non-redundant tokens    ← NEW
-  │     └── reshape_and_cache(key, value, ..., filtered_slot_mapping)
-  └── chunked_prefill_paged_decode(query, key, value, ...)
+  ├── torch.ops.vllm.unified_kv_cache_update(key, value, layer_name)
+  │     └── FlashAttentionImpl.do_kv_cache_update(key, value, kv_cache, slot_mapping)
+  │           ├── key_cache, value_cache = kv_cache.unbind(0)
+  │           ├── gather_recent_keys(key_cache, block_table, ...)          ← NEW
+  │           ├── score_new_tokens(key, gathered_keys, ...)                ← NEW
+  │           ├── filter slot_mapping to keep only non-redundant tokens    ← NEW
+  │           └── reshape_and_cache_flash(key, value, ..., filtered_slot_mapping)
+  └── torch.ops.vllm.unified_attention_with_output(...)
+        └── FlashAttentionImpl.forward()
+              └── flash_attn_varlen_func(q, key_cache, value_cache, block_table, seqused_k, ...)
 ```
 
 The **gather** operation is still required: to decide whether a new
@@ -299,9 +307,10 @@ collapses at aggressive ratios.
 
 ### Filtering Scope
 
-1. **Prefill**: no. vLLM writes all prompt tokens to the paged cache
-   in a single `reshape_and_cache_flash` call — dense tensors, no
-   prior history. Filtering is equivalent to retroactive eviction here.
+1. **Prefill**: no. vLLM writes prompt tokens to the paged cache
+   via `reshape_and_cache_flash` (one call per layer per scheduled
+   chunk) — dense tensors, no prior history. Filtering is equivalent
+   to retroactive eviction here.
 2. **Decoding**: yes. Tokens arrive one at a time, prior tokens are
    committed and append-only — this is where filtering is a distinct
    operation. Validated in Phase 1 via kvpress.
@@ -518,12 +527,15 @@ between `do_kv_cache_update` and `chunked_prefill_paged_decode` in
 
 ```text
 Attention.forward()
-  ├── do_kv_cache_update(key, value, kv_cache, slot_mapping)
-  │     ├── split_kv_cache(kv_cache) → key_cache, value_cache
-  │     ├── gather_cached_keys(key_cache, block_table, ...)     ← NEW
-  │     ├── score_and_filter(key, gathered_keys, ...)           ← NEW
-  │     └── reshape_and_cache_flash(key, value, ..., filtered_slot_mapping)
-  └── chunked_prefill_paged_decode(query, key, value, ...)
+  ├── torch.ops.vllm.unified_kv_cache_update(key, value, layer_name)
+  │     └── FlashAttentionImpl.do_kv_cache_update(key, value, kv_cache, slot_mapping)
+  │           ├── key_cache, value_cache = kv_cache.unbind(0)
+  │           ├── gather_cached_keys(key_cache, block_table, ...)     ← NEW
+  │           ├── score_and_filter(key, gathered_keys, ...)           ← NEW
+  │           └── reshape_and_cache_flash(key, value, ..., filtered_slot_mapping)
+  └── torch.ops.vllm.unified_attention_with_output(...)
+        └── FlashAttentionImpl.forward()
+              └── flash_attn_varlen_func(query, key_cache, value_cache, ...)
 ```
 
 During decode, for each new token:
