@@ -30,16 +30,27 @@ llm = LLM(model="Qwen/Qwen3-8B",
           kv_compression_algorithm="full_replacement",
           kv_compression_ratio=0.5)
 
-# Strategy B — online per-token keep/skip during decode:
+# Strategy B — online per-head keep/skip during decode:
 llm = LLM(model="Qwen/Qwen3-8B",
           kv_compression_algorithm="filtering",
           kv_compression_ratio=0.5)
 ```
 
-CLI equivalents: `--kv-compression-algorithm {full_replacement,filtering}`
-and `--kv-compression-ratio 0.5`. When unset (the default), every new code
-path is behind a `None`/zero check and behavior is byte-identical to
-upstream.
+CLI equivalents: `--kv-compression-algorithm {full_replacement,filtering}`,
+`--kv-compression-ratio 0.5` and `--kv-compression-interval N` (tokens
+between retroactive compactions; default 512, the kvpress
+`DecodingPress.compression_interval` default). When unset (the default),
+every new code path is behind a `None`/zero check and behavior is
+byte-identical to upstream.
+
+**Phase coverage** — both algorithms cover all three phases, mapping onto
+the configurations validated in the Phase-1 NIAH experiments:
+
+| Phase | `full_replacement` | `filtering` |
+|---|---|---|
+| Prefill | retroactive compaction, unconditional at prefill end | same (≙ `PrefillDecodingPress` + retroactive KeyDiff) |
+| Continuation (prefill chunks) | interval-based retroactive compaction at chunk boundaries (block-wise iterative, as in the KeyDiff paper) | same |
+| Decode | interval-based retroactive compaction (≙ `CompressionRatioDecodingPress`) | per-head online keep/skip every step (≙ `FilteringPress`) |
 
 Scoring is KeyDiff, implemented natively (no kvpress dependency): score of
 a token = negative cosine similarity between its key and the per-head
@@ -71,7 +82,9 @@ physical = logical - num_kv_discarded
 Both strategies only ever *increase* `num_kv_discarded`:
 
 - Strategy A sets it once at prefill end: `D = P - n_kept`.
-- Strategy B increments it by 1 each time a decode token is rejected.
+- Strategy B increments it by 1 each time a decode step frees a cache
+  column (no head of any layer extended past the previous max length —
+  kvpress's "shrink when the trailing column is all padding").
 
 This single-counter design works because both strategies keep the cache
 **packed at the front**: valid entries always occupy cache positions
@@ -223,18 +236,50 @@ Consumers checked and left alone deliberately:
 
 ---
 
-## 5. Strategy A internals (`compact_request_kv`)
+## 5. Strategy A internals (`compact_request_kv` + interval triggers)
 
-Per request, per layer (loop over the unique layer cache tensors):
+Strategy A is retroactive compaction covering **all phases** — the vLLM
+port of kvpress `CompressionRatioDecodingPress` (contributed upstream as
+PR #231), extended to chunked prefill. The trigger rule, evaluated
+post-forward for every scheduled request:
 
 ```text
-src_slots = slots for cache positions [0, T)          # T = tokens cached at prefill end
+compact when   logical_tokens_now - last_compaction_total >= interval
+               (any phase: prefill chunk, continuation chunk, or decode)
+or when        prefill completes this step (unconditional)
+
+target         n_kept = max(1, int(logical_total * (1 - ratio)))
+               # CompressionRatioDecodingPress._resolve_target_size:
+               # a fraction of ALL tokens seen so far, including
+               # previously discarded ones
+```
+
+`interval` is `--kv-compression-interval` (default 512 = kvpress
+`DecodingPress.compression_interval` default). Compacting at prefill
+*chunk* boundaries has no kvpress reference (HF has no chunked prefill),
+but it is exactly block-wise iterative compression — the scheme of the
+original KeyDiff paper (kvpress `BlockPress`). Per-request state:
+`CachedRequestState.kv_last_compaction_total` (logical count at the last
+compaction; reset on preemption).
+
+Note that with the default interval of 512, short decode runs will show
+**no** decode-phase compaction — lower the interval (e.g. 16) in
+experiments where you want to observe it.
+
+The compaction itself, per request, per layer:
+
+```text
+src_slots = slots for cache positions [0, T)          # T = currently cached tokens
 keys      = key_cache[blk, off]                       # [T, H, D] advanced indexing
 scores    = keydiff(keys)                             # [H, T]
-n_kept    = max(1, int(T * (1 - ratio)))              # kvpress ScorerPress formula
 idx       = scores.topk(n_kept).indices.sort()        # per head, temporal order kept
 scatter survivors (gather per head) into slots [0, n_kept)
 ```
+
+Re-compaction of an already-compacted cache is valid: the cache holds
+composite per-head entries (column i = different token per head), and
+scoring/selection are fully per-head, so each head's row is just a valid
+sequence of that head's kept K/V.
 
 Notes and choices:
 
@@ -256,56 +301,203 @@ Notes and choices:
 - **Stale tail.** Slots `[n_kept, T)` keep stale data. They are never read
   (seq_lens bounds attention) and are progressively overwritten by new
   decode tokens at positions `n_kept, n_kept+1, ...`.
-- **Compress-once.** `kv_compressed` flag prevents re-compaction. Decode
-  tokens are never retroactively compressed (mirrors kvpress prefill
-  compression). Periodic re-compaction would be a natural extension: the
-  mechanism (report a new discard delta) already supports it.
+- **Mid-prefill compaction is safe.** No sampling happens mid-prefill;
+  the next chunk's queries attend over the compacted prefix — which is
+  the *intended* semantics of block-wise iterative compression, not an
+  artifact. (It does mean prompt logprobs differ from the uncompressed
+  baseline, as compression inherently must.)
 
-## 6. Strategy B internals (`filtering_keep_decision`)
+## 6. Strategy B internals (`filtering_step`)
 
-Faithful port of `kvpress.FilteringPress` (verified vote-for-vote against
-the real class from the local kvpress fork, branch with PR #257):
+**True per-head FilteringPress** — a faithful port of
+`kvpress.FilteringPress` + `PaddedTensor` onto the paged cache. No voting,
+no aggregation: every (layer, head) decides independently and keeps its
+own token set. (An earlier revision of this implementation collapsed the
+per-head votes into a single per-token majority decision —
+`UniformFilteringPress`'s structure — because per-head ragged lengths
+looked unrepresentable in vLLM. The insight that unlocked the faithful
+version is below.)
 
-```text
-The new token was already written at cache position C-1 (C = cached incl. new)
-and this step's attention already saw it — matching FilteringPress, where
-attention includes the token and filtering happens afterwards.
+**Prefill coverage.** Strategy B is the vLLM equivalent of the validated
+NIAH configuration `PrefillDecodingPress(prefilling_press=KeyDiffPress,
+decoding_press=FilteringPress)`: during the prefill phase it runs the
+same retroactive compaction as Strategy A (interval-based at chunk
+boundaries, unconditional when prefill completes), then hands off to
+per-head online filtering for decode. The handoff is seamless — after the
+prefill-end compaction the cache is fully packed at the compacted length,
+so `kv_filter_lengths` initializes to that length for every (layer, head)
+at the first filtered decode step (`kv_compressed` marks the handoff).
 
-n_kept    = round(logical_total * (1 - ratio))   # logical_total counts skipped tokens!
-n_kept    = clamp(n_kept, 1, C)
-if n_kept >= C: keep (threshold would be the min score) — early exit, no gather
-per layer:  scores = keydiff(gathered keys [C, H, D])
-            threshold_h = n_kept-th highest score
-            vote_h      = score_new >= threshold_h
-decision  = majority vote over all (layer, head) pairs
+### The key insight: `PaddedTensor`'s packing gives a shared bound
+
+What makes kvpress's FilteringPress genuinely per-head is not the votes —
+it is the per-head *packing*. Each head's accepted tokens are packed at
+the front of the shared buffer (`accept_last` copies the new token's slice
+into the head's first padding column), so buffer column `i` holds a
+*different token* for different heads, and the buffer only shrinks when a
+trailing column is padding for **all** heads. Consequence: the physical
+buffer length is always `max_h L_h` — **one scalar**. And one scalar is
+exactly what vLLM's shared `seq_lens` can represent:
+
+```
+shared physical length C  =  max over (layer, head) of L[layer][head]
+num_kv_discarded          =  logical_total - C
 ```
 
-- **Why `logical_total` (not cached count) in `n_kept`:** this is the
-  self-regulating feedback loop from FilteringPress. If the cache grows
-  above `(1-ratio) * logical`, the threshold rises and more tokens get
-  rejected; if it falls below, `n_kept >= C` and everything is accepted.
-  The realized ratio converges to the target in expectation.
-- **If rejected:** nothing is un-written. `num_kv_discarded += 1` means
-  the *next* token's cache position equals the rejected token's slot, so
-  it gets overwritten one step later, and next step's `seq_lens` excludes
-  it. The rejected token was visible to exactly one attention step (its
-  own) — identical to FilteringPress semantics.
-- **Majority vote is a deviation** from the validated per-head algorithm.
-  Per-head ragged lengths are unrepresentable in vLLM (one seq_len per
-  request). This is the single biggest quality risk: the Phase-1 NIAH
-  results show per-head decisions matter at 75% compression
-  (`UniformFilteringPress`, also uniform-per-token, collapsed there),
-  while at 25–50% all variants were indistinguishable. **Treat ≥75%
-  ratios as unsupported.**
-- **Chunked-prefill continuation is NOT filtered** (prompt chunks are
-  cached in full; the `scheduled == 1` guard excludes them). The research
-  doc wanted continuation filtering eventually, but kvpress never
-  validated it; v1 stays on the validated path.
+Heads (and layers) whose `L < C` attend over a few stale trailing columns
+— exactly kvpress's `fill_padding=False` variant, which the Phase-1 NIAH
+experiments showed is quality-equivalent to zero-filling. Layers share
+one seq_len in vLLM (kvpress buffers are per-layer), so the max also runs
+across layers; a layer behind the global max just has a few more stale
+columns. Per-layer dynamics are otherwise fully independent and
+column-for-column identical to kvpress (the new token enters at the
+shared last column instead of the layer's own last column, but the *set*
+of scored values and the copy destination `L_h` are the same).
+
+### Per decode step (post-forward)
+
+```text
+The new token was already written at shared cache column C-1
+(C = num_cached incl. new) and this step's attention already saw it —
+matching FilteringPress, where attention includes the token and
+filtering happens afterwards.
+
+n_kept = clamp(round(logical_total * (1 - ratio)), 1, C)
+           # logical_total counts skipped tokens!
+per layer, vectorized over heads:
+    valid_h  = columns [0, L_h) ∪ {C-1}          # head's packed prefix + new token
+    scores   = masked KeyDiff (per-head anchor over valid only; -inf elsewhere)
+    thresh_h = n_kept-th highest score            # -inf if head has < n_kept valid
+    accept_h = score_new >= thresh_h
+    if accept_h: copy new token's per-head K/V slice to column L_h
+                 (PaddedTensor.accept_last); L_h += 1
+new C = max(L); delta = old C + 1 - new C ∈ {0, 1}
+if delta == 1: num_kv_discarded += 1              # column freed — kvpress shrink()
+```
+
+Per-request state: `CachedRequestState.kv_filter_lengths`, a
+`[num_layers, num_kv_heads]` int tensor on the cache device, lazily
+initialized to the fully-packed pre-step length at the first filtered
+decode step, reset to `None` on preemption/resume.
+
+- **Why `logical_total` (not cached count) in `n_kept`:** cached tokens
+  are self-selected high scorers; calibrating the threshold to them alone
+  is far too strict (0.1% keep rate in the Monte Carlo study,
+  `vllm-experiments/05a_filtering_bias_analysis.md`). Using the logical
+  total — as if skipped tokens were still competing — plus `round()`
+  gives ~50.3% realized keep rate at target 50%. This is the
+  self-regulating feedback loop that makes the realized ratio converge to
+  the target in expectation.
+- **Column freed ⇔ all heads of all layers rejected past it.** If even
+  one head accepts while at the current max, the shared length grows
+  (delta 0). If accepting heads all sit below the max (gaps from earlier
+  rejections), they copy the token into their own columns and the
+  trailing column is still freed (delta 1) — the token survives *only*
+  inside the accepting heads' packed prefixes. Identical to
+  `accept_last` + `shrink`.
+- **Sync-free copies.** Rejected heads perform a harmless self-copy of
+  the last column (`torch.where` on the destination) so no
+  `.nonzero()`/`.any()` GPU→CPU sync is needed per layer; the only sync
+  is the final `lengths.max().item()` per request per step.
+- **Chunked-prefill continuation is compacted, not filtered.** Prompt
+  chunks are cached in full as they arrive and compressed retroactively
+  at interval boundaries and at prefill end (see "Prefill coverage"
+  above); per-token online filtering of chunk tokens is not implemented
+  (kvpress never validated it, and retroactive compaction of the chunk is
+  the better-informed operation anyway — it sees the whole prefix).
 - **Cost:** every decode step gathers and scores *all* cached keys for
-  *every* layer, plus one GPU→CPU sync per filtered request per step for
-  the boolean. Faithful ("scores the full cache") but expensive — the
-  known optimization targets are batching across requests/layers and
-  incremental anchor maintenance.
+  *every* layer (per-head masking adds a normalize+mask pass), plus one
+  GPU→CPU sync per filtered request per step. Faithful ("scores the full
+  cache") but expensive — the known optimization targets are batching
+  across requests/layers and incremental anchor maintenance.
+- **Memory overhead of the max-bound:** the shared length is the max over
+  all (layer, head) lengths, so memory sits slightly above the per-head
+  target. Empirically small: in the 1200-step CPU run, per-head keep
+  ratio 0.538 vs shared/memory ratio 0.553 (target 0.5) — head lengths
+  track each other closely because they share the same feedback target.
+
+### Behavioral equivalence with FilteringPress + PaddedTensor: what is guaranteed, and how
+
+No kvpress code is imported into vLLM — kvpress is not a dependency, and
+`PaddedTensor` could not be reused anyway (it wraps a dense, contiguous
+`[batch, heads, seq, dim]` tensor it can clone, slice and physically
+shrink; the paged cache is scattered across fixed-size blocks, per layer,
+and can do none of that). The port instead decomposes PaddedTensor's
+state and operations onto vLLM's structures:
+
+| kvpress `FilteringPress` + `PaddedTensor` | vLLM equivalent |
+|---|---|
+| `.data` (dense per-layer buffer) | the paged cache itself, addressed via block-table slots |
+| `.lengths` `[batch, heads]`, one per layer (`fp._lengths[layer]`) | `CachedRequestState.kv_filter_lengths` `[num_layers, num_kv_heads]` |
+| `valid_mask(include_last=True)` | built inline in `filtering_step` (`col < L_h`, last column forced valid) |
+| per-head `base_press.score` on valid keys | `masked_keydiff_scores` (per-head anchor over valid keys only, `-inf` elsewhere) |
+| `n_kept = round(total_seen·(1−r))`, clamp | same formula, same clamp semantics (see note 2b below) |
+| `accept_last(accepted)` | per-head K/V slice copy into column `L_h` + `lengths += accepts` |
+| `shrink()` | shared length = `lengths.max()`; a freed trailing column → `num_kv_discarded += 1` |
+| `fill_padding()` | intentionally omitted — the stale variant |
+
+**The exact claim.** Given the same per-step key/value stream, the
+cache-*state* trajectory is identical to FilteringPress with
+`fill_padding=False`: after every decode step, (i) every (layer, head)
+valid length equals kvpress's, (ii) every head's packed prefix — the K/V
+values at that head's columns `[0, L_h)` — equals kvpress's buffer
+content column-for-column, and (iii) the shared physical length equals
+the max kvpress buffer length across layers. In other words, the state
+machine is the same machine; only its storage substrate differs.
+
+**How the guarantee is established — three pillars:**
+
+1. **Unit-level scoring equivalence.** `keydiff_scores` is verified exact
+   against `KeyDiffPress.score`, and `masked_keydiff_scores` is verified
+   exact against running the scorer per head on only that head's valid
+   keys — which is literally what `FilteringPress.compress` does (it
+   loops `head_keys = kt.data[b, h, valid_pos]` and scores those). Same
+   keys in, same anchor, same scores out.
+
+2. **An operation-by-operation mapping argument** for the two places the
+   implementations *look* different but provably are not:
+
+   a. *The new token's column.* kvpress appends the token at each layer
+      buffer's own last column (`max_h L_h` of that layer); vLLM writes
+      it once at the shared last column (`max` across all layers). For a
+      layer behind the global max these column indices differ — but the
+      *set of scored values* per head (packed prefix + new token) is
+      identical, the copy destination (`L_h`, the head's first free
+      column) is identical, and the increment rule is identical. Where
+      kvpress skips the copy for a head already at its layer's last
+      column, vLLM performs a harmless self-copy — the resulting cache
+      contents are the same either way.
+
+   b. *The clamp bound on `n_kept`.* kvpress clamps to its layer buffer
+      width, vLLM to the (possibly larger) shared width. Whenever the two
+      clamps produce different values, both land in the `-inf` padding
+      region of the sorted scores — a head with `L_h + 1` valid tokens
+      gets threshold `-inf` (always accept) under either bound, so the
+      accept decision is unchanged in every branch.
+
+3. **A stateful differential test as the standing regression gate**
+   (`test_filtering_step_multistep_vs_kvpress`): 60 decode steps × 2
+   layers drive the *real* `FilteringPress` + `PaddedTensor` (from the
+   kvpress fork with PR #257) and `filtering_step` on the same random
+   K/V stream, asserting claims (i)–(iii) with exact tensor equality
+   after **every** step — through keeps, skips, head divergence and
+   gap-filling copies (30/60 columns freed in the run; per-head lengths
+   diverged to e.g. `[48, 53, 50, 54]`). Any future edit to
+   `filtering_step` that drifts from PaddedTensor semantics fails this
+   test on the first divergent step.
+
+**What is *not* claimed identical** — and why it is bounded: end-to-end
+generated tokens are not bit-identical to an HF+kvpress run, for two
+reasons that have nothing to do with the filtering state machine.
+First, attention *visibility* of stale columns differs slightly: kvpress
+bounds each layer's attention by that layer's own buffer length, while
+vLLM bounds all layers by the shared cross-layer max, so a lagging layer
+attends over a few extra stale columns. This is the same regime as
+kvpress's `fill_padding=False` (stale) variant — Phase-1 NIAH showed
+stale vs zero-filled padding is quality-neutral — extended across layers.
+Second, kernel numerics differ (paged flash-attention vs HF eager).
+Neither affects which tokens are kept given the same keys; they affect
+only the attention outputs computed *over* the kept tokens.
 
 ---
 
@@ -315,7 +507,7 @@ New:
 
 | File | Contents |
 |------|----------|
-| `vllm/v1/worker/kv_compression.py` | `keydiff_scores`, `gather_slots`/`scatter_slots`, `compact_request_kv`, `filtering_keep_decision`, `KVCompressionManager` (bind + post-forward driver) |
+| `vllm/v1/worker/kv_compression.py` | `keydiff_scores`, `masked_keydiff_scores`, `gather_slots`/`scatter_slots`, `compact_request_kv`, `filtering_step`, `KVCompressionManager` (bind + post-forward driver) |
 | `tests/v1/worker/test_kv_compression_standalone.py` | CPU math tests; cross-checks vs kvpress when importable; runnable without a vLLM install (stubs vllm-internal imports) |
 | `tests/v1/core/test_kv_compression_scheduler.py` | Scheduler accounting: block savings for A and B, preemption reset |
 
@@ -323,14 +515,14 @@ Modified:
 
 | File | Change |
 |------|--------|
-| `vllm/config/cache.py` | `kv_compression_algorithm` / `kv_compression_ratio` fields + validator (ratio ∈ (0,1) iff algorithm set; no fp8 cache); both excluded from the compile-graph hash (eager post-forward work, no graph impact) |
+| `vllm/config/cache.py` | `kv_compression_algorithm` / `kv_compression_ratio` / `kv_compression_interval` fields + validator (ratio ∈ (0,1) iff algorithm set; interval ≥ 1; no fp8 cache); all excluded from the compile-graph hash (eager post-forward work, no graph impact) |
 | `vllm/config/vllm.py` | Cross-config validation (see §8); force-disables prefix caching |
 | `vllm/engine/arg_utils.py` | EngineArgs fields, CLI args, prefix-caching force-off with warning, pass-through to CacheConfig |
 | `vllm/v1/request.py` | `Request.num_kv_discarded` (scheduler copy) |
 | `vllm/v1/core/sched/scheduler.py` | Reset on preemption; apply reported deltas in `update_from_output` |
 | `vllm/v1/core/kv_cache_manager.py` | `allocate_slots`: occupancy = `num_computed_tokens - num_kv_discarded` (single change point; everything downstream — `num_tokens_need_slot`, `get_num_blocks_to_allocate`, `allocate_new_blocks` — flows from it) |
 | `vllm/v1/outputs.py` | `ModelRunnerOutput.kv_compression_discarded: dict[str, int] \| None` |
-| `vllm/v1/worker/gpu_input_batch.py` | `CachedRequestState.num_kv_discarded` / `.kv_compressed` (worker copies; recreated at defaults when a request is re-added) |
+| `vllm/v1/worker/gpu_input_batch.py` | `CachedRequestState.num_kv_discarded` / `.kv_compressed` / `.kv_filter_lengths` / `.kv_last_compaction_total` (worker copies; recreated at defaults when a request is re-added) |
 | `vllm/v1/worker/gpu_model_runner.py` | Manager init; KV cache binding in `initialize_kv_cache_tensors` (after `bind_kv_cache`); `_prepare_inputs` coordinate shift; resume-from-preemption reset; post-forward hook; report attach + clear in `sample_tokens` |
 
 The KV cache binding validates: exactly one KV cache group with
@@ -376,12 +568,19 @@ Async scheduling is **allowed** (see the staleness argument in §2).
    are real but deferred; immediate freeing is the highest-value follow-up
    and would need a scheduler→worker "row replaced" path (the
    resumed-request machinery is the natural template).
-2. **Per-head ragged lengths (filtering).** See §6. Would require
-   per-layer, per-head seq_lens and kernel awareness — a different
-   project.
-3. **Continuation (chunked-prefill) filtering.** See §6.
-4. **Periodic / pressure-triggered re-compaction.** Mechanism supports
-   it (just report another delta); policy left for later.
+2. **Zero-filling stale columns (filtering).** Heads/layers behind the
+   shared max length attend over stale trailing columns (kvpress
+   `fill_padding=False`). Phase-1 showed zero-fill vs stale is
+   quality-neutral, and zero-filling per head per step would cost extra
+   writes, so it is skipped.
+3. **Per-token online filtering of continuation chunks.** Chunks are
+   covered by retroactive compaction instead (see §6) — kvpress never
+   validated chunk-level online filtering, and retroactive compaction of
+   the chunk has the better (global-prefix) view anyway.
+4. **Memory-pressure-triggered compaction.** The interval trigger is
+   token-count-based; reacting to block-pool pressure would need a
+   scheduler→worker signal. The mechanism (report another delta)
+   supports it; the trigger policy is left for later.
 5. **Batched compression math.** Notebook 06 validated fully batched
    scoring/selection; the vLLM hook loops per request per layer for
    clarity. Fine while few requests cross the prefill boundary per step.
@@ -398,12 +597,28 @@ What was validated locally:
   `tests/v1/worker/test_kv_compression_standalone.py`, run with the
   kvpress fork's venv (`/Users/fax/code/kvpress/.venv/bin/python`, which
   has torch 2.12 + the `FilteringPress` code from PR #257):
-  - `keydiff_scores` ≡ `KeyDiffPress.score` (exact).
+  - `keydiff_scores` ≡ `KeyDiffPress.score` (exact); `masked_keydiff_scores`
+    ≡ per-head scoring on only the valid keys (exact).
   - Compaction ≡ per-head top-k reference on a 3-layer paged cache with
     non-trivial block tables (exact).
-  - Filtering decision ≡ the FilteringPress rule on 20/20 randomized
-    trials **and exact per-head vote agreement with a real
-    `FilteringPress.compress` call**.
+  - **Filtering: stateful multi-step equivalence with the real
+    `FilteringPress`** — 60 decode steps × 2 layers, comparing after every
+    step the per-(layer, head) lengths, the per-head packed K/V contents
+    column-for-column, and the shared physical length vs the max kvpress
+    buffer length. Exact match throughout (30/60 columns freed, per-head
+    lengths genuinely diverged, e.g. `[48, 53, 50, 54]`).
+  - Long-run ratio convergence: 1200 decode steps at target ratio 0.5 →
+    per-head keep ratio 0.538 (matches the ~50.3% Monte Carlo figure in
+    05a_filtering_bias_analysis.md), shared/memory ratio 0.553.
+  - Iterative compaction across phases (`test_iterative_compaction`):
+    prefill chunk → continuation chunk → three decode-phase compactions,
+    each verified against an independently maintained per-head reference
+    list (composite-cache re-compaction correctness).
+  - Manager trigger logic (`test_manager_phase_coverage`): for both
+    algorithms, chunked prefill fires interval compactions, prefill end
+    fires the unconditional compaction, and decode fires interval
+    compaction (A) / per-step per-head filtering (B), with exact
+    discard-delta accounting at every step.
   - Gather/scatter round-trips bit-exact.
   The test file stubs `vllm.logger` / `vllm.v1.kv_cache_interface`, so it
   runs with or without a vLLM install:
@@ -500,19 +715,32 @@ Hard-won facts about this vLLM branch that the implementation depends on
    (rationale in §3) — the docs' layer identification was honored where
    it holds (paged-cache gather/scatter, scheduler/allocator metadata),
    corrected where the constraint analysis showed it cannot work.
-2. **Majority vote across (layer, head)** for filtering, replacing
-   per-head ragged lengths. Safe ≤50% ratio per Phase-1 evidence; not
-   validated ≥75%.
-3. **Filtering only on single-token decode steps**; continuation chunks
-   cached in full.
-4. **No tail-block freeing** in v1 of full replacement; savings are
+2. **Stale trailing columns for lagging heads/layers** in filtering
+   (kvpress `fill_padding=False` semantics): the per-head ragged lengths
+   are real (full FilteringPress fidelity), but heads/layers below the
+   shared max length attend over a few stale columns. Phase-1 showed
+   stale ≈ zero-fill in quality; the shared max also runs across layers
+   (kvpress buffers are per-layer), which is a vLLM-specific extension of
+   the same idea.
+3. **Per-token online filtering runs only on single-token decode steps**;
+   prefill/continuation chunks are covered by retroactive compaction
+   instead (the better-informed operation; kvpress never validated
+   chunk-level online filtering).
+4. **No tail-block freeing** after compaction; savings are
    allocation-deferral, not immediate release.
-5. **Compress-once at prefill end** for full replacement (no periodic
-   re-compaction).
-6. **`n_kept` formulas**: A uses `max(1, int(T·(1−r)))` (kvpress
-   `ScorerPress.compress`); B uses `clamp(round(logical·(1−r)), 1, C)`
-   (kvpress `FilteringPress`). They intentionally differ because the
-   upstream references differ.
+5. **Compaction at prefill *chunk* boundaries has no kvpress reference**
+   (HF has no chunked prefill) — it is justified as block-wise iterative
+   compression, the original KeyDiff paper's scheme (kvpress
+   `BlockPress`), but is not covered by the Phase-1 NIAH validation.
+6. **`kv_compression_interval` default is 512** (kvpress
+   `DecodingPress.compression_interval` default) — faithful, but it means
+   short decode runs show no decode-phase compaction for
+   `full_replacement` unless lowered.
+7. **`n_kept` formulas**: retroactive compaction uses
+   `max(1, int(logical·(1−r)))` (kvpress
+   `CompressionRatioDecodingPress._resolve_target_size`); filtering uses
+   `clamp(round(logical·(1−r)), 1, C)` (kvpress `FilteringPress`). They
+   intentionally differ because the upstream references differ.
 
 ---
 
@@ -562,7 +790,12 @@ The two actual couplings to FlashAttention are:
    (token attends to itself, gets filtered afterwards) rely on that
    ordering (§11.1).
 
-If a future change ever *did* require touching the backend, it would be
-per-head ragged lengths for filtering — that is the one thing the
-kernel's single-scalar-bound-per-sequence interface cannot express, and
-it is why the majority-vote aggregation exists (§6, §9.2).
+Note that even per-head ragged lengths (filtering, §6) did *not* require
+touching the kernel: the PaddedTensor packing invariant means the shared
+bound is simply `max over (layer, head) lengths`, and heads below the max
+attend over a few stale columns (the quality-neutral
+`fill_padding=False` variant). The only thing the kernel's
+single-scalar-bound-per-sequence interface genuinely cannot express is
+per-head *masking* of those stale columns — if zero-tolerance for stale
+attention were ever required, that would be the first (and so far only)
+reason to modify the backend.
