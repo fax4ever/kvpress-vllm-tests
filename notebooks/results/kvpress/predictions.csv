@@ -1,1121 +1,561 @@
 framework,press,compression_ratio,max_context_length,needle_depth,needle,question,predicted_answer,elapsed_sec,peak_gpu_mem_gb,task,rouge_l_f
-kvpress,prefill_decoding_keydiff,0.0,4096,0,"
+kvpress,full_replacement,0.01,4096,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.669,17.4,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.0,4096,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.823,17.399,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.01,4096,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.319,17.4,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.0,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.371,17.399,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.01,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.317,17.4,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.0,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.313,17.399,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.01,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.324,17.4,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.0,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.323,17.399,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.01,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.326,17.4,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.0,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.323,17.399,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.01,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.824,18.442,needle_in_haystack,0.7058823529411764
-kvpress,prefill_decoding_keydiff,0.0,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.874,18.44,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.01,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **to eat a sandwich and sit in Dolores Park on a sunny day**.,1.861,18.442,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.0,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", eat a sandwich and sit in Dolores Park on a sunny day.,1.735,18.44,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.01,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.803,18.442,needle_in_haystack,0.7058823529411764
-kvpress,prefill_decoding_keydiff,0.0,8192,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", eat a sandwich and sit in Dolores Park on a sunny day.,3.856,18.44,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.01,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.796,18.442,needle_in_haystack,0.7058823529411764
-kvpress,prefill_decoding_keydiff,0.0,8192,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.841,18.44,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.01,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.795,18.442,needle_in_haystack,0.7058823529411764
-kvpress,prefill_decoding_keydiff,0.25,4096,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.788,18.44,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,4096,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.413,17.254,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,4096,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.361,17.254,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,4096,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.336,17.254,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.371,17.254,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.344,17.254,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.369,17.254,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.339,17.254,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.356,17.254,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.337,17.253,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.358,17.253,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.852,18.145,needle_in_haystack,0.7058823529411764
-kvpress,prefill_decoding_keydiff,0.25,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.864,18.145,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.25,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.76,18.145,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.777,18.145,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.76,18.145,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,8192,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.778,18.145,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,1.872,18.145,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.25,8192,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,1.902,18.145,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.25,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.75,18.145,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,4096,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.776,18.145,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,4096,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.354,17.108,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,4096,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.372,17.108,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,4096,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,1.45,17.108,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,1.483,17.108,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.328,17.108,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.363,17.108,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.33,17.108,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.35,17.108,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.329,17.107,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.348,17.107,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.819,17.848,needle_in_haystack,0.7058823529411764
-kvpress,prefill_decoding_keydiff,0.5,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.857,17.848,needle_in_haystack,0.7058823529411764
+kvpress,full_replacement,0.5,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.743,17.848,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.775,17.848,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.878,17.848,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,8192,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.772,17.848,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,1.863,17.848,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.5,8192,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,1.888,17.848,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.5,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.743,17.848,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.75,4096,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.769,17.848,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.75,4096,0,"
+
+Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
+
+","
+
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.378,16.961,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.75,4096,25,"
+
+Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
+
+","
+
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and relax in Dolores Park on a sunny day.,1.355,16.961,needle_in_haystack,0.6285714285714286
+kvpress,full_replacement,0.75,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
 Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.355,16.961,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.75,4096,25,"
+kvpress,full_replacement,0.75,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and relax in Dolores Park on a sunny day.,1.332,16.961,needle_in_haystack,0.6285714285714286
-kvpress,prefill_decoding_keydiff,0.75,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and relax in Dolores Park on a sunny day.,1.349,16.961,needle_in_haystack,0.6857142857142856
+kvpress,full_replacement,0.75,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.328,16.961,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.75,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.347,16.961,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.75,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and relax in Dolores Park on a sunny day.,1.329,16.961,needle_in_haystack,0.6857142857142856
-kvpress,prefill_decoding_keydiff,0.75,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.795,17.551,needle_in_haystack,0.7428571428571429
+kvpress,full_replacement,0.75,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.325,16.961,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.75,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich in Dolores Park.,1.407,17.551,needle_in_haystack,0.41379310344827586
+kvpress,full_replacement,0.75,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.768,17.551,needle_in_haystack,0.7428571428571429
-kvpress,prefill_decoding_keydiff,0.75,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and spend time in Dolores Park**.,1.707,17.551,needle_in_haystack,0.5000000000000001
+kvpress,full_replacement,0.75,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich in Dolores Park.,1.39,17.551,needle_in_haystack,0.41379310344827586
-kvpress,prefill_decoding_keydiff,0.75,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and spend time in **Dolores Park** on a sunny day.,2.532,17.551,needle_in_haystack,0.6666666666666665
+kvpress,full_replacement,0.75,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and spend time in Dolores Park**.,1.689,17.551,needle_in_haystack,0.5000000000000001
-kvpress,prefill_decoding_keydiff,0.75,8192,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.783,17.551,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.01,4096,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and spend time in **Dolores Park** on a sunny day.,1.98,17.551,needle_in_haystack,0.6666666666666665
-kvpress,prefill_decoding_keydiff,0.75,8192,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.55,17.399,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.01,4096,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.742,17.551,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.0,4096,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.507,17.399,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.01,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.332,17.4,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.0,4096,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.304,17.399,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.01,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.315,17.4,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.0,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.295,17.399,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.01,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.319,17.4,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.0,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.3,17.399,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.01,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.321,17.4,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.0,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.993,18.44,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.01,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.309,17.4,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.0,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", eat a sandwich and sit in Dolores Park on a sunny day.,3.589,18.44,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.01,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.807,18.442,needle_in_haystack,0.7058823529411764
-kvpress,uniform_filtering_keydiff,0.0,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", eat a sandwich and sit in Dolores Park on a sunny day.,3.601,18.44,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.01,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **to eat a sandwich and sit in Dolores Park on a sunny day**.,1.842,18.442,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.0,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.971,18.44,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.01,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.781,18.442,needle_in_haystack,0.7058823529411764
-kvpress,uniform_filtering_keydiff,0.0,8192,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.768,18.44,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,4096,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.779,18.442,needle_in_haystack,0.7058823529411764
-kvpress,uniform_filtering_keydiff,0.0,8192,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.383,17.254,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,4096,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,1.78,18.442,needle_in_haystack,0.7058823529411764
-kvpress,uniform_filtering_keydiff,0.25,4096,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.393,17.254,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.52,17.254,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,4096,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.39,17.254,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.525,17.254,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.368,17.254,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.52,17.254,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.364,17.253,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.521,17.254,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,4.086,18.145,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.25,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.515,17.253,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.855,18.145,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,2.101,18.145,needle_in_haystack,0.7058823529411764
-kvpress,uniform_filtering_keydiff,0.25,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.843,18.145,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,2.017,18.145,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,4.216,18.145,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.25,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,2.01,18.145,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,8192,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.832,18.145,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,4096,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,3.714,18.145,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.25,8192,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.445,17.108,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,4096,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,2.022,18.145,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,4096,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,3.832,17.108,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.532,17.108,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,4096,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.43,17.108,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,1.689,17.108,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.436,17.108,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.528,17.108,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.421,17.107,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.531,17.108,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,4.056,17.848,needle_in_haystack,0.7058823529411764
+kvpress,filtering,0.5,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.525,17.107,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.827,17.848,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,2.024,17.848,needle_in_haystack,0.7058823529411764
-kvpress,uniform_filtering_keydiff,0.5,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.813,17.848,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,2.102,17.848,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,4.193,17.848,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.5,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.942,17.848,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,8192,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.728,17.848,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.75,4096,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,2.091,17.848,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.5,8192,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.299,16.961,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.75,4096,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,1.944,17.848,needle_in_haystack,0.7428571428571429
-kvpress,uniform_filtering_keydiff,0.75,4096,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and relax in Dolores Park on a sunny day.,3.278,16.961,needle_in_haystack,0.6285714285714286
+kvpress,filtering,0.75,4096,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and the best thing to do is to do is to do in San Francisco is to do in San Francisco on a a a a a a a a a a a a a a,3.302,16.961,needle_in_haystack,0.3870967741935483
-kvpress,uniform_filtering_keydiff,0.75,4096,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.266,16.961,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.75,4096,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich in San Francisco is to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to,3.267,16.961,needle_in_haystack,0.16129032258064516
-kvpress,uniform_filtering_keydiff,0.75,4096,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and relax in Dolores Park on a sunny day.,3.26,16.961,needle_in_haystack,0.6857142857142856
+kvpress,filtering,0.75,4096,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sunny day is to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to,3.267,16.961,needle_in_haystack,0.12903225806451613
-kvpress,uniform_filtering_keydiff,0.75,4096,75,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.248,16.961,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.75,8192,0,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a San Francisco is to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to,3.272,16.961,needle_in_haystack,0.12903225806451613
-kvpress,uniform_filtering_keydiff,0.75,4096,100,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.7,17.551,needle_in_haystack,0.7428571428571429
+kvpress,filtering,0.75,8192,25,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and sit in Dolores Park on a sunny day is to do in San Francisco is to do in in San Francisco is to do in in in in in in in in in in,3.272,16.961,needle_in_haystack,0.3934426229508197
-kvpress,uniform_filtering_keydiff,0.75,8192,0,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich in Dolores Park.,2.597,17.551,needle_in_haystack,0.41379310344827586
+kvpress,filtering,0.75,8192,50,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a **do a sandwich and sit in Dolores Park on a San Francisco is to do in San Francisco.,2.641,17.551,needle_in_haystack,0.5116279069767442
-kvpress,uniform_filtering_keydiff,0.75,8192,25,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and spend time in Dolores Park**.,3.487,17.551,needle_in_haystack,0.5000000000000001
+kvpress,filtering,0.75,8192,75,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and San Francisco is to do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do,3.69,17.551,needle_in_haystack,0.12903225806451613
-kvpress,uniform_filtering_keydiff,0.75,8192,50,"
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and spend time in **Dolores Park** on a sunny day.,4.41,17.551,needle_in_haystack,0.6666666666666665
+kvpress,filtering,0.75,8192,100,"
 
 Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
 
 ","
 
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and San Francisco is to do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do,3.674,17.551,needle_in_haystack,0.12903225806451613
-kvpress,uniform_filtering_keydiff,0.75,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and San Francisco is to do a sandwich and and and and and and and and and and and and and and and and and and and and and and and and and and and and,3.682,17.551,needle_in_haystack,0.22580645161290322
-kvpress,uniform_filtering_keydiff,0.75,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sunny day is to eat a sandwich and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and,3.667,17.551,needle_in_haystack,0.19354838709677416
-kvpress,filtering_zerofill_keydiff,0.0,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.353,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.0,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.312,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.0,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.298,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.0,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.294,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.0,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.292,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.0,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.972,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_zerofill_keydiff,0.0,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **to eat a sandwich and sit in Dolores Park on a sunny day**.,4.127,18.442,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.0,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.934,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_zerofill_keydiff,0.0,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.935,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_zerofill_keydiff,0.0,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.934,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_zerofill_keydiff,0.25,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.375,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.395,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.378,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.378,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.368,17.253,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,5.747,18.145,needle_in_haystack,0.7058823529411764
-kvpress,filtering_zerofill_keydiff,0.25,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.856,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.863,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,4.236,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.25,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.823,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.452,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,3.815,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.432,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.423,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.429,17.107,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,4.044,17.848,needle_in_haystack,0.7058823529411764
-kvpress,filtering_zerofill_keydiff,0.5,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.847,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.823,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,4.204,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.5,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.815,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.75,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.464,16.961,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.75,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and sit in Dolores Park on a sunny day.,3.433,16.961,needle_in_haystack,0.6857142857142856
-kvpress,filtering_zerofill_keydiff,0.75,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.422,16.961,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.75,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.419,16.961,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.75,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.416,16.961,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.75,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.833,17.551,needle_in_haystack,0.7428571428571429
-kvpress,filtering_zerofill_keydiff,0.75,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and spend time in Dolores Park on a sunny day.,4.027,17.551,needle_in_haystack,0.6111111111111112
-kvpress,filtering_zerofill_keydiff,0.75,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and spend time in Dolores Park on a sunny day**.,4.397,17.551,needle_in_haystack,0.6666666666666665
-kvpress,filtering_zerofill_keydiff,0.75,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and spend time in San Francisco's San Francisco.,3.632,17.551,needle_in_haystack,0.3428571428571428
-kvpress,filtering_zerofill_keydiff,0.75,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and spend time in Dolores Park on a sunny day.,4.002,17.551,needle_in_haystack,0.6666666666666665
-kvpress,filtering_stale_keydiff,0.0,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.232,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.0,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.195,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.0,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.203,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.0,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.195,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.0,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.2,17.4,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.0,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,5.863,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_stale_keydiff,0.0,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **to eat a sandwich and sit in Dolores Park on a sunny day**.,4.058,18.442,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.0,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.83,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_stale_keydiff,0.0,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.83,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_stale_keydiff,0.0,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.825,18.442,needle_in_haystack,0.7058823529411764
-kvpress,filtering_stale_keydiff,0.25,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.271,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.302,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.288,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.286,17.254,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.278,17.253,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.98,18.145,needle_in_haystack,0.7058823529411764
-kvpress,filtering_stale_keydiff,0.25,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.754,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.737,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,4.109,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.25,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.727,18.145,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,5.079,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,3.719,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.345,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.33,17.108,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.355,17.107,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", **eat a sandwich and sit in Dolores Park on a sunny day**.,3.96,17.848,needle_in_haystack,0.7058823529411764
-kvpress,filtering_stale_keydiff,0.5,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.749,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.744,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and sit in Dolores Park on a sunny day**.,4.09,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.5,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.73,17.848,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.75,4096,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.357,16.961,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.75,4096,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich and relax in Dolores Park on a sunny day.,3.346,16.961,needle_in_haystack,0.6285714285714286
-kvpress,filtering_stale_keydiff,0.75,4096,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.33,16.961,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.75,4096,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and relax in Dolores Park on a sunny day.,3.33,16.961,needle_in_haystack,0.6857142857142856
-kvpress,filtering_stale_keydiff,0.75,4096,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.337,16.961,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.75,8192,0,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and sit in Dolores Park on a sunny day.,3.79,17.551,needle_in_haystack,0.7428571428571429
-kvpress,filtering_stale_keydiff,0.75,8192,25,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to enjoy a sandwich in Dolores Park.,2.643,17.551,needle_in_haystack,0.41379310344827586
-kvpress,filtering_stale_keydiff,0.75,8192,50,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to **eat a sandwich and spend time in Dolores Park**.,3.552,17.551,needle_in_haystack,0.5000000000000001
-kvpress,filtering_stale_keydiff,0.75,8192,75,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and spend time in **Dolores Park** on a sunny day.,4.488,17.551,needle_in_haystack,0.6666666666666665
-kvpress,filtering_stale_keydiff,0.75,8192,100,"
-
-Remember, the best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
-
-","
-
-Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and relax in Dolores Park on a sunny day.,3.733,17.551,needle_in_haystack,0.6857142857142856
+Question: Based on the content of the book, what is the best thing to do in San Francisco?", to eat a sandwich and relax in Dolores Park on a sunny day.,3.677,17.551,needle_in_haystack,0.6857142857142856
