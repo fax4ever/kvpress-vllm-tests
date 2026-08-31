@@ -1,0 +1,593 @@
+framework,press,compression_ratio,longbench_task,predicted_answer,reference_answers,elapsed_sec
+kvpress,no_press,0.0,gov_report,"### Summary of the Report on Multiyear Procurement (MYP) and Block Buy Contracting (BBC)
+
+This report provides a comprehensive overview of **Multiyear Procurement (MYP)** and **Block Buy Contracting (BBC)**, two special contracting mechanisms used by the Department of Defense (DOD) to procure defense systems. These mechanisms are designed to reduce procurement costs compared to the standard **annual contracting** approach. The report also discusses the **potential issues** for Congress regarding the use of MYP and BBC, including whether to increase, decrease, or maintain their current usage, whether to create a permanent statute for BBC, and whether the **Coast Guard** should adopt these mechanisms.
+
+---
+
+## **Key Concepts and Definitions**
+
+### **Multiyear Procurement (MYP)**
+- **Definition**: A contracting mechanism that allows DOD to use a **single contract** for **2–5 years** of procurement, without exercising a contract option for each year after the first.
+- **Purpose**: To reduce procurement costs by enabling **contractor optimization** and **economic order quantity (EOQ)** purchases.
+- **Legal Basis**: Governed by **10 U.S.C. 2306b**, a permanent statute.
+- **Requirements**:
+  - **Significant savings** compared to annual contracting.
+  - **Stable design** and **stable need** for the items.
+  - **Realistic cost estimates**.
+  - **Fixed-price contracts**.
+- **Flexibility**: Reduces flexibility for future changes in procurement programs, especially if funding is not provided.
+
+### **Block Buy Contracting (BBC)**
+- **Definition**: A contracting mechanism similar to MYP, allowing DOD to use a **single contract** for **more than one year** of procurement, without exercising a contract option for each year after the first.
+- **Purpose**: To reduce procurement costs, especially through **EOQ purchases**.
+- **Legal Basis**: **No permanent statute**; authority is granted by **Congress** on a case-by-case basis.
+- **Key Differences from MYP**:
+  - No requirement for **stable design** or **significant savings**.
+  - No requirement for **approval in both appropriations acts**.
+  - **No cancellation penalties** (typically).
+  - **Can cover more than five years**.
+- **Flexibility**: Less formal than MYP, but still reduces flexibility for future changes.
+
+### **Annual Contracting**
+- **Definition**: The standard DOD approach,","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",27.118
+kvpress,no_press,0.0,gov_report,"The report provides a comprehensive analysis of the sustainment challenges and strategies for 12 selected fixed-wing aircraft operated by the U.S. Air Force and Navy. Here's a structured summary of the key findings and recommendations:
+
+---
+
+### **Key Findings**
+
+#### **1. Aircraft Availability and O&S Costs**
+- **Total O&S Costs**: The 12 aircraft totaled approximately **$20 billion annually** in fiscal year 2016, with **$13 billion** for the Air Force and **$7 billion** for the Navy.
+- **Availability Trends**:
+  - **Air Force**: 9 of 12 aircraft did not meet availability goals in 2016. Six aircraft experienced decreased availability between 2011 and 2016.
+  - **Navy**: 5 of 7 aircraft did not meet availability goals in 2016. Three aircraft saw decreased availability, and one fluctuated.
+- **Cost Trends**:
+  - **Air Force**: Costs decreased for the C-17, F-16, and F-22; increased for the B-52 and E-8C.
+  - **Navy**: Costs decreased for the AV-8B, C-2A, E-2C, and F/A-18A-D; increased for the E-2D, EA-18G, and F/A-18E-F.
+- **Maintenance Costs**: Typically the largest portion of O&S costs (36% for Air Force, 42% for Navy), with increases for most aircraft due to aging and increased depot maintenance needs.
+
+#### **2. Sustainment Challenges**
+- **Aging Aircraft**: 10 of 12 aircraft are aging, with delays in replacement aircraft (e.g., F-16, AV-8B, F/A-18A-D).
+- **Maintenance Issues**: Delays in depot maintenance and shortages of skilled maintainers.
+- **Supply Support**: Obsolescence and diminishing manufacturer sources for parts.
+- **Legacy Systems**: The Navy has not updated sustainment strategies for four of seven aircraft since 2012, raising concerns about compliance with DOD policy.
+
+#### **3. Sustainment Strategies**
+- **Air Force**: Documented sustainment strategies for all five selected aircraft, updated in accordance with Air Force guidance.
+- **Navy**: Only one of seven aircraft had an updated strategy since 201","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",27.451
+kvpress,no_press,0.0,hotpotqa,"The case that was brought to court first is **Miller v. California**.
+
+**Explanation:**
+
+- **Miller v. California** was decided in **1973**. It was a landmark U.S. Supreme Court case that redefined the legal standard for determining what constitutes **obscenity** under the",['Miller v. California'],4.387
+kvpress,no_press,0.0,hotpotqa,"The actor who plays Phileas Fogg in the 2004 film *Around the World in 80 Days* is **Steve Coogan**. He co-starred with **Gary Cooper** in the 1939 Goldwyn Productions film *The Real Glory*, which was based on a",['Charles L. Clifford'],5.071
+kvpress,full_replacement,0.01,gov_report,"### Summary of Multiyear Procurement (MYP) and Block Buy Contracting (BBC)
+
+#### **What is Multiyear Procurement (MYP)?**
+
+Multiyear Procurement (MYP) is a contracting mechanism that allows the Department of Defense (DOD) to enter into a single contract covering procurement over a period of two to five years, without the need to exercise a contract option for each year after the first. This approach is intended to reduce procurement costs by enabling contractors to optimize their workforce and production facilities, and by allowing for economic order quantity (EOQ) purchases of long-leadtime components.
+
+**Key Features of MYP:**
+- **Contract Duration:** 2 to 5 years.
+- **Funding:** Requires congressional approval for each use.
+- **Savings:** Estimated savings range from 2% to 15% compared to annual contracting.
+- **Stable Design:** The design must be stable, and technical risks must be minimal.
+- **Permanent Statute:** Governed by 10 U.S.C. 2306b, which was enacted in 1982 and amended over time.
+
+**How MYP Works:**
+- DOD issues a single contract covering the entire procurement period.
+- Funding is requested annually by DOD in the proposed budget.
+- Contractors gain confidence in long-term business, leading to investments in production and workforce optimization.
+
+**Potential Savings:**
+- **Contractor Optimization:** Investments in workforce and production facilities.
+- **EOQ Purchases:** Bulk purchasing of long-leadtime components to achieve economies of scale.
+
+**Challenges:**
+- **Flexibility:** Reduces flexibility for changes in procurement programs.
+- **Verification:** Actual savings are difficult to verify due to cost growth and other factors.
+
+#### **What is Block Buy Contracting (BBC)?**
+
+Block Buy Contracting (BBC) is a similar contracting mechanism to MYP, allowing DOD to use a single contract for more than one year's worth of procurement without exercising a contract option for each year after the first. However, BBC differs from MYP in several key aspects.
+
+**Key Features of BBC:**
+- **Contract Duration:** Can cover more than five years (e.g., seven years for LCS).
+- **No Permanent Statute:** No permanent statute governs BBC.
+- **No Fixed Savings Requirement:** No requirement for ""significant savings"" as in MYP.
+- **No Cancellation Penalties:** Less likely to include cancellation penalties.
+- **Flexibility:** More flexible","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",30.658
+kvpress,full_replacement,0.01,gov_report,"The report you've provided is a comprehensive analysis of the sustainment challenges and operational costs associated with 12 selected fixed-wing aircraft operated by the U.S. Air Force and Navy. Here's a structured summary of the key points and findings:
+
+---
+
+### **Overview of the Study**
+- **Scope**: The study examined 12 fixed-wing aircraft, including 5 from the Air Force and 7 from the Navy (including 2 Marine Corps aircraft).
+- **Total Inventory**: The 12 aircraft totaled 2,823 aircraft.
+- **Operating and Support (O&S) Costs**: In fiscal year 2016, the total O&S costs for these aircraft were approximately **$20 billion**.
+- **Objective**: To assess aircraft availability, O&S costs, sustainment strategies, and challenges in maintaining these aircraft.
+
+---
+
+### **Key Findings**
+
+#### **1. Aircraft Availability**
+- **Performance Metrics**:
+  - **Air Force**: Measures aircraft availability as the number of aircraft available for flight operations.
+  - **Navy**: Uses two metrics: **Ready-Basic-Aircraft (RBA)** and **Ready-for-Tasking (RFT)**.
+- **Availability Trends**:
+  - **Air Force**: 6 of 12 aircraft experienced decreased availability between 2011 and 2016. One aircraft met availability goals every year. Six aircraft met goals in some years but not others, and five did not meet goals in any year.
+  - **Navy**: In 2016, 9 of 12 aircraft did not meet availability goals.
+- **Challenges**:
+  - **Aging Aircraft**: Many aircraft are operating beyond their planned service life.
+  - **Maintenance and Supply Issues**: Delays in depot maintenance, shortages of skilled maintainers, and supply chain issues (e.g., obsolescence, limited manufacturer sources) contribute to unavailability.
+  - **Operational Impact**: Low availability affects training, operational readiness, and mission execution.
+
+#### **2. Operating and Support (O&S) Costs**
+- **Total Costs**:
+  - **Air Force**: $13 billion annually for 5 aircraft.
+  - **Navy**: $7 billion annually for 7 aircraft.
+  - **Total**: $20 billion annually for all 12 aircraft.
+- **Cost Trends**:
+  - **Air Force**:
+    - **C-17**: O&S costs decreased due to reduced inventory","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",31.29
+kvpress,full_replacement,0.01,hotpotqa,"The case brought to court first was **Miller v. California**. 
+
+**Miller v. California** was decided in **1973**, while **Gates v. Collier** was decided in **1974**. Therefore, **Miller v. California** was brought to court and decided first",['Miller v. California'],4.854
+kvpress,full_replacement,0.01,hotpotqa,"The actor that plays Phileas Fogg in *Around the World in 80 Days* (the 2004 film) co-starred with Gary Cooper in a 1939 Goldwyn Productions film based on a novel by **Charles L. Clifford**.
+
+### Explanation:
+- The ",['Charles L. Clifford'],5.535
+kvpress,full_replacement,0.25,gov_report,"**Summary of the Report on Multiyear Procurement (MYP) and Block Buy Contracting (BBC)**
+
+---
+
+### **Overview of MYP and BBC**
+
+**Multiyear Procurement (MYP)** and **Block Buy Contracting (BBC)** are specialized contracting mechanisms used by the Department of Defense (DOD) to reduce procurement costs. These mechanisms differ from the standard **annual contracting** approach, which involves contracting for each year's worth of procurement separately. MYP and BBC can reduce costs by a few or several percent, depending on the program and circumstances.
+
+---
+
+### **Key Differences Between MYP and Annual Contracting**
+
+- **MYP** involves a single contract covering 2–5 years of procurement, without requiring contract options for each year.
+- **Annual Contracting** involves one or more contracts for each year's procurement.
+- MYP allows for **contractor optimization** (e.g., workforce and production facilities) and **economic order quantity (EOQ)** purchases, which can reduce costs through economies of scale.
+
+---
+
+### **Key Differences Between BBC and MYP**
+
+- **BBC** is similar to MYP in that it allows for multiyear procurement without requiring contract options for each year.
+- **BBC** differs from MYP in that it **lacks a permanent statute**, and **does not require a cancellation penalty**.
+- BBC is often used in **shipbuilding programs** and is sometimes confused with the term **""block buy""**, which refers to the procurement of multiple items in a single year.
+
+---
+
+### **What is MYP?**
+
+- **MYP** is an alternative to annual contracting, allowing for a single contract covering 2–5 years of procurement.
+- It gives contractors confidence to invest in workforce and production facilities, leading to cost savings.
+- MYP can reduce procurement costs by **5–15%**, depending on the program.
+- **10 U.S.C. 2306b** is the permanent statute governing MYP.
+
+---
+
+### **What is BBC?**
+
+- **BBC** is similar to MYP but lacks a permanent statute and cancellation penalties.
+- It is often used in **shipbuilding programs** and is sometimes confused with the term **""block buy""**.
+- BBC can reduce costs by **less than or comparable to MYP**, depending on the program and whether EOQ purchases are included.
+
+---
+
+### **Key Issues for Congress**
+
+1. **Should MYP and BBC be used more, less, or about as frequently as","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",30.551
+kvpress,full_replacement,0.25,gov_report,"**Summary of the Report:**
+
+This report, issued by the U.S. Government Accountability Office (GAO), examines the sustainment challenges and performance of 12 selected Air Force and Navy fixed-wing aircraft. The report highlights the following key findings and recommendations:
+
+---
+
+### **Key Findings:**
+
+1. **Aircraft Availability and Performance:**
+   - The 12 selected aircraft totaled 2,823 aircraft and required approximately $20 billion to operate and support in fiscal year 2016.
+   - Aircraft availability varied significantly over the 6-year period (2011–2016), with 9 of 12 aircraft not meeting availability goals in fiscal year 2016.
+   - Six of the 12 aircraft experienced decreased availability, and the remaining six aircraft did not meet availability goals in any year.
+   - The Air Force and Navy track aircraft availability using metrics such as ""Ready-Basic-Aircraft"" (RBA) and ""Ready-for-Targeting"" (RFT), as well as ""Not Mission Capable"" (NMC) due to maintenance, supply, or both.
+
+2. **Sustainment Costs:**
+   - Total O&S costs for the 12 aircraft totaled approximately $20 billion over the 6-year period.
+   - Costs for some aircraft increased while others decreased, with maintenance costs being one of the largest portions (on average about 36% of total O&S costs for the Air Force and 42% for the Navy).
+   - Maintenance costs for four of the five Air Force aircraft increased, while the B-52 and E-8C experienced increases due to rising maintenance and other costs.
+
+3. **Sustainment Challenges:**
+   - **Aging Aircraft:** Many of the selected aircraft are aging and operating beyond their planned service life, partly due to delays in replacement aircraft.
+   - **Maintenance:** Delays in depot maintenance and shortages of skilled maintainers contribute to aircraft not meeting availability goals.
+   - **Supply Support:** Some aircraft face supply shortages due to obsolescence or diminishing manufacturer sources, which can lead to longer periods of unavailability.
+
+4. **DOD Policy and Guidance:**
+   - DOD policy requires services to develop and implement a sustainment strategy, such as a Life-cycle Sustainment Plan, for sustaining its weapon systems.
+   - The Air Force has updated its sustainment guidance to clarify that sustainment strategies are required for all weapon systems,","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",31.274
+kvpress,full_replacement,0.25,hotpotqa,"The case brought to court first was **Miller v. California**.
+
+**Explanation:**
+
+- **Miller v. California (1973)** was a landmark U.S. Supreme Court decision that redefined the legal standard for determining what constitutes obscenity. It introduced the ""Miller test,"" which is now referred to",['Miller v. California'],4.867
+kvpress,full_replacement,0.25,hotpotqa,The actor that plays Phileas Fogg in *Around the World in 80 Days* (the 2004 film) is **David Niven**. He co-starred with **Gary Cooper** in a 1939 Goldwyn Productions film based on a novel by **Charles L,['Charles L. Clifford'],5.542
+kvpress,full_replacement,0.5,gov_report,"**Summary of the Report on Multiyear Procurement (MYP) and Block Buy Contracting (BBC)**
+
+This report provides background information and issues for Congress on **multiyear procurement (MYP)** and **block buy contracting (BBC)**, which are specialized contracting mechanisms that the Department of Defense (DOD) uses for a limited number of defense acquisition programs. These mechanisms have the potential to reduce weapon procurement costs by a few or several percent compared to the standard approach of annual contracting.
+
+---
+
+### **Key Points and Summary**
+
+#### **What is MYP and how does it differ from annual contracting?**
+
+- **MYP (Multiyear Procurement)** is an alternative to the standard approach of **annual contracting**, where DOD uses one or more contracts for each year's procurement of a given item. MYP involves using a single contract for multiple years' worth of procurement of a given item, typically 2 to 5 years.
+- **Annual Contracting** involves issuing one or more contracts for each year's procurement of a given item, with the next year's procurement requiring a new contract or the exercise of a contract option.
+- **MYP** allows for **cost savings** by enabling the contractor to make long-term investments in production facilities and workforce, which can reduce procurement costs through economies of scale.
+
+#### **What is BBC and how does it differ from MYP?**
+
+- **BBC (Block Buy Contracting)** is similar to MYP in that it allows for the procurement of multiple years' worth of items under a single contract. However, it differs in that it is often used to refer to the procurement of multiple items in a single year, which can lead to confusion with the term ""block buy.""
+- **BBC** can be used to refer to the procurement of multiple items in a single year, such as multiple aircraft carriers, which is different from the standard MYP approach.
+
+#### **What is the difference between block buy contracting and block buys?**
+
+- **Block Buy Contracting (BBC)** refers to the procurement of multiple years' worth of items under a single contract.
+- **Block Buys** refers to the procurement of multiple items in a single year, which is different from the standard MYP approach.
+
+#### **What is the difference between MYP and BBC?**
+
+- **MYP** is a contracting mechanism that allows for the procurement of multiple years' worth of items under a single contract.
+- **BBC** is a contracting mechanism that is often used to refer to the procurement of multiple items","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",30.579
+kvpress,full_replacement,0.5,gov_report,"**GAO Report Summary: DOD Needs to Clarify Guidance on Sustainment Requirements for Aging Systems**
+
+**GAO-18-555**  
+**Washington, D.C.: April 25, 2018**
+
+---
+
+### **Executive Summary**
+
+The Department of Defense (DOD) and the Air Force and Navy sustainment systems face significant challenges related to aging aircraft, maintenance, and supply support. These challenges have led to a decline in aircraft availability and the inability to meet the required operational capabilities. Specifically, 9 of 12 aircraft in our review did not meet availability goals in fiscal year 2016. Despite the DOD's and the Navy's efforts to address these issues, the guidance is unclear regarding whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years.
+
+The DOD's guidance, specifically DOD Instruction 5000.02, requires the DOD to develop and implement a sustainment plan for aging systems. However, the guidance is not clear whether this requirement applies to aging systems. The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years. The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years.
+
+The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years. The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years. The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years.
+
+The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years. The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan should be updated every 5 years. The DOD's guidance is not clear whether the DOD and the Navy should have a sustainment plan for aging systems and whether the plan","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",31.333
+kvpress,full_replacement,0.5,hotpotqa,"The case brought to court first was **Miller v. California**. 
+
+This is clearly stated in the passage, as the question at the end of Passage 10 explicitly asks: **""Which case was brought to court first Miller v. California or Gates v. Collier ?""** and the answer is **",['Miller v. California'],4.863
+kvpress,full_replacement,0.5,hotpotqa,"The actor that plays Phileas Fogg in ""Around the World in 80 Days"" co-starred with **Gary Cooper** in a 1939 Goldwyn Productions film based on a novel by **Charles L. Clifford**.
+
+This is a direct reference to the 1939 film",['Charles L. Clifford'],5.535
+kvpress,full_replacement,0.75,gov_report,"**Summary of the Report:**
+
+This report provides background information and discusses key issues for Congress regarding **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multiyear procurement (MYP)**, which are **multiyear procurement (MYP)** and **multi","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",30.626
+kvpress,full_replacement,0.75,gov_report,"**GAO Report Summary**
+
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GAO-18-101**  
+**GA","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",31.424
+kvpress,full_replacement,0.75,hotpotqa,"The case that was brought to court first is **Miller v. California**. 
+
+**Miller v. California** was the first case in the series of cases that were brought to court, and it was the first case in the series of cases that were brought to court, and it was the first case in the series",['Miller v. California'],4.857
+kvpress,full_replacement,0.75,hotpotqa,The Real Glory is a 1939 film based on a novel by **Charles L. Clifford**. The film is set against the backdrop of the **Moro Rebellion** during the **American occupation of the Philippines** at the beginning of the 20th century. It was directed by **Hollywood,['Charles L. Clifford'],5.538
+kvpress,filtering,0.01,gov_report,"### Summary of Multiyear Procurement (MYP) and Block Buy Contracting (BBC)
+
+#### **What is Multiyear Procurement (MYP)?**
+
+Multiyear Procurement (MYP) is a contracting mechanism that allows the Department of Defense (DOD) to enter into a single contract covering procurement over a period of two to five years, without the need to exercise a contract option for each year after the first. This approach is intended to reduce procurement costs by enabling contractors to optimize their workforce and production facilities, and by allowing for economic order quantity (EOQ) purchases of long-leadtime components.
+
+**Key Features of MYP:**
+- **Contract Duration:** 2 to 5 years.
+- **Funding:** Requires congressional approval for each use.
+- **Savings:** Estimated savings range from 2% to 15% compared to annual contracting.
+- **Stable Design:** The design for the items must be stable, and technical risks must be minimal.
+- **Permanent Statute:** Governed by 10 U.S.C. 2306b, which was enacted in 1982 and amended over time.
+
+**How MYP Works:**
+- DOD issues a single contract covering the entire procurement period.
+- The contract is awarded at the beginning of the period, following congressional approval.
+- Funding for subsequent years is requested as part of the annual budget.
+
+**Potential Savings:**
+- **Contractor Optimization:** Contractors can invest in workforce and production facilities.
+- **EOQ Purchases:** Allows for bulk purchases of long-leadtime components, reducing costs through economies of scale.
+
+**Risks and Considerations:**
+- **Reduced Flexibility:** Limits the ability to adjust procurement levels in response to changing strategic or budgetary circumstances.
+- **Cancellation Penalties:** Contracts include penalties to discourage termination, which can be costly if the contract is canceled.
+
+#### **What is Block Buy Contracting (BBC)?**
+
+Block Buy Contracting (BBC) is a similar mechanism to MYP, allowing DOD to use a single contract for more than one year's worth of procurement without exercising a contract option for each year after the first. However, BBC differs from MYP in several key ways.
+
+**Key Features of BBC:**
+- **Contract Duration:** Can cover more than five years (e.g., up to seven years).
+- **Funding:** Requires congressional approval, but not necessarily in both an appropriations act and a separate authorization act.
+- **No Permanent Statute:**","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",91.882
+kvpress,filtering,0.01,gov_report,"The report you've provided is a comprehensive analysis of the sustainment challenges and operational costs associated with 12 selected fixed-wing aircraft operated by the U.S. Air Force and Navy. Here's a structured summary of the key points and findings:
+
+---
+
+### **Overview of the Study**
+- **Scope**: The study examined 12 fixed-wing aircraft, including 5 from the Air Force and 7 from the Navy (including 2 Marine Corps aircraft).
+- **Total Inventory**: The 12 aircraft totaled 2,823 aircraft.
+- **Operating and Support (O&S) Costs**: In fiscal year 2016, the total O&S costs for these aircraft were approximately **$20 billion**.
+- **Objective**: To assess aircraft availability, O&S costs, sustainment strategies, and challenges related to aging, maintenance, and supply support.
+
+---
+
+### **Key Findings**
+
+#### **1. Aircraft Availability**
+- **Performance Against Goals**: 
+  - **Air Force**: 6 of 12 aircraft experienced decreased availability between 2011 and 2016. One aircraft met goals every year, while 6 met goals in some years but not others. In 2016, 9 of 12 aircraft did not meet availability goals.
+  - **Navy**: 5 of 7 aircraft did not meet availability goals in 2016.
+- **Reasons for Unavailability**:
+  - **Not Mission Capable (NMC) due to Maintenance**: Aircraft not in depot but not mission capable due to maintenance.
+  - **NMC due to Supply**: Aircraft not in depot but not mission capable due to lack of repair parts.
+  - **NMC due to Both**: Aircraft not in depot and not mission capable due to both maintenance and supply.
+  - **Units Possessed Not Reported**: Aircraft not available for use for reasons other than depot and not mission capable status, but possessed by the squadron.
+
+#### **2. Operating and Support (O&S) Costs**
+- **Total O&S Costs (2011–2016)**:
+  - **Air Force**: $13 billion annually.
+  - **Navy**: $7 billion annually.
+- **Cost Trends**:
+  - **Air Force**:
+    - **C-17, F-16, and F-22**: Costs decreased due to reduced inventory and improved efficiency.
+    - **B-52 and E-8","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",91.675
+kvpress,filtering,0.01,hotpotqa,"The case brought to court first was **Miller v. California**. 
+
+**Miller v. California** was decided in **1973**, while **Gates v. Collier** was decided in **1974**. Therefore, **Miller v. California** was brought to court and decided first",['Miller v. California'],12.332
+kvpress,filtering,0.01,hotpotqa,"The actor that plays Phileas Fogg in *Around the World in 80 Days* (the 2004 film) co-starred with Gary Cooper in a 1939 Goldwyn Productions film based on a novel by **Charles L. Clifford**.
+
+### Explanation:
+- The ",['Charles L. Clifford'],13.026
+kvpress,filtering,0.25,gov_report,"**Summary of the Report on Multiyear Procurement (MYP) and Block Buy Contracting (BBC)**
+
+---
+
+### **Overview of MYP and BBC**
+
+**Multiyear Procurement (MYP)** and **Block Buy Contracting (BBC)** are specialized contracting mechanisms used by the Department of Defense (DOD) to reduce procurement costs. These mechanisms differ from the standard **annual contracting** approach, which involves contracting for each year's worth of procurement separately. MYP and BBC can reduce procurement costs by a few or several percent, depending on the program and circumstances.
+
+---
+
+### **Key Differences Between MYP and Annual Contracting**
+
+- **MYP** involves a single contract covering 2 to 5 years of procurement, without requiring contract options for each year.
+- **Annual Contracting** involves one or more contracts for each year's worth of procurement.
+- MYP allows the contractor to make investments in workforce and production facilities, which can reduce costs through economies of scale.
+
+---
+
+### **Key Differences Between BBC and MYP**
+
+- **BBC** is similar to MYP in that it allows a single contract for multiple years of procurement, but it differs in the following ways:
+  - No permanent statute governs BBC.
+  - No requirement for a cancellation penalty.
+  - BBC is often used to refer to the procurement of multiple items in a single year (e.g., block buys of aircraft carriers).
+  - BBC is less formal and can be confused with the term ""block buy"" used in other contexts.
+
+---
+
+### **Potential Savings from MYP and BBC**
+
+- **MYP** can save between 5% to 15% compared to annual contracting, depending on the program.
+- **BBC** can save less than or comparable to MYP, depending on whether it includes economic order quantity (EOQ) purchases and cancellation penalties.
+
+---
+
+### **Congressional Considerations**
+
+1. **Frequency of Use**: Should MYP and BBC be used more, less, or about as frequently as they are currently used?
+2. **Permanent Statute for BBC**: Should Congress create a permanent statute for BBC, similar to the one for MYP (10 U.S.C. 2306b)?
+3. **Coast Guard Use**: Should the Coast Guard begin using MYP and BBC?
+
+---
+
+### **Key Issues for Congress**
+
+- **Frequency of Use**: MYP and BBC have been used for a limited number of DOD programs. The report suggests that the use of MYP has declined from","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",93.624
+kvpress,filtering,0.25,gov_report,"**Summary of the Report:**
+
+This report, issued by the U.S. Government Accountability Office (GAO), examines the sustainment challenges and performance of 12 selected Air Force and Navy fixed-wing aircraft. The report highlights the following key findings and recommendations:
+
+---
+
+### **Key Findings:**
+
+1. **Aircraft Availability and Performance:**
+   - The 12 selected fixed-wing aircraft totaled 2,823 aircraft and required approximately $20 billion to operate and support in fiscal year 2016.
+   - Aircraft availability varied over the 6-year period (2011–2016), with 9 of 12 aircraft not meeting availability goals in fiscal year 2016.
+   - The Air Force and Navy face similar sustainment challenges related to aging, maintenance, and supply support, which affect aircraft availability and operational costs.
+
+2. **Sustainment Challenges:**
+   - **Aging Aircraft:** Many of the selected aircraft are aging and operating beyond their planned service life, partly due to delays in replacement aircraft.
+   - **Maintenance:** Delays in depot maintenance and shortages of skilled maintainers contribute to some aircraft missing their availability goals.
+   - **Supply Support:** Some aircraft are encountering supply shortages due to obsolescence issues or diminishing manufacturer sources.
+
+3. **Cost Trends:**
+   - The total operating and support (O&S) costs for the 12 aircraft totaled approximately $20 billion over the 6-year period (2011–2016).
+   - Maintenance costs generally account for a significant portion of total O&S costs, averaging about 36% for the Air Force and 42% for the Navy.
+   - Some aircraft experienced increased maintenance costs, while others saw decreases in O&S costs.
+
+4. **DOD Policy and Guidance:**
+   - DOD policy requires the services to develop and implement a sustainment strategy, such as a Life-cycle Sustainment Plan, for sustaining its weapon systems.
+   - The Air Force has updated its sustainment guidance to clarify that sustainment strategies are required for all weapon systems, including legacy systems.
+   - The Navy has not made the requirement explicit for sustainment strategies for legacy systems in its guidance.
+
+---
+
+### **Recommendations:**
+
+1. **To the Secretary of Defense:**
+   - Ensure that the Under Secretary of Defense for Acquisition and Sustainment (USD(A&S)) updates or issues new policy clarifying the requirements for documenting sustainment","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",94.295
+kvpress,filtering,0.25,hotpotqa,"The case brought to court first was **Miller v. California**. 
+
+**Miller v. California** was decided in **1973**, while **Gates v. Collier** was decided in **1974**. Therefore, **Miller v. California** was decided first.",['Miller v. California'],12.385
+kvpress,filtering,0.25,hotpotqa,The actor that plays Phileas Fogg in *Around the World in 80 Days* (the 2004 film) is **David Niven**. He co-starred with **Gary Cooper** in a 1939 Goldwyn Productions film based on a novel by **Charles L,['Charles L. Clifford'],13.401
+kvpress,filtering,0.5,gov_report,"**Summary of Key Points from the Report on Multiyear Procurement (MYP) and Block Buy Contracting (BBC)**
+
+### **What is MYP and How Does It Differ from Annual Contracting?**
+
+**Multiyear Procurement (MYP)** is a contracting approach that allows the Department of Defense (DOD) to procure a set of items over a multiyear period, typically 5 years, using a single contract. This differs from **annual contracting**, where DOD procures items year by year using separate contracts. MYP can reduce procurement costs by allowing the contractor to make long-term investments in production facilities and workforce, and by enabling economies of scale through bulk purchasing of components.
+
+### **What is BBC and How Does It Differ from MYP?**
+
+**Block Buy Contracting (BBC)** is similar to MYP in that it allows the procurement of a set of items over a multiyear period using a single contract. However, BBC differs from MYP in that it is often used to refer to the procurement of multiple items in a single year, which can lead to confusion. BBC can also be less effective in reducing procurement costs if it lacks the same level of long-term commitment as MYP.
+
+### **What are the Key Issues for Congress Concerning MYP and BBC?**
+
+1. **Frequency of Use**: Whether to use MYP and BBC more frequently, less frequently, or about as frequently as they are currently used.
+2. **Permanent Statute**: Whether to create a permanent statute for BBC, similar to the one for MYP (10 U.S.C. 2306b).
+3. **Coast Guard Use**: Whether the Coast Guard should start using MYP and BBC for its procurement programs.
+
+### **What is the Difference Between Block Buy Contracting and Block Buys?**
+
+The term **""block buy""** by itself is sometimes used to refer to the procurement of multiple items in a single year, which can lead to confusion. **Block Buy Contracting** refers to the procurement of a set of items over a multiyear period using a single contract.
+
+### **What is the Difference Between MYP and Annual Contracting?**
+
+MYP allows the procurement of a set of items over a multiyear period using a single contract, while annual contracting procures items year by year using separate contracts. MYP can reduce procurement costs by allowing the contractor to make long-term investments in production facilities and workforce, and by enabling economies of scale through bulk purchasing of components.
+
+###","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",93.823
+kvpress,filtering,0.5,gov_report,"**GAO Report Summary: DOD Needs to Clarify Guidance on Sustainment Requirements for Aging Aircraft**
+
+**GAO-18-668**  
+**Washington, D.C.: April 25, 2018**
+
+---
+
+### **Executive Summary**
+
+The Department of Defense (DOD) and the Air Force and Navy face significant challenges in sustaining their aging aircraft and maintaining operational readiness. This report highlights the need for DOD to clarify its guidance on sustainment requirements for aging aircraft, particularly in light of the DOD Instruction 5000.02, which provides management principles and policies for the DOD's acquisition systems. The report also discusses the need for the Air Force and Navy to clarify their guidance on sustainment requirements for aging aircraft.
+
+The report found that the DOD's guidance on sustainment requirements for aging aircraft is unclear, and that the Air Force and Navy have not clarified their guidance on sustainment requirements for aging aircraft. This lack of clarity has resulted in confusion regarding sustainment requirements for aging aircraft and has affected the ability of the Air Force and Navy to sustain their aging aircraft.
+
+The report also discusses the need for the Air Force and Navy to clarify their guidance on sustainment requirements for aging aircraft. The report recommends that the Secretary of Defense and the Secretary of the Air Force and Navy clarify their guidance on sustainment requirements for aging aircraft.
+
+The report also discusses the need for the Air Force and Navy to clarify their guidance on sustainment requirements for aging aircraft. The report recommends that the Secretary of Defense and the Secretary of the Air Force and Navy clarify their guidance on sustainment requirements for aging aircraft.
+
+The report also discusses the need for the Air Force and Navy to clarify their guidance on sustainment requirements for aging aircraft. The report recommends that the Secretary of Defense and the Secretary of the Air Force and Navy clarify their guidance on sustainment requirements for aging aircraft.
+
+The report also discusses the need for the Air Force and Navy to clarify their guidance on sustainment requirements for aging aircraft. The report recommends that the Secretary of Defense and the Secretary of the Air Force and Navy clarify their guidance on sustainment requirements for aging aircraft.
+
+The report also discusses the need for the Air Force and Navy to clarify their guidance on sustainment requirements for aging aircraft. The report recommends that the Secretary of Defense and the Secretary of the Air Force and Navy clarify their guidance on sustainment requirements for aging aircraft.
+
+The report also discusses the need for the Air Force and Navy to clarify their guidance on sustainment requirements for aging","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",94.425
+kvpress,filtering,0.5,hotpotqa,"The case brought to court first was **Miller v. California**. 
+
+This is clearly stated in the passage titled **Gates v. Collier**, which refers to **Miller v. California** as a case that was brought to court first. The passage also mentions that **Miller v. California** was a landmark",['Miller v. California'],12.745
+kvpress,filtering,0.5,hotpotqa,"The actor that plays Phileas Fogg in ""Around the World in 80 Days"", co-starred with Gary Cooper in a 1939 Goldwyn Productions film based on a novel by **Charles L. Clifford**.
+
+This question is referencing the 1939 film **The Real Glory",['Charles L. Clifford'],13.39
+kvpress,filtering,0.75,gov_report,"**Summary of the Report:**
+
+This report provides background information and discusses key issues for Congress regarding **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)** and **Multiyear Procurement (MYP)**, which are **Multiyear Procurement (MYP)**","[""Multiyear procurement (MYP) and block buy contracting (BBC) are special contracting mechanisms that Congress permits the Department of Defense (DOD) to use for a limited number of defense acquisition programs. Compared to the standard or default approach of annual contracting, MYP and BBC have the potential for reducing weapon procurement costs by a few or several percent. Under annual contracting, DOD uses one or more contracts for each year's worth of procurement of a given kind of item. Under MYP, DOD instead uses a single contract for two to five years' worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. DOD needs congressional approval for each use of MYP. There is a permanent statute governing MYP contracting—10 U.S.C. 2306b. Under this statute, a program must meet several criteria to qualify for MYP. Compared with estimated costs under annual contracting, estimated savings for programs being proposed for MYP have ranged from less than 5% to more than 15%, depending on the particulars of the program in question, with many estimates falling in the range of 5% to 10%. In practice, actual savings from using MYP rather than annual contracting can be difficult to observe or verify because of cost growth during the execution of the contract due to changes in the program independent of the use of MYP rather than annual contracting. BBC is similar to MYP in that it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year. BBC is also similar to MYP in that DOD needs congressional approval for each use of BBC. BBC differs from MYP in the following ways: There is no permanent statute governing the use of BBC. There is no requirement that BBC be approved in both a DOD appropriations act and an act other than a DOD appropriations act. Programs being considered for BBC do not need to meet any legal criteria to qualify for BBC, because there is no permanent statute governing the use of BBC that establishes such criteria. A BBC contract can cover more than five years of planned procurements. Economic order quantity (EOQ) authority—the authority to bring forward selected key components of the items to be procured under the contract and purchase the components in batch form during the first year or two of the contract—does not come automatically as part of BBC authority because there is no permanent statute governing the use of BBC that includes EOQ authority as an automatic feature. BBC contracts are less likely to include cancellation penalties. Potential issues for Congress concerning MYP and BBC include whether to use MYP and BBC in the future more frequently, less frequently, or about as frequently as they are currently used; whether to create a permanent statute to govern the use of BBC, analogous to the permanent statute that governs the use of MYP; and whether the Coast Guard should begin making use of MYP and BBC.""]",92.291
+kvpress,filtering,0.75,gov_report,"**GAO Report Summary:**
+
+**GAO-17-768**  
+**GAO-17-744**  
+**GAO-17-333**  
+**GAO-17-82**  
+**GAO-16-450**  
+**GAO-14-326**  
+
+**GAO-17-768:**
+**GAO-17-744:**
+**GAO-17-333:**
+**GAO-17-82:**
+**GAO-16-450:**
+**GAO-14-326:**
+
+**GAO-17-768:**
+**GAO-17-744:**
+**GAO-17-333:**
+**GAO-17-82:**
+**GAO-16-450:**
+**GAO-14-326:**
+
+**GAO-17-768:**
+**GAO-17-744:**
+**GAO-17-333:**
+**GAO-17-82:**
+**GAO-16-450:**
+**GAO-14-326:**
+
+**GAO-17-768:**
+**GAO-17-744:**
+**GAO-17-333:**
+**GAO-17-82:**
+**GAO-16-450:**
+**GAO-14-326:**
+
+**GAO-17-768:**
+**GAO-17-744:**
+**GAO-17-333:**
+**GAO-17-82:**
+**GAO-16-450:**
+**GAO-14-326:**
+
+**GAO-17-768:**
+**GAO-17-744:**
+**GAO-17-333:**
+**GAO-17-82:**
+**GAO-16-450:**
+**GAO-14-326:**
+
+**GAO-17-7","[""DOD spends billions of dollars annually to sustain its weapon systems to support current and future operations. The Air Force and Navy are operating many of their fixed-wing aircraft well beyond their original designed service lives and therefore are confronted with sustainment challenges. House Report 114-537 included a provision for GAO to evaluate the sustainment of major weapon systems. This report, among other things, (1) examines the trends in availability and O&S costs for selected Air Force and Navy fixed-wing aircraft since fiscal year 2011, including whether they met availability goals, and (2) assesses the extent that the departments documented sustainment strategies, reviewed sustainment metrics, and implemented plans to improve aircraft availability. GAO selected a nongeneralizable sample of 12 fixed-wing aircraft by considering a variety of factors, such as the type, age, and manufacturer of the aircraft, among other factors, and analyzed condition and availability data, O&S costs, and sustainment challenges from fiscal year 2011 through March 2017 for each aircraft in a “Sustainment Quick Look.” GAO also analyzed policies, strategies, and plans, and interviewed Navy and Air Force officials in program offices, squadrons, and maintenance depots. Between fiscal years 2011 and 2016, the Air Force and Navy generally did not meet aircraft availability goals, and operating and support (O&S) cost trends for GAO's selected fixed-wing aircraft varied. Specifically, GAO found that availability declined for 6 of 12 aircraft—3 from each service—between fiscal years 2011 and 2016; availability fell short of goals for 9 of 12 aircraft in fiscal year 2016; and O&S costs increased for 5 of the aircraft, and maintenance costs—the largest share—increased for 8 of 12 aircraft. GAO found, and officials agreed, that these aircraft face similar challenges. a Obsolescence means a part is unavailable due to its lack of usefulness or it is no longer current or available for production. b Diminishing manufacturing sources is a loss or impending loss of manufacturers or suppliers. The Air Force and Navy have documented sustainment strategies for some aircraft, regularly reviewed sustainment metrics, and implemented improvement plans. The Air Force has documented sustainment strategies for all aircraft GAO reviewed; however, the Navy has not documented or updated its sustainment strategies for four aircraft. Specifically, the Navy does not have a documented sustainment strategy for the C-2A, and has not updated the strategies for the E2C, EA-18G, and F/A-18A-D since before 2012. The Navy is in the process of documenting its strategies, but Department of Defense (DOD) policy is unclear on whether a sustainment strategy is required and has to be updated every 5 years for weapon systems that are in the operations and support phase of their life cycle (i.e., legacy systems). Also, Navy guidance does not specify a requirement for legacy systems, although Air Force guidance does. Clarifying the requirements to document sustainment strategies for legacy systems, and documenting those strategies, would add additional visibility over the availability and O&S costs of DOD aircraft and any associated sustainment risks. This is a public version of a sensitive report issued in April 2018. Information on aircraft availability and other related information was deemed to be sensitive and has been omitted from this report. GAO is recommending that DOD and the Navy update or issue new policy and guidance clarifying the requirements for documenting sustainment strategies for legacy weapon systems. DOD concurred with the recommendations.""]",94.117
+kvpress,filtering,0.75,hotpotqa,"The case that was brought to court first is **Miller v. California**. 
+
+**Miller v. California** (413 U.S. 15, 1973) was the first case in which the U.S. Supreme Court addressed the issue of the ""trusty system"" and its",['Miller v. California'],12.474
+kvpress,filtering,0.75,hotpotqa,The Real Glory is a 1939 film based on a novel by **Charles L. Clifford**. The film is set against the backdrop of the **Moro Rebellion** during the **American occupation of the Philippines** at the beginning of the 20th century. It was directed by **Hollywood,['Charles L. Clifford'],13.332

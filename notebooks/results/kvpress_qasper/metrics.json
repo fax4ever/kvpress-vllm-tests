@@ -1,0 +1,38 @@
+{
+  "filtering__0.01": {
+    "exact_match": 0.0,
+    "f1": 8.5602859756658
+  },
+  "filtering__0.25": {
+    "exact_match": 0.0,
+    "f1": 9.883198148958655
+  },
+  "filtering__0.5": {
+    "exact_match": 0.0,
+    "f1": 8.267404709270883
+  },
+  "filtering__0.75": {
+    "exact_match": 0.0,
+    "f1": 3.350675388555556
+  },
+  "full_replacement__0.01": {
+    "exact_match": 0.0,
+    "f1": 8.5602859756658
+  },
+  "full_replacement__0.25": {
+    "exact_match": 0.0,
+    "f1": 9.540169596500048
+  },
+  "full_replacement__0.5": {
+    "exact_match": 0.0,
+    "f1": 7.809848320683194
+  },
+  "full_replacement__0.75": {
+    "exact_match": 0.0,
+    "f1": 3.248759486522658
+  },
+  "no_press__0.0": {
+    "exact_match": 0.0,
+    "f1": 7.622830749033011
+  }
+}

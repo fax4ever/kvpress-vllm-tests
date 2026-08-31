@@ -1,0 +1,524 @@
+framework,press,compression_ratio,predicted_answer,reference_answer,elapsed_sec
+kvpress,no_press,0.0,"In the paper, the authors compare their proposed **cross-lingual pre-training based transfer approach** with the following **multilingual approaches**:
+
+### 1. **Pivot-based Method**
+- **Description**: This is a common strategy where a source language is translated to a pivot language (e.g., English),","BIBREF19, BIBREF20",4.207
+kvpress,no_press,0.0,"In the paper, the authors compare their proposed **cross-lingual pre-training based transfer approach** with the following **multilingual approaches**:
+
+### 1. **Pivot-based Method**
+- **Description**: This is a common strategy where a source language is translated to a pivot language (e.g., English),",multilingual NMT (MNMT) BIBREF19,3.82
+kvpress,no_press,0.0,"In the context of Neural Machine Translation (NMT), **pivot-based baselines** refer to a class of methods that use a **pivot language** (typically a high-resource language like English) to mediate translation between a **source language** and a **target language** when direct parallel data is not available. These","pivoting, pivoting$_{\rm m}$",3.818
+kvpress,no_press,0.0,"In the context of Neural Machine Translation (NMT), **pivot-based baselines** refer to a class of methods that use a **pivot language** (typically a high-resource language like English) to mediate translation between a **source language** and a **target language** when direct parallel data is not available. These",firstly translates a source language into the pivot language which is later translated to the target language,3.821
+kvpress,no_press,0.0,"Based on the provided text, the authors of the paper experimented with the following datasets:
+
+### **1. Europarl Dataset**
+- **Description**: A multilingual parallel corpus containing data from the European Parliament.
+- **Languages Used**:
+  - **French-English-Spanish (Fr-En-Es)**
+","Europarl, MultiUN",3.821
+kvpress,no_press,0.0,"Based on the provided text, the authors of the paper experimented with the following datasets:
+
+### **1. Europarl Dataset**
+- **Description**: A multilingual parallel corpus containing data from the European Parliament.
+- **Languages Used**:
+  - **French-English-Spanish (Fr-En-Es)**
+","Europarl BIBREF31, MultiUN BIBREF32",3.84
+kvpress,no_press,0.0,"The paper explores **zero-shot translation** scenarios, where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**. The language pairs explored in the experiments are:
+
+---
+
+### **1. Europarl Dataset**
+- **Language Pairs:**
+  - **","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",3.833
+kvpress,no_press,0.0,"The paper explores **zero-shot translation** scenarios, where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**. The language pairs explored in the experiments are:
+
+---
+
+### **1. Europarl Dataset**
+- **Language Pairs:**
+  - **","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",3.828
+kvpress,no_press,0.0,"In the provided research paper, the following **named entity recognition (NER) models** were evaluated on the proposed benchmark dataset for the Armenian language:
+
+---
+
+### ✅ **1. Stanford NER**
+- **Description**: A **conditional random fields (CRF)** classifier that uses **lexical and contextual features** such as","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",3.697
+kvpress,no_press,0.0,"In the provided research paper, the following **named entity recognition (NER) models** were evaluated on the proposed benchmark dataset for the Armenian language:
+
+---
+
+### ✅ **1. Stanford NER**
+- **Description**: A **conditional random fields (CRF)** classifier that uses **lexical and contextual features** such as","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",3.699
+kvpress,no_press,0.0,"The text you've provided is a **research paper** or **technical report** that discusses the development of **named entity recognition (NER)** systems for the **Armenian language**. It outlines the **methodology**, **approaches**, **results**, and **contributions** of a study aimed at creating **",ilur.am,3.699
+kvpress,no_press,0.0,"The text you've provided is a **research paper** or **technical report** that discusses the development of **named entity recognition (NER)** systems for the **Armenian language**. It outlines the **methodology**, **approaches**, **results**, and **contributions** of a study aimed at creating **",links between Wikipedia articles to generate sequences of named-entity annotated tokens,3.704
+kvpress,no_press,0.0,"Based on the detailed description provided in the text, **no**, the authors did **not** use a crowdsourcing platform for manual annotations.
+
+### Key Evidence from the Text:
+
+1. **Manual Annotation of the Test Dataset:**
+   - The test dataset was **manually annotated** by the authors themselves, not through",No,3.694
+kvpress,no_press,0.0,"Based on the detailed description provided in the text, **no**, the authors did **not** use a crowdsourcing platform for manual annotations.
+
+### Key Evidence from the Text:
+
+1. **Manual Annotation of the Test Dataset:**
+   - The test dataset was **manually annotated** by the authors themselves, not through",No,3.69
+kvpress,no_press,0.0,"The topics pulled from Reddit in the context of this research are primarily those that are associated with **high levels of dogmatism**, as identified through the analysis of linguistic features and user behavior. These topics are not limited to a single domain but span a wide range of subjects that are often the subject of intense debate and strong","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",3.84
+kvpress,no_press,0.0,"The topics pulled from Reddit in the context of this research are primarily those that are associated with **high levels of dogmatism**, as identified through the analysis of linguistic features and user behavior. These topics are not limited to a single domain but span a wide range of subjects that are often the subject of intense debate and strong","training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",3.83
+kvpress,no_press,0.0,"The predictive model described in the text is a **statistical model of dogmatism** that is trained to classify Reddit posts as either dogmatic or non-dogmatic based on linguistic features. This model is designed to capture and predict the presence of dogmatic language in online discussions, particularly on platforms like Reddit.
+
+###",logistic regression models,3.829
+kvpress,full_replacement,0.01,"In the paper, the authors compare their proposed **cross-lingual pre-training based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### ✅ **1. Pivot-based Method**
+- **Description**: This is a traditional approach where a source language is translated to a pivot language (e.g., English","BIBREF19, BIBREF20",5.502
+kvpress,full_replacement,0.01,"In the paper, the authors compare their proposed **cross-lingual pre-training based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### ✅ **1. Pivot-based Method**
+- **Description**: This is a traditional approach where a source language is translated to a pivot language (e.g., English",multilingual NMT (MNMT) BIBREF19,4.283
+kvpress,full_replacement,0.01,"In the context of **zero-shot translation**, **pivot-based baselines** refer to a class of methods that use a **pivot language** (typically a high-resource language like English) as an intermediary to translate between a **source language** and a **target language** when there is no direct parallel data available. These","pivoting, pivoting$_{\rm m}$",4.276
+kvpress,full_replacement,0.01,"In the context of **zero-shot translation**, **pivot-based baselines** refer to a class of methods that use a **pivot language** (typically a high-resource language like English) as an intermediary to translate between a **source language** and a **target language** when there is no direct parallel data available. These",firstly translates a source language into the pivot language which is later translated to the target language,4.286
+kvpress,full_replacement,0.01,"Based on the provided paper, the authors conducted experiments on the following **datasets**:
+
+---
+
+### **1. Europarl Dataset**
+- **Description**: A multilingual parallel corpus containing data in multiple languages, commonly used for evaluating zero-shot translation performance.
+- **Language Pairs Evaluated**:
+  - **French-","Europarl, MultiUN",4.287
+kvpress,full_replacement,0.01,"Based on the provided paper, the authors conducted experiments on the following **datasets**:
+
+---
+
+### **1. Europarl Dataset**
+- **Description**: A multilingual parallel corpus containing data in multiple languages, commonly used for evaluating zero-shot translation performance.
+- **Language Pairs Evaluated**:
+  - **French-","Europarl BIBREF31, MultiUN BIBREF32",4.289
+kvpress,full_replacement,0.01,"The paper explores **zero-shot translation** scenarios, where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**. The goal is to enable **zero-shot translation** from source to target without direct parallel data by leveraging **cross-lingual pre-training**","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",4.279
+kvpress,full_replacement,0.01,"The paper explores **zero-shot translation** scenarios, where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**. The goal is to enable **zero-shot translation** from source to target without direct parallel data by leveraging **cross-lingual pre-training**","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",4.285
+kvpress,full_replacement,0.01,"In this work, the following **named entity recognition (NER) models** were evaluated on the proposed benchmark dataset for the **Armenian language**:
+
+---
+
+### ✅ **1. Stanford NER (Conditional Random Fields - CRF)**
+- **Description**: A traditional CRF-based model that uses lexical and","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",4.175
+kvpress,full_replacement,0.01,"In this work, the following **named entity recognition (NER) models** were evaluated on the proposed benchmark dataset for the **Armenian language**:
+
+---
+
+### ✅ **1. Stanford NER (Conditional Random Fields - CRF)**
+- **Description**: A traditional CRF-based model that uses lexical and","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",4.392
+kvpress,full_replacement,0.01,"The text you provided is a **research paper** or **technical report** that discusses the development of **named entity recognition (NER)** resources for the **Armenian language**. It includes:
+
+- **Introduction** to the problem of NER in Armenian.
+- **Literature review** of existing methods for N",ilur.am,4.174
+kvpress,full_replacement,0.01,"The text you provided is a **research paper** or **technical report** that discusses the development of **named entity recognition (NER)** resources for the **Armenian language**. It includes:
+
+- **Introduction** to the problem of NER in Armenian.
+- **Literature review** of existing methods for N",links between Wikipedia articles to generate sequences of named-entity annotated tokens,4.177
+kvpress,full_replacement,0.01,"Based on the detailed description provided in the text, **no crowdsourcing platform was used for manual annotations** in the creation of the gold-standard test corpus for the Armenian language.
+
+### Key Points Supporting This Conclusion:
+
+1. **Manual Annotation Process**:
+   - The text explicitly states that the **gold-standard test dataset**",No,4.17
+kvpress,full_replacement,0.01,"Based on the detailed description provided in the text, **no crowdsourcing platform was used for manual annotations** in the creation of the gold-standard test corpus for the Armenian language.
+
+### Key Points Supporting This Conclusion:
+
+1. **Manual Annotation Process**:
+   - The text explicitly states that the **gold-standard test dataset**",No,4.162
+kvpress,full_replacement,0.01,"The topics pulled from Reddit in the context of this research are primarily those that are associated with **high levels of dogmatism**, as identified through the analysis of linguistic features and user behavior. These topics are not limited to a single domain but span a wide range of subjects that are commonly discussed on Reddit. Here is a","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",4.319
+kvpress,full_replacement,0.01,"The topics pulled from Reddit in the context of this research are primarily those that are associated with **high levels of dogmatism**, as identified through the analysis of linguistic features and user behavior. These topics are not limited to a single domain but span a wide range of subjects that are commonly discussed on Reddit. Here is a","training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",4.309
+kvpress,full_replacement,0.01,The predictive model described in the text is a **statistical model of dogmatism** that is trained to classify **dogmatic posts** from **Reddit**. This model is built using **linguistic features** derived from psychological theories of dogmatism and is designed to predict the level of dogmatism in,logistic regression models,4.311
+kvpress,full_replacement,0.25,"In the paper, the authors compare their proposed **cross-lingual pretraining-based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### **Multilingual NMT (MNMT)**
+
+Multilingual Neural Machine Translation (MNMT) is a widely studied approach that trains a single model to handle translation between","BIBREF19, BIBREF20",4.31
+kvpress,full_replacement,0.25,"In the paper, the authors compare their proposed **cross-lingual pretraining-based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### **Multilingual NMT (MNMT)**
+
+Multilingual Neural Machine Translation (MNMT) is a widely studied approach that trains a single model to handle translation between",multilingual NMT (MNMT) BIBREF19,4.282
+kvpress,full_replacement,0.25,"Based on the context provided, **pivot-based baselines** refer to a common strategy in Neural Machine Translation (NMT) for handling low-resource or zero-resource language pairs. The key idea is to use a **pivot language** (typically a high-resource language like English) as an intermediary to translate between a source and","pivoting, pivoting$_{\rm m}$",4.28
+kvpress,full_replacement,0.25,"Based on the context provided, **pivot-based baselines** refer to a common strategy in Neural Machine Translation (NMT) for handling low-resource or zero-resource language pairs. The key idea is to use a **pivot language** (typically a high-resource language like English) as an intermediary to translate between a source and",firstly translates a source language into the pivot language which is later translated to the target language,4.282
+kvpress,full_replacement,0.25,"Based on the introduction and experimental sections of the paper, the authors evaluated their proposed cross-lingual pre-training based transfer approach on the following **datasets**:
+
+### **1. Europarl**
+- **Languages involved**: 
+  - **Fr-En-Es** (French → English → Spanish)
+  - **","Europarl, MultiUN",4.283
+kvpress,full_replacement,0.25,"Based on the introduction and experimental sections of the paper, the authors evaluated their proposed cross-lingual pre-training based transfer approach on the following **datasets**:
+
+### **1. Europarl**
+- **Languages involved**: 
+  - **Fr-En-Es** (French → English → Spanish)
+  - **","Europarl BIBREF31, MultiUN BIBREF32",4.276
+kvpress,full_replacement,0.25,"The paper explores **cross-lingual pre-training methods** for **zero-shot translation**, specifically focusing on **low-resource or zero-resource language pairs** where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**.
+
+### Key Language Pairs Explored","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",4.278
+kvpress,full_replacement,0.25,"The paper explores **cross-lingual pre-training methods** for **zero-shot translation**, specifically focusing on **low-resource or zero-resource language pairs** where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**.
+
+### Key Language Pairs Explored","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",4.285
+kvpress,full_replacement,0.25,"Based on the introduction and the detailed description provided, the following **named entity recognition (NER) models** were evaluated in the work:
+
+---
+
+### **1. Stanford Named Entity Recognizer (NER)**
+- **Model Type**: A **CRF (Conditional Random Fields)** model that uses **lexical and contextual features**","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",4.162
+kvpress,full_replacement,0.25,"Based on the introduction and the detailed description provided, the following **named entity recognition (NER) models** were evaluated in the work:
+
+---
+
+### **1. Stanford Named Entity Recognizer (NER)**
+- **Model Type**: A **CRF (Conditional Random Fields)** model that uses **lexical and contextual features**","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",4.158
+kvpress,full_replacement,0.25,"The news sentences in your text are **not sourced from a news article**. Instead, they are **academic text** from a **research paper** or **technical report**. This text is a **natural language processing (NLP)** research paper that discusses the **development of named entity recognition (NER) systems for",ilur.am,4.159
+kvpress,full_replacement,0.25,"The news sentences in your text are **not sourced from a news article**. Instead, they are **academic text** from a **research paper** or **technical report**. This text is a **natural language processing (NLP)** research paper that discusses the **development of named entity recognition (NER) systems for",links between Wikipedia articles to generate sequences of named-entity annotated tokens,4.164
+kvpress,full_replacement,0.25,"Based on the introduction and the detailed description of the work, **no**, the authors did **not** use a **c** **o** **u** **r** **d** **s** **o** **u** **r** **c** **i** **n** **g** **i",No,4.158
+kvpress,full_replacement,0.25,"Based on the introduction and the detailed description of the work, **no**, the authors did **not** use a **c** **o** **u** **r** **d** **s** **o** **u** **r** **c** **i** **n** **g** **i",No,4.164
+kvpress,full_replacement,0.25,"The topics pulled from Reddit in the context of the study are diverse and cover a wide range of subjects, including but not limited to:
+
+### **Key Topics from Reddit:**
+1. **Politics** – Subreddits like *DebateAChristian*, *ukpolitics*, and *politics* are highlighted as","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",4.309
+kvpress,full_replacement,0.25,"The topics pulled from Reddit in the context of the study are diverse and cover a wide range of subjects, including but not limited to:
+
+### **Key Topics from Reddit:**
+1. **Politics** – Subreddits like *DebateAChristian*, *ukpolitics*, and *politics* are highlighted as","training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",4.3
+kvpress,full_replacement,0.25,"The predictive model described in the text is a **statistical model of dogmatism** that is trained on a corpus of 5,000 Reddit posts, each annotated with a **dogmatism score**. This model is designed to:
+
+1. **Identify and quantify dogmatism** in text",logistic regression models,4.299
+kvpress,full_replacement,0.5,"The paper compares several **multilingual approaches** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **zero-shot translation**. The key multilingual approaches that are compared include:
+
+---
+
+### **1. Multilingual Neural Machine Translation (MNT)**
+- **Definition**: MNT refers","BIBREF19, BIBREF20",4.287
+kvpress,full_replacement,0.5,"The paper compares several **multilingual approaches** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **zero-shot translation**. The key multilingual approaches that are compared include:
+
+---
+
+### **1. Multilingual Neural Machine Translation (MNT)**
+- **Definition**: MNT refers",multilingual NMT (MNMT) BIBREF19,4.282
+kvpress,full_replacement,0.5,"The **""pivot-based"" methods** in the context of **Neural Machine Translation (NMT)** refer to a class of approaches that **use a third language (the pivot language)** as an intermediary to translate between a source language and a target language. These methods are particularly useful when **direct translation between the source","pivoting, pivoting$_{\rm m}$",4.307
+kvpress,full_replacement,0.5,"The **""pivot-based"" methods** in the context of **Neural Machine Translation (NMT)** refer to a class of approaches that **use a third language (the pivot language)** as an intermediary to translate between a source language and a target language. These methods are particularly useful when **direct translation between the source",firstly translates a source language into the pivot language which is later translated to the target language,4.295
+kvpress,full_replacement,0.5,"Based on the provided paper, the authors conducted experiments using the following **datasets**:
+
+### **Experiments ::: Dataset Summary**
+
+1. **Expirarl (European Parliament Dataset)**  
+   - **Language Pairs Tested:**
+     - **French → English → Spanish (Fr-En-Es)**
+     -","Europarl, MultiUN",4.28
+kvpress,full_replacement,0.5,"Based on the provided paper, the authors conducted experiments using the following **datasets**:
+
+### **Experiments ::: Dataset Summary**
+
+1. **Expirarl (European Parliament Dataset)**  
+   - **Language Pairs Tested:**
+     - **French → English → Spanish (Fr-En-Es)**
+     -","Europarl BIBREF31, MultiUN BIBREF32",4.281
+kvpress,full_replacement,0.5,"The paper discusses **language pairs** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **low-resource and zero-resource language pairs**. Here are the key language pairs and related concepts discussed in the paper:
+
+---
+
+### **Language Pairs Discussed**
+
+1. **Low-Resource Language","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",4.275
+kvpress,full_replacement,0.5,"The paper discusses **language pairs** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **low-resource and zero-resource language pairs**. Here are the key language pairs and related concepts discussed in the paper:
+
+---
+
+### **Language Pairs Discussed**
+
+1. **Low-Resource Language","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",4.281
+kvpress,full_replacement,0.5,"The **neural models** that were **evaluated** in this work are:
+
+1. **Stanford NER** – A **CRF (Conditional Random Field)** model based on **lexical and contextual features** such as:
+   - The current word
+   - Character-level n-grams (up to length","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",4.16
+kvpress,full_replacement,0.5,"The **neural models** that were **evaluated** in this work are:
+
+1. **Stanford NER** – A **CRF (Conditional Random Field)** model based on **lexical and contextual features** such as:
+   - The current word
+   - Character-level n-grams (up to length","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",4.154
+kvpress,full_replacement,0.5,"The text you've provided is a **research paper** written in **English**, and it is **not a news source**. It is a **scientific paper** that discusses the **development of Named Entity Recognition (NER) systems for the Armenian language**. The paper is structured as follows:
+
+---
+
+### **Summary of",ilur.am,4.153
+kvpress,full_replacement,0.5,"The text you've provided is a **research paper** written in **English**, and it is **not a news source**. It is a **scientific paper** that discusses the **development of Named Entity Recognition (NER) systems for the Armenian language**. The paper is structured as follows:
+
+---
+
+### **Summary of",links between Wikipedia articles to generate sequences of named-entity annotated tokens,4.165
+kvpress,full_replacement,0.5,"Based on the information provided in your text, **no, they did not use a crowdsourcing platform for manual annotation**. Instead, the authors of the work focused on **automated approaches** to generate the annotated data for the Armenian language, as manual annotation was deemed too costly and impractical, especially given the lack",No,4.168
+kvpress,full_replacement,0.5,"Based on the information provided in your text, **no, they did not use a crowdsourcing platform for manual annotation**. Instead, the authors of the work focused on **automated approaches** to generate the annotated data for the Armenian language, as manual annotation was deemed too costly and impractical, especially given the lack",No,4.162
+kvpress,full_replacement,0.5,"The topics that are **pulled from Reddit** in the provided text are **social media discussion communities**, particularly **subreddits**. These subreddits are **sub-communities on Reddit** that are **focused around specific interests or topics**, such as **politics, technology, religion, and others**.","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",4.3
+kvpress,full_replacement,0.5,"The topics that are **pulled from Reddit** in the provided text are **social media discussion communities**, particularly **subreddits**. These subreddits are **sub-communities on Reddit** that are **focused around specific interests or topics**, such as **politics, technology, religion, and others**.","training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",4.299
+kvpress,full_replacement,0.5,"The **predictive model** described in the passage is a **statistical model of dogmatism**. This model is designed to:
+
+1. **Identify and quantify dogmatism** in natural language, based on linguistic features such as certainty, tentativeness, and other indicators of dogmatic or non-d",logistic regression models,4.296
+kvpress,full_replacement,0.75,"Based on the provided text, the paper discusses **multilingual approaches** that are compared in the context of **multilingual machine translation (MMT)**, particularly in the **multilingual settings** where **translation is performed between multiple languages**. The specific multilingual approaches that are compared include:
+
+### 1. **","BIBREF19, BIBREF20",4.277
+kvpress,full_replacement,0.75,"Based on the provided text, the paper discusses **multilingual approaches** that are compared in the context of **multilingual machine translation (MMT)**, particularly in the **multilingual settings** where **translation is performed between multiple languages**. The specific multilingual approaches that are compared include:
+
+### 1. **",multilingual NMT (MNMT) BIBREF19,4.277
+kvpress,full_replacement,0.75,"Based on the provided text, the **""what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what","pivoting, pivoting$_{\rm m}$",4.278
+kvpress,full_replacement,0.75,"Based on the provided text, the **""what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what",firstly translates a source language into the pivot language which is later translated to the target language,4.306
+kvpress,full_replacement,0.75,"Based on the provided text, the paper discusses experiments involving the following **datasets**:
+
+- **Europarl** (BIBREF31): This dataset is used for experiments involving the translation of languages such as French → English → Spanish, German → English → French, and Romanian → English → German. The dataset","Europarl, MultiUN",4.273
+kvpress,full_replacement,0.75,"Based on the provided text, the paper discusses experiments involving the following **datasets**:
+
+- **Europarl** (BIBREF31): This dataset is used for experiments involving the translation of languages such as French → English → Spanish, German → English → French, and Romanian → English → German. The dataset","Europarl BIBREF31, MultiUN BIBREF32",4.295
+kvpress,full_replacement,0.75,"Based on the provided text, the paper discusses **language pairs** that are relevant to the **NMT** (Neural Machine Translation) task, particularly those involving **low-resource** or **zero-resource** language pairs. The main focus is on **low-resource language pairs** such as **Arabic → Spanish**,","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",4.287
+kvpress,full_replacement,0.75,"Based on the provided text, the paper discusses **language pairs** that are relevant to the **NMT** (Neural Machine Translation) task, particularly those involving **low-resource** or **zero-resource** language pairs. The main focus is on **low-resource language pairs** such as **Arabic → Spanish**,","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",4.285
+kvpress,full_replacement,0.75,"Based on the provided text, the **natural language processing (NLP) models** that were **evaluated** in this work are:
+
+1. **The natural language processing (NLP) models** that were **evaluated** are:
+   - **The natural language processing (NLP) models** that were","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",4.157
+kvpress,full_replacement,0.75,"Based on the provided text, the **natural language processing (NLP) models** that were **evaluated** in this work are:
+
+1. **The natural language processing (NLP) models** that were **evaluated** are:
+   - **The natural language processing (NLP) models** that were","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",4.16
+kvpress,full_replacement,0.75,The text you've provided is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. The paper is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. The paper is,ilur.am,4.16
+kvpress,full_replacement,0.75,The text you've provided is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. The paper is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. The paper is,links between Wikipedia articles to generate sequences of named-entity annotated tokens,4.157
+kvpress,full_replacement,0.75,"Based on the provided text, the answer to the question **""Did they use a crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing",No,4.161
+kvpress,full_replacement,0.75,"Based on the provided text, the answer to the question **""Did they use a crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing platform for the crowdsourcing",No,4.156
+kvpress,full_replacement,0.75,The **topics** that are **pulled** from **Reddit** are **not** the **same** as the **same** **topics** that are **pulled** from **Reddit**. This is a **redundant** **statement**. The **topics** that are **pulled**,"politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",4.296
+kvpress,full_replacement,0.75,The **topics** that are **pulled** from **Reddit** are **not** the **same** as the **same** **topics** that are **pulled** from **Reddit**. This is a **redundant** **statement**. The **topics** that are **pulled**,"training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",4.297
+kvpress,full_replacement,0.75,"The **question** asked in the **Introduction** is: **""What is the **question** asked in the **Introduction**?""**  
+**""I'm supposed to trust the **question** of a **M** **question**? The **question** that **question** **question** **question** **",logistic regression models,4.322
+kvpress,filtering,0.01,"In the paper, the authors compare their proposed **cross-lingual pre-training based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### ✅ **1. Pivot-based Method**
+- **Description**: This is a traditional approach where a source language is translated to a pivot language (e.g., English","BIBREF19, BIBREF20",12.097
+kvpress,filtering,0.01,"In the paper, the authors compare their proposed **cross-lingual pre-training based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### ✅ **1. Pivot-based Method**
+- **Description**: This is a traditional approach where a source language is translated to a pivot language (e.g., English",multilingual NMT (MNMT) BIBREF19,11.962
+kvpress,filtering,0.01,"In the context of **zero-shot translation**, **pivot-based baselines** refer to a class of methods that use a **pivot language** (typically a high-resource language like English) as an intermediary to translate between a **source language** and a **target language** when there is no direct parallel data available. These","pivoting, pivoting$_{\rm m}$",11.967
+kvpress,filtering,0.01,"In the context of **zero-shot translation**, **pivot-based baselines** refer to a class of methods that use a **pivot language** (typically a high-resource language like English) as an intermediary to translate between a **source language** and a **target language** when there is no direct parallel data available. These",firstly translates a source language into the pivot language which is later translated to the target language,11.963
+kvpress,filtering,0.01,"Based on the provided paper, the authors conducted experiments on the following **datasets**:
+
+---
+
+### **1. Europarl Dataset**
+- **Description**: A multilingual parallel corpus containing data in multiple languages, commonly used for evaluating zero-shot translation performance.
+- **Language Pairs Evaluated**:
+  - **French-","Europarl, MultiUN",11.968
+kvpress,filtering,0.01,"Based on the provided paper, the authors conducted experiments on the following **datasets**:
+
+---
+
+### **1. Europarl Dataset**
+- **Description**: A multilingual parallel corpus containing data in multiple languages, commonly used for evaluating zero-shot translation performance.
+- **Language Pairs Evaluated**:
+  - **French-","Europarl BIBREF31, MultiUN BIBREF32",12.026
+kvpress,filtering,0.01,"The paper explores **zero-shot translation** scenarios, where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**. The goal is to enable **zero-shot translation** from source to target without direct parallel data by leveraging **cross-lingual pre-training**","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",11.966
+kvpress,filtering,0.01,"The paper explores **zero-shot translation** scenarios, where **source and target languages have no direct parallel data**, but both have **parallel data with a high-resource pivot language**. The goal is to enable **zero-shot translation** from source to target without direct parallel data by leveraging **cross-lingual pre-training**","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",11.94
+kvpress,filtering,0.01,"In this work, the following **named entity recognition (NER) models** were evaluated on the proposed benchmark dataset for the **Armenian language**:
+
+---
+
+### ✅ **1. Stanford NER (Conditional Random Fields - CRF)**
+- **Description**: A traditional CRF-based model that uses lexical and","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",11.777
+kvpress,filtering,0.01,"In this work, the following **named entity recognition (NER) models** were evaluated on the proposed benchmark dataset for the **Armenian language**:
+
+---
+
+### ✅ **1. Stanford NER (Conditional Random Fields - CRF)**
+- **Description**: A traditional CRF-based model that uses lexical and","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",11.786
+kvpress,filtering,0.01,"The text you provided is a **research paper** or **technical report** that discusses the development of **named entity recognition (NER)** resources for the **Armenian language**. It includes:
+
+- **Introduction** to the problem of NER in Armenian.
+- **Literature review** of existing methods for N",ilur.am,11.818
+kvpress,filtering,0.01,"The text you provided is a **research paper** or **technical report** that discusses the development of **named entity recognition (NER)** resources for the **Armenian language**. It includes:
+
+- **Introduction** to the problem of NER in Armenian.
+- **Literature review** of existing methods for N",links between Wikipedia articles to generate sequences of named-entity annotated tokens,11.84
+kvpress,filtering,0.01,"Based on the detailed description provided in the text, **no crowdsourcing platform was used for manual annotations** in the creation of the gold-standard test corpus for the Armenian language.
+
+### Key Points Supporting This Conclusion:
+
+1. **Manual Annotation Process**:
+   - The text explicitly states that the **gold-standard test dataset**",No,11.875
+kvpress,filtering,0.01,"Based on the detailed description provided in the text, **no crowdsourcing platform was used for manual annotations** in the creation of the gold-standard test corpus for the Armenian language.
+
+### Key Points Supporting This Conclusion:
+
+1. **Manual Annotation Process**:
+   - The text explicitly states that the **gold-standard test dataset**",No,11.814
+kvpress,filtering,0.01,"The topics pulled from Reddit in the context of this research are primarily those that are associated with **high levels of dogmatism**, as identified through the analysis of linguistic features and user behavior. These topics are not limited to a single domain but span a wide range of subjects that are commonly discussed on Reddit. Here is a","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",12.031
+kvpress,filtering,0.01,"The topics pulled from Reddit in the context of this research are primarily those that are associated with **high levels of dogmatism**, as identified through the analysis of linguistic features and user behavior. These topics are not limited to a single domain but span a wide range of subjects that are commonly discussed on Reddit. Here is a","training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",12.014
+kvpress,filtering,0.01,The predictive model described in the text is a **statistical model of dogmatism** that is trained to classify **dogmatic posts** from **Reddit**. This model is built using **linguistic features** derived from psychological theories of dogmatism and is designed to predict the level of dogmatism in,logistic regression models,12.026
+kvpress,filtering,0.25,"In the paper, the authors compare their proposed **cross-lingual pretraining-based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### **Multilingual NMT (MNMT)**
+
+Multilingual Neural Machine Translation (MNMT) is a widely studied approach that trains a single model to handle translation between","BIBREF19, BIBREF20",12.378
+kvpress,filtering,0.25,"In the paper, the authors compare their proposed **cross-lingual pretraining-based transfer approach** with the following **multilingual approaches**:
+
+---
+
+### **Multilingual NMT (MNMT)**
+
+Multilingual Neural Machine Translation (MNMT) is a widely studied approach that trains a single model to handle translation between",multilingual NMT (MNMT) BIBREF19,12.348
+kvpress,filtering,0.25,"Based on the context provided, **""pivot-based baselines""** refer to a common strategy in Neural Machine Translation (NMT) for handling low-resource or zero-resource language pairs. These baselines rely on a **pivot language** (typically a high-resource language like English) to bridge the gap between the source and","pivoting, pivoting$_{\rm m}$",12.359
+kvpress,filtering,0.25,"Based on the context provided, **""pivot-based baselines""** refer to a common strategy in Neural Machine Translation (NMT) for handling low-resource or zero-resource language pairs. These baselines rely on a **pivot language** (typically a high-resource language like English) to bridge the gap between the source and",firstly translates a source language into the pivot language which is later translated to the target language,12.364
+kvpress,filtering,0.25,"Based on the introduction and experimental sections of the paper, the authors evaluated their proposed cross-lingual pretraining-based translation approach on the following **datasets**:
+
+### **1. Europarl Dataset**
+- **Languages and Pairs:**
+  - **French-English-Spanish (Fr-En-Es)","Europarl, MultiUN",12.355
+kvpress,filtering,0.25,"Based on the introduction and experimental sections of the paper, the authors evaluated their proposed cross-lingual pretraining-based translation approach on the following **datasets**:
+
+### **1. Europarl Dataset**
+- **Languages and Pairs:**
+  - **French-English-Spanish (Fr-En-Es)","Europarl BIBREF31, MultiUN BIBREF32",12.323
+kvpress,filtering,0.25,"The paper explores **cross-lingual pre-training methods** for **zero-shot translation**, specifically focusing on **low-resource or zero-resource language pairs**. The key idea is to **leverage a shared language space** between the source and pivot languages, and the pivot and target languages, to enable **smooth transfer**","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",12.353
+kvpress,filtering,0.25,"The paper explores **cross-lingual pre-training methods** for **zero-shot translation**, specifically focusing on **low-resource or zero-resource language pairs**. The key idea is to **leverage a shared language space** between the source and pivot languages, and the pivot and target languages, to enable **smooth transfer**","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",12.365
+kvpress,filtering,0.25,"Based on the introduction and the detailed description provided, the following **named entity recognition (NER) models** were evaluated in the work:
+
+---
+
+### **1. Stanford Named Entity Recognizer (NER)**
+- **Model Type**: A **CRF (Conditional Random Fields)** based model that uses **lexical and contextual features","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",12.063
+kvpress,filtering,0.25,"Based on the introduction and the detailed description provided, the following **named entity recognition (NER) models** were evaluated in the work:
+
+---
+
+### **1. Stanford Named Entity Recognizer (NER)**
+- **Model Type**: A **CRF (Conditional Random Fields)** based model that uses **lexical and contextual features","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",12.084
+kvpress,filtering,0.25,"The news sentences in your text are **not sourced from a news article**. Instead, they are **academic text** or **research paper text**. This is evident from the structure, content, and references in the text, which are typical of a **natural language processing (NLP) research paper**. The",ilur.am,11.975
+kvpress,filtering,0.25,"The news sentences in your text are **not sourced from a news article**. Instead, they are **academic text** or **research paper text**. This is evident from the structure, content, and references in the text, which are typical of a **natural language processing (NLP) research paper**. The",links between Wikipedia articles to generate sequences of named-entity annotated tokens,12.036
+kvpress,filtering,0.25,"Based on the introduction and the detailed description provided, **no**, the authors did **not** use a **c** **o** **u** **r** **d** **s** **o** **u** **r** **c** **i** **n** **g** **i** **",No,12.044
+kvpress,filtering,0.25,"Based on the introduction and the detailed description provided, **no**, the authors did **not** use a **c** **o** **u** **r** **d** **s** **o** **u** **r** **c** **i** **n** **g** **i** **",No,12.06
+kvpress,filtering,0.25,"The topics pulled from Reddit in the context of the research described in the introduction and throughout the paper are diverse and cover a wide range of subjects, including:
+
+### **Key Topics from Reddit:**
+1. **Politics** – Subreddits like *DebateAChristian*, *ukpolitics*, and *Subreddit","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",12.427
+kvpress,filtering,0.25,"The topics pulled from Reddit in the context of the research described in the introduction and throughout the paper are diverse and cover a wide range of subjects, including:
+
+### **Key Topics from Reddit:**
+1. **Politics** – Subreddits like *DebateAChristian*, *ukpolitics*, and *Subreddit","training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",12.402
+kvpress,filtering,0.25,"The predictive model described in the text is a **statistical model of dogmatism** that is trained on a corpus of 5,000 Reddit posts, each annotated with a **dogmatism score** (ranging from 1 to 5). This model is designed to:
+
+1. **Ident",logistic regression models,12.39
+kvpress,filtering,0.5,"The paper compares several **multilingual approaches** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **zero-shot translation**. The key multilingual approaches that are compared include:
+
+---
+
+### **1. Multilingual Neural Machine Translation (MNMT)**
+
+MNMT is a widely studied approach","BIBREF19, BIBREF20",12.284
+kvpress,filtering,0.5,"The paper compares several **multilingual approaches** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **zero-shot translation**. The key multilingual approaches that are compared include:
+
+---
+
+### **1. Multilingual Neural Machine Translation (MNMT)**
+
+MNMT is a widely studied approach",multilingual NMT (MNMT) BIBREF19,12.289
+kvpress,filtering,0.5,"The **""pivot-based"" methods** in the context of **Neural Machine Translation (NMT)** refer to a class of approaches that **use a third language (pivot language)** to **facilitate translation between a source and target language** when direct parallel data is not available. These methods are particularly useful in","pivoting, pivoting$_{\rm m}$",12.321
+kvpress,filtering,0.5,"The **""pivot-based"" methods** in the context of **Neural Machine Translation (NMT)** refer to a class of approaches that **use a third language (pivot language)** to **facilitate translation between a source and target language** when direct parallel data is not available. These methods are particularly useful in",firstly translates a source language into the pivot language which is later translated to the target language,12.326
+kvpress,filtering,0.5,"Based on the provided paper, the **datasets** used in the experiments are:
+
+### **Experiments ::: Setups ::: Datasets**
+
+1. **ExPral** (European Parliament)  
+   - **Language pairs tested**:  
+     - **French-English-Spanish (Fr-En-Es)**  
+","Europarl, MultiUN",12.185
+kvpress,filtering,0.5,"Based on the provided paper, the **datasets** used in the experiments are:
+
+### **Experiments ::: Setups ::: Datasets**
+
+1. **ExPral** (European Parliament)  
+   - **Language pairs tested**:  
+     - **French-English-Spanish (Fr-En-Es)**  
+","Europarl BIBREF31, MultiUN BIBREF32",12.248
+kvpress,filtering,0.5,"The paper discusses **language pairs** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **low-resource and zero-resource language pairs**. Here are the key language pairs and related concepts discussed in the paper:
+
+---
+
+### **Language Pairs Discussed**
+
+1. **Low-Resource Language","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",12.274
+kvpress,filtering,0.5,"The paper discusses **language pairs** in the context of **Neural Machine Translation (NMT)**, particularly focusing on **low-resource and zero-resource language pairs**. Here are the key language pairs and related concepts discussed in the paper:
+
+---
+
+### **Language Pairs Discussed**
+
+1. **Low-Resource Language","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",12.246
+kvpress,filtering,0.5,"The **neural models** that were **evaluated** in this work are:
+
+- **Stanford NER** (a **CRF** (Conditional Random Fields) model based on **lexical and contextual features** such as the **current word**, **character-level n-grams** of up to length 6","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",12.102
+kvpress,filtering,0.5,"The **neural models** that were **evaluated** in this work are:
+
+- **Stanford NER** (a **CRF** (Conditional Random Fields) model based on **lexical and contextual features** such as the **current word**, **character-level n-grams** of up to length 6","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",12.115
+kvpress,filtering,0.5,"The text you've provided is a **research paper** that discusses the development of **Named Entity Recognition (NER)** systems for the **Armenian language**. It is written in **English** and is likely part of a **natural language processing (NLP)** research work, possibly published in a **journal**",ilur.am,12.084
+kvpress,filtering,0.5,"The text you've provided is a **research paper** that discusses the development of **Named Entity Recognition (NER)** systems for the **Armenian language**. It is written in **English** and is likely part of a **natural language processing (NLP)** research work, possibly published in a **journal**",links between Wikipedia articles to generate sequences of named-entity annotated tokens,12.088
+kvpress,filtering,0.5,"Based on the information provided in your text, **did they use a ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **",No,11.957
+kvpress,filtering,0.5,"Based on the information provided in your text, **did they use a ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **",No,11.996
+kvpress,filtering,0.5,"The topics that are **pulled from Reddit** in the context of the research described in the introduction and throughout the paper are **diverse and cover a wide range of subjects**, including:
+
+### **Key Topics from Reddit:**
+1. **Politics** – Subreddits like `DebateAChristian`, `","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",12.298
+kvpress,filtering,0.5,"The topics that are **pulled from Reddit** in the context of the research described in the introduction and throughout the paper are **diverse and cover a wide range of subjects**, including:
+
+### **Key Topics from Reddit:**
+1. **Politics** – Subreddits like `DebateAChristian`, `","training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",12.35
+kvpress,filtering,0.5,"The **predictive model** described in the passage is a **statistical model of dogmatism**. This model is designed to:
+
+1. **Identify and quantify dogmatism** in text by analyzing linguistic patterns, such as the use of certainty, tentativeness, and other linguistic markers.
+2.",logistic regression models,12.327
+kvpress,filtering,0.75,"Based on the provided text, the paper discusses the following **multilingual approaches** in the context of **NMT**:
+
+### Multilingual Approaches Discussed
+
+1. **NMT (Neural Machine Translation)**: This is the primary approach discussed in the paper. The paper focuses on NMT, which has","BIBREF19, BIBREF20",12.263
+kvpress,filtering,0.75,"Based on the provided text, the paper discusses the following **multilingual approaches** in the context of **NMT**:
+
+### Multilingual Approaches Discussed
+
+1. **NMT (Neural Machine Translation)**: This is the primary approach discussed in the paper. The paper focuses on NMT, which has",multilingual NMT (MNMT) BIBREF19,12.259
+kvpress,filtering,0.75,"Based on the provided text, the **""what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what","pivoting, pivoting$_{\rm m}$",12.198
+kvpress,filtering,0.75,"Based on the provided text, the **""what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what are the what",firstly translates a source language into the pivot language which is later translated to the target language,12.126
+kvpress,filtering,0.75,"Based on the provided text, the paper discusses the following **datasets**:
+
+- **Euro** (Euro**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**","Europarl, MultiUN",12.165
+kvpress,filtering,0.75,"Based on the provided text, the paper discusses the following **datasets**:
+
+- **Euro** (Euro**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**","Europarl BIBREF31, MultiUN BIBREF32",12.207
+kvpress,filtering,0.75,"Based on the provided text, the paper discusses **language pairs** that are relevant to the **NMT (Neural Machine Translation)** task. The main focus is on **low-resource language pairs**, such as **Arabic → Spanish**, and the **high-resource language** such as **English**. The paper also","De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",12.151
+kvpress,filtering,0.75,"Based on the provided text, the paper discusses **language pairs** that are relevant to the **NMT (Neural Machine Translation)** task. The main focus is on **low-resource language pairs**, such as **Arabic → Spanish**, and the **high-resource language** such as **English**. The paper also","French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De), Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation",12.225
+kvpress,filtering,0.75,"Based on the provided text, the **natural language processing (NLP)** **models** that were **evaluated** in this work are:
+
+- **The models** that were **evaluated** in this work are **not explicitly named** in the text. However, the **models** that were **evaluated","Stanford NER, spaCy 2.0 , recurrent model with a CRF top layer",11.999
+kvpress,filtering,0.75,"Based on the provided text, the **natural language processing (NLP)** **models** that were **evaluated** in this work are:
+
+- **The models** that were **evaluated** in this work are **not explicitly named** in the text. However, the **models** that were **evaluated","Stanford NER, spaCy 2.0, recurrent model with a CRF top layer",11.981
+kvpress,filtering,0.75,The text you've provided is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. It is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. It is a **,ilur.am,12.055
+kvpress,filtering,0.75,The text you've provided is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. It is a **research paper** written by **Klesti Hoxhax** and **Artur Baxhax**. It is a **,links between Wikipedia articles to generate sequences of named-entity annotated tokens,12.008
+kvpress,filtering,0.75,"Based on the provided text, the answer to the question **""Did they use a crowdsourcing platform for the crowdsourcing platform?""** is **No**. The text does not mention the use of a crowdsourcing platform for the crowdsourcing platform. Instead, the authors of the text describe the use of a crowdsourcing",No,11.974
+kvpress,filtering,0.75,"Based on the provided text, the answer to the question **""Did they use a crowdsourcing platform for the crowdsourcing platform?""** is **No**. The text does not mention the use of a crowdsourcing platform for the crowdsourcing platform. Instead, the authors of the text describe the use of a crowdsourcing",No,12.012
+kvpress,filtering,0.75,The **topics** that are **pulled** from **Reddit** are **not** the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the,"politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",12.148
+kvpress,filtering,0.75,The **topics** that are **pulled** from **Reddit** are **not** the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the **same** as the,"training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit",12.171
+kvpress,filtering,0.75,"The **question** asked in the **Introduction** is: **""What is the **question** asked in the **Introduction**?""** is a ****question** asked in the **Introduction**?""** is a ****question** asked in the **Introduction**?""** is a ****question** asked in",logistic regression models,12.116
