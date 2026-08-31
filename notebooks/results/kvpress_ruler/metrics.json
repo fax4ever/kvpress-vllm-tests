@@ -1,0 +1,686 @@
+{
+  "no_press__0.0__4096": {
+    "cwe": {
+      "string_match": 100.0
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 100.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 80.0
+    },
+    "qa_2": {
+      "string_match": 62.5
+    }
+  },
+  "no_press__0.0__8192": {
+    "cwe": {
+      "string_match": 90.0
+    },
+    "fwe": {
+      "string_match": 94.44
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 100.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 100.0
+    },
+    "qa_2": {
+      "string_match": 50.0
+    }
+  },
+  "full_replacement__0.01__4096": {
+    "cwe": {
+      "string_match": 96.67
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 100.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 60.0
+    },
+    "qa_2": {
+      "string_match": 62.5
+    }
+  },
+  "full_replacement__0.01__8192": {
+    "cwe": {
+      "string_match": 90.0
+    },
+    "fwe": {
+      "string_match": 94.44
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 100.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 100.0
+    },
+    "qa_2": {
+      "string_match": 62.5
+    }
+  },
+  "full_replacement__0.25__4096": {
+    "cwe": {
+      "string_match": 96.67
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 50.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 60.0
+    },
+    "qa_2": {
+      "string_match": 37.5
+    }
+  },
+  "full_replacement__0.25__8192": {
+    "cwe": {
+      "string_match": 93.33
+    },
+    "fwe": {
+      "string_match": 88.89
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 50.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  },
+  "full_replacement__0.5__4096": {
+    "cwe": {
+      "string_match": 96.67
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 75.0
+    },
+    "niah_multikey_2": {
+      "string_match": 50.0
+    },
+    "niah_multikey_3": {
+      "string_match": 50.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  },
+  "full_replacement__0.5__8192": {
+    "cwe": {
+      "string_match": 93.33
+    },
+    "fwe": {
+      "string_match": 88.89
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 50.0
+    },
+    "niah_multikey_3": {
+      "string_match": 0.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  },
+  "full_replacement__0.75__4096": {
+    "cwe": {
+      "string_match": 76.67
+    },
+    "fwe": {
+      "string_match": 50.0
+    },
+    "niah_multikey_1": {
+      "string_match": 25.0
+    },
+    "niah_multikey_2": {
+      "string_match": 0.0
+    },
+    "niah_multikey_3": {
+      "string_match": 0.0
+    },
+    "niah_multiquery": {
+      "string_match": 95.83
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 0.0
+    }
+  },
+  "full_replacement__0.75__8192": {
+    "cwe": {
+      "string_match": 80.0
+    },
+    "fwe": {
+      "string_match": 77.78
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 0.0
+    },
+    "niah_multikey_3": {
+      "string_match": 0.0
+    },
+    "niah_multiquery": {
+      "string_match": 95.83
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 85.71
+    },
+    "qa_1": {
+      "string_match": 0.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  },
+  "filtering__0.01__4096": {
+    "cwe": {
+      "string_match": 96.67
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 100.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 60.0
+    },
+    "qa_2": {
+      "string_match": 62.5
+    }
+  },
+  "filtering__0.01__8192": {
+    "cwe": {
+      "string_match": 90.0
+    },
+    "fwe": {
+      "string_match": 94.44
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 100.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 100.0
+    },
+    "qa_2": {
+      "string_match": 62.5
+    }
+  },
+  "filtering__0.25__4096": {
+    "cwe": {
+      "string_match": 96.67
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 50.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 60.0
+    },
+    "qa_2": {
+      "string_match": 37.5
+    }
+  },
+  "filtering__0.25__8192": {
+    "cwe": {
+      "string_match": 93.33
+    },
+    "fwe": {
+      "string_match": 88.89
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 100.0
+    },
+    "niah_multikey_3": {
+      "string_match": 50.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  },
+  "filtering__0.5__4096": {
+    "cwe": {
+      "string_match": 96.67
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 75.0
+    },
+    "niah_multikey_2": {
+      "string_match": 50.0
+    },
+    "niah_multikey_3": {
+      "string_match": 50.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  },
+  "filtering__0.5__8192": {
+    "cwe": {
+      "string_match": 90.0
+    },
+    "fwe": {
+      "string_match": 83.33
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 50.0
+    },
+    "niah_multikey_3": {
+      "string_match": 0.0
+    },
+    "niah_multiquery": {
+      "string_match": 100.0
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  },
+  "filtering__0.75__4096": {
+    "cwe": {
+      "string_match": 70.0
+    },
+    "fwe": {
+      "string_match": 50.0
+    },
+    "niah_multikey_1": {
+      "string_match": 25.0
+    },
+    "niah_multikey_2": {
+      "string_match": 0.0
+    },
+    "niah_multikey_3": {
+      "string_match": 0.0
+    },
+    "niah_multiquery": {
+      "string_match": 87.5
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 100.0
+    },
+    "qa_1": {
+      "string_match": 20.0
+    },
+    "qa_2": {
+      "string_match": 0.0
+    }
+  },
+  "filtering__0.75__8192": {
+    "cwe": {
+      "string_match": 83.33
+    },
+    "fwe": {
+      "string_match": 77.78
+    },
+    "niah_multikey_1": {
+      "string_match": 100.0
+    },
+    "niah_multikey_2": {
+      "string_match": 0.0
+    },
+    "niah_multikey_3": {
+      "string_match": 0.0
+    },
+    "niah_multiquery": {
+      "string_match": 95.83
+    },
+    "niah_multivalue": {
+      "string_match": 100.0
+    },
+    "niah_single_1": {
+      "string_match": 100.0
+    },
+    "niah_single_2": {
+      "string_match": 100.0
+    },
+    "niah_single_3": {
+      "string_match": 85.71
+    },
+    "qa_1": {
+      "string_match": 0.0
+    },
+    "qa_2": {
+      "string_match": 12.5
+    }
+  }
+}

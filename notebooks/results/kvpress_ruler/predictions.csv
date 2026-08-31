@@ -1,0 +1,1279 @@
+task,answer,predicted_answer,framework,press,compression_ratio,context_length,elapsed_sec
+niah_single_2,['6188935'],**6188935**.,kvpress,no_press,0.0,4096,1.452
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],"as follows:- **Swift-pigeon**: 7373495  - **Mammoth-caution**: 6573679  - **Homeless-octagon**: 1113537  - **Impossible-frenzy**: 8385715  These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the listed categories.",kvpress,no_press,0.0,4096,6.618
+qa_1,['Inland Empire' 'Temecula and Murrieta'],San Diego metropolitan area,kvpress,no_press,0.0,4096,0.547
+niah_single_2,['8387112'],**8387112**.,kvpress,no_press,0.0,4096,1.092
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50**.,kvpress,no_press,0.0,4096,2.826
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are explicitly stated in the text and are associated with the respective terms.,kvpress,no_press,0.0,4096,5.518
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,no_press,0.0,4096,2.237
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,no_press,0.0,4096,2.233
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],as follows:- **Unequaled-atmosphere**: 5521644  - **Adamant-waveform**: 2532210  - **Flagrant-woodshed**: 1348050  - **Smelly-fascia**: 1674975  These numbers are embedded in the text and are associated with the specific terms mentioned.,kvpress,no_press,0.0,4096,4.929
+niah_single_2,['2147909'],**2147909**.,kvpress,no_press,0.0,4096,0.934
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,no_press,0.0,4096,2.181
+niah_multikey_1,['2089275'],**2089275**.,kvpress,no_press,0.0,4096,0.935
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **Flipped-out-paperwork**: **4350161**- **Numerous-jury**: **1752920**- **Tacit-fluke**: **3446428**- **Various-coverall**: **7271672**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the specified categories.",kvpress,no_press,0.0,4096,5.188
+niah_single_1,['1229419'],:**1229419**,kvpress,no_press,0.0,4096,0.92
+niah_single_1,['6338112'],:**6338112**,kvpress,no_press,0.0,4096,0.92
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,no_press,0.0,4096,2.177
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],"gmebgb, qsyeiu, mgikxv.",kvpress,no_press,0.0,4096,1.137
+niah_multikey_2,['4412989'],**4412989**.,kvpress,no_press,0.0,4096,0.994
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Palm Springs,kvpress,no_press,0.0,4096,0.378
+niah_multikey_2,['5444179'],**5444179**.,kvpress,no_press,0.0,4096,0.999
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],":1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for mature-commander.""",kvpress,no_press,0.0,4096,4.095
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,no_press,0.0,4096,2.283
+niah_single_2,['7067228'],**7067228**.,kvpress,no_press,0.0,4096,0.931
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The NP-complete Boolean satisfiability problem.,kvpress,no_press,0.0,4096,0.69
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,no_press,0.0,4096,0.516
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for their profession as writers.,kvpress,no_press,0.0,4096,1.224
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],"**frxhxt**, **qyhgtv**, **kxedzq**.",kvpress,no_press,0.0,4096,1.455
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,no_press,0.0,4096,2.331
+qa_2,['1943'],1943,kvpress,no_press,0.0,4096,0.588
+niah_single_2,['5255545'],**5255545**.,kvpress,no_press,0.0,4096,0.931
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],":1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for bloody-pillow.""",kvpress,no_press,0.0,4096,4.091
+niah_multikey_1,['9692311'],**9692311**.,kvpress,no_press,0.0,4096,0.932
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],as follows:- **boundless-icon**: 8702329  - **melodic-linkage**: 4942645  - **obeisant-blowgun**: 8517846  - **scattered-lawn**: 7352484  These numbers are explicitly stated in the text and are associated with the respective categories.,kvpress,no_press,0.0,4096,4.76
+niah_single_1,['9648751'],:**9648751**,kvpress,no_press,0.0,4096,0.917
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,no_press,0.0,4096,0.568
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,no_press,0.0,4096,0.309
+niah_single_2,['7754864'],**7754864**.,kvpress,no_press,0.0,4096,0.93
+niah_single_2,['3182975'],**3182975**.,kvpress,no_press,0.0,4096,0.93
+niah_single_2,['9240971'],**9240971**.,kvpress,no_press,0.0,4096,0.93
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**87e504ce-1c17-4c69-9535-99c6c379b61d**.,kvpress,no_press,0.0,4096,2.44
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,no_press,0.0,4096,2.281
+niah_single_1,['8290770'],:**8290770**,kvpress,no_press,0.0,4096,0.919
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. **retention**  2. **atelier**  3. **snake**  4. **agriculture**  5. **junket**  6. **decline**  7. **waitress**  8. **uniformity**  9. **ask**  10. **church**,kvpress,no_press,0.0,4096,4.16
+fwe,['dznynv' 'pwvgox' 'skmtng'],"dznynv, pwvgox, jgaxre.",kvpress,no_press,0.0,4096,1.195
+niah_single_1,['7089806'],:**7089806**,kvpress,no_press,0.0,4096,0.919
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],"dtpgpe, pvyqym, and pkwkfe.",kvpress,no_press,0.0,4096,1.192
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],":1. **9124385**  2. **7972975**  3. **8792046**  4. **8375356**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for different-harbor.""",kvpress,no_press,0.0,4096,4.139
+qa_2,['defensive coordinator'],defensive coordinator,kvpress,no_press,0.0,4096,0.449
+niah_single_1,['9646569'],:**9646569**,kvpress,no_press,0.0,4096,0.918
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**d33343eb-08ec-4357-bddb-bed37e4648a5**.,kvpress,no_press,0.0,4096,2.071
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']",1. bandana  2. barn  3. spiffy  4. lottery  5. damp  6. nifty  7. buze  8. grid  9. easy  10. airfield,kvpress,no_press,0.0,4096,2.988
+qa_2,['John John Florence'],John John Florence,kvpress,no_press,0.0,4096,0.577
+qa_2,['1944'],1944,kvpress,no_press,0.0,4096,0.576
+niah_multikey_1,['5942041'],**5942041**.,kvpress,no_press,0.0,4096,0.932
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for difficult-locust.""",kvpress,no_press,0.0,4096,4.144
+qa_2,['2014'],2014,kvpress,no_press,0.0,4096,0.661
+fwe,['fjnmov' 'olkknp' 'pwkedz'],"fjnmov, olkknp, pwkedz.",kvpress,no_press,0.0,4096,1.048
+qa_2,"['Istanbul, Turkey']",Istanbul,kvpress,no_press,0.0,4096,0.38
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for ambiguous-cup.""",kvpress,no_press,0.0,4096,4.093
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],"as follows:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  These numbers are embedded in the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,no_press,0.0,4096,5.072
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. **cast**  2. **personnel**  3. **sassy**  4. **fridge**  5. **currant**  6. **ripe**  7. **clever**  8. **restroom**  9. **wisdom**  10. **energy**,kvpress,no_press,0.0,4096,4.058
+niah_multikey_1,['4161264'],**4161264**.,kvpress,no_press,0.0,4096,0.934
+niah_single_1,['2147909'],:**2147909**,kvpress,no_press,0.0,4096,0.919
+fwe,['evdlxb' 'okwipf' 'piwkmk'],"evdlxb, okwipf, piwkmk.",kvpress,no_press,0.0,4096,1.139
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**444dc21c-ffe6-4a54-a5aa-aa628295a3f9**.,kvpress,no_press,0.0,4096,2.18
+niah_single_2,['3846949'],**3846949**.,kvpress,no_press,0.0,8192,1.36
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded in the text as part of the ""special magic numbers"" references.",kvpress,no_press,0.0,8192,5.24
+qa_1,['Inland Empire' 'Temecula and Murrieta'],the San Diego metropolitan area and the Inland Empire,kvpress,no_press,0.0,8192,1.196
+niah_single_2,['2516313'],**2516313**.,kvpress,no_press,0.0,8192,1.353
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],:**f9285706-577c-4717-836a-58870a5a2698**.,kvpress,no_press,0.0,8192,3.076
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],"as follows:- **Pleasant-awe**: 3290672  - **Odd-library**: 1899447  - **Lacking-spark**: 1160783  - **Elderly-drill**: 6277776  These numbers are explicitly mentioned in the text and are referred to as ""special magic numbers"" in different sections.",kvpress,no_press,0.0,8192,5.409
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,no_press,0.0,8192,2.653
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**af521b94-f186-447a-a794-63208cf6e8b8**,kvpress,no_press,0.0,8192,2.655
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],"as follows:- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded in the text as special markers or references, likely used for internal tracking or identification purposes.",kvpress,no_press,0.0,8192,5.362
+niah_single_2,['3937176'],**3937176**.,kvpress,no_press,0.0,8192,1.349
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,no_press,0.0,8192,2.707
+niah_multikey_1,['8727886'],**8727886**.,kvpress,no_press,0.0,8192,1.293
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],"as follows:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  These numbers are embedded in the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,no_press,0.0,8192,5.612
+niah_single_1,['4769851'],:**4769851**,kvpress,no_press,0.0,8192,1.331
+niah_single_1,['3551903'],:**3551903**,kvpress,no_press,0.0,8192,1.328
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,no_press,0.0,8192,2.654
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],"qplshr, qqhjdc, gmtwsb.",kvpress,no_press,0.0,8192,1.552
+niah_multikey_2,['9086649'],**9086649**.,kvpress,no_press,0.0,8192,1.468
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Palm Springs,kvpress,no_press,0.0,8192,0.72
+niah_multikey_2,['6838180'],**6838180**.,kvpress,no_press,0.0,8192,1.47
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],:1. **4674549**2. **6349877**3. **1491630**4. **1437264**,kvpress,no_press,0.0,8192,3.11
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,no_press,0.0,8192,2.701
+niah_single_2,['5528972'],**5528972**.,kvpress,no_press,0.0,8192,1.349
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The NP-complete Boolean satisfiability problem.,kvpress,no_press,0.0,8192,1.067
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,no_press,0.0,8192,0.84
+qa_2,['author'],novelist,kvpress,no_press,0.0,8192,0.932
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],"rbvoik, rfdzkt, hakvdl.",kvpress,no_press,0.0,8192,1.484
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,no_press,0.0,8192,2.652
+qa_2,['1943'],1992,kvpress,no_press,0.0,8192,1.007
+niah_single_2,['6202210'],**6202210**.,kvpress,no_press,0.0,8192,1.35
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],:1. **9044494**2. **2701688**3. **4784650**4. **7297287**,kvpress,no_press,0.0,8192,3.113
+niah_multikey_1,['3673322'],**3673322**.,kvpress,no_press,0.0,8192,1.295
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],"as follows:- **heavy-penalty**: 8597490  - **many-spear**: 6752216  - **moldy-credential**: 9594877  - **daffy-sun**: 3318275  These numbers are explicitly mentioned in the text and are referred to as ""special magic numbers"" for each of the specified categories.",kvpress,no_press,0.0,8192,5.615
+niah_single_1,['1652868'],:**1652868**,kvpress,no_press,0.0,8192,1.329
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,no_press,0.0,8192,1.112
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,no_press,0.0,8192,0.664
+niah_single_2,['3762152'],**3762152**.,kvpress,no_press,0.0,8192,1.348
+niah_single_2,['4794319'],**4794319**.,kvpress,no_press,0.0,8192,1.348
+niah_single_2,['7189302'],**7189302**.,kvpress,no_press,0.0,8192,1.349
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**1934850a-e8ff-4869-b759-5b46d1264de7**,kvpress,no_press,0.0,8192,2.809
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,no_press,0.0,8192,2.7
+niah_single_1,['4188992'],:**4188992**,kvpress,no_press,0.0,8192,1.331
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']",1. asparagus  2. phrase  3. doctrine  4. snowman  5. vigorous  6. unique  7. gown  8. gelatin  9. singing  10. doctrine,kvpress,no_press,0.0,8192,3.426
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],"qiuwqq, qjiqmp, xuoeem.",kvpress,no_press,0.0,8192,1.544
+niah_single_1,['9852897'],:**9852897**,kvpress,no_press,0.0,8192,1.332
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],"pxvsgw, pysupz, and fmmvgz.",kvpress,no_press,0.0,8192,1.577
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],":1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for roomy-hound.""",kvpress,no_press,0.0,8192,4.514
+qa_2,['defensive coordinator'],defensive coordinator,kvpress,no_press,0.0,8192,0.956
+niah_single_1,['8669093'],:**8669093**,kvpress,no_press,0.0,8192,1.328
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**4f24d4a7-21ac-4998-91e7-7117c5162140**.,kvpress,no_press,0.0,8192,3.014
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']",1. swivel  2. gamy  3. newspaper  4. hunger  5. radio  6. oldie  7. reserve  8. specification  9. pit  10. gamy,kvpress,no_press,0.0,8192,3.501
+qa_2,['John John Florence'],John John Florence,kvpress,no_press,0.0,8192,1.007
+qa_2,['1944'],1944,kvpress,no_press,0.0,8192,1.14
+niah_multikey_1,['4407796'],**4407796**.,kvpress,no_press,0.0,8192,1.289
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**2. **6897789**3. **6276495**4. **7442986**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for spicy-skating.""",kvpress,no_press,0.0,8192,4.267
+qa_2,['2014'],2008,kvpress,no_press,0.0,8192,1.008
+fwe,['pooula' 'prbezn' 'gjksel'],"pooula, gjksel, and prbezn.",kvpress,no_press,0.0,8192,1.425
+qa_2,"['Istanbul, Turkey']","Istanbul, Turkey.",kvpress,no_press,0.0,8192,1.011
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**2. **8475204**3. **1735708**4. **9535166**These numbers are explicitly labeled as ""special magic numbers for rainy-sauce"" in the text.",kvpress,no_press,0.0,8192,4.097
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],"as follows:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are explicitly mentioned in the text and are referred to as ""special magic numbers"" in the context of the discussions provided.",kvpress,no_press,0.0,8192,5.768
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']",1. lute  2. arthur  3. mast  4. curd  5. gastropod  6. actress  7. colonial  8. catacomb  9. absurd  10. orange,kvpress,no_press,0.0,8192,3.609
+niah_multikey_1,['2699372'],**2699372**.,kvpress,no_press,0.0,8192,1.287
+niah_single_1,['2516313'],:**2516313**,kvpress,no_press,0.0,8192,1.328
+fwe,['rlowep' 'rykimj' 'hovqiq'],"rlowep, rykimj, hovqiq.",kvpress,no_press,0.0,8192,1.447
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**3945cac7-3f99-45a7-8af4-b5da33cd1fed**,kvpress,no_press,0.0,8192,2.596
+niah_single_2,['6188935'],**6188935**.,kvpress,full_replacement,0.01,4096,1.112
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],"as follows:- **Swift-pigeon**: 7373495  - **Mammoth-caution**: 6573679  - **Homeless-octagon**: 1113537  - **Impossible-frenzy**: 8385715  These numbers are embedded in the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,full_replacement,0.01,4096,5.793
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The San Diego metropolitan area.,kvpress,full_replacement,0.01,4096,0.635
+niah_single_2,['8387112'],**8387112**.,kvpress,full_replacement,0.01,4096,1.022
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50**.,kvpress,full_replacement,0.01,4096,2.573
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the respective terms.",kvpress,full_replacement,0.01,4096,5.981
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,full_replacement,0.01,4096,2.511
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,full_replacement,0.01,4096,2.509
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],"as follows:- **Unequaled-atmosphere**: **5521644**- **Admant-waveform**: **2532210**- **Flagrant-woodshed**: **1348050**- **Smelly-fascia**: **1674975**These numbers are embedded in the text as part of the author's unique and whimsical style, and they are associated with the specific terms mentioned.",kvpress,full_replacement,0.01,4096,6.392
+niah_single_2,['2147909'],**2147909**.,kvpress,full_replacement,0.01,4096,1.026
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,full_replacement,0.01,4096,2.454
+niah_multikey_1,['2089275'],**2089275**.,kvpress,full_replacement,0.01,4096,1.026
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **numerous-jury**: **1752920**- **flipped-out-paperwork**: **4350161**- **tacit-fluke**: **3446428**- **various-coverall**: **7271672**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the respective categories.",kvpress,full_replacement,0.01,4096,6.048
+niah_single_1,['1229419'],:**1229419**,kvpress,full_replacement,0.01,4096,1.012
+niah_single_1,['6338112'],:**6338112**,kvpress,full_replacement,0.01,4096,1.01
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,full_replacement,0.01,4096,2.449
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],"gmebgb, qsyeiu, mgikxv.",kvpress,full_replacement,0.01,4096,1.26
+niah_multikey_2,['4412989'],:**4412989**.,kvpress,full_replacement,0.01,4096,1.162
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Palm Springs,kvpress,full_replacement,0.01,4096,0.409
+niah_multikey_2,['5444179'],**5444179**.,kvpress,full_replacement,0.01,4096,1.092
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],":1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for mature-commander.""",kvpress,full_replacement,0.01,4096,4.673
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,full_replacement,0.01,4096,2.58
+niah_single_2,['7067228'],**7067228**.,kvpress,full_replacement,0.01,4096,1.024
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The NP-complete knapsack problem.,kvpress,full_replacement,0.01,4096,0.768
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,full_replacement,0.01,4096,0.562
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for writing.,kvpress,full_replacement,0.01,4096,1.184
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],"**frxhxt**, **qyhgtv**, **kxedzq**.",kvpress,full_replacement,0.01,4096,1.622
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,full_replacement,0.01,4096,2.633
+qa_2,['1943'],1943,kvpress,full_replacement,0.01,4096,0.642
+niah_single_2,['5255545'],**5255545**.,kvpress,full_replacement,0.01,4096,1.023
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],":1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for bloody-pillow.""",kvpress,full_replacement,0.01,4096,4.887
+niah_multikey_1,['9692311'],**9692311**.,kvpress,full_replacement,0.01,4096,1.037
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],as follows:- **scattered-lawn**: 7352484  - **melodic-linkage**: 4942645  - **obeisant-blowgun**: 8517846  - **boundless-icon**: 8702329  These numbers are explicitly stated in the text and are associated with the respective terms.,kvpress,full_replacement,0.01,4096,5.453
+niah_single_1,['9648751'],:**9648751**,kvpress,full_replacement,0.01,4096,1.014
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,full_replacement,0.01,4096,0.622
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,full_replacement,0.01,4096,0.334
+niah_single_2,['7754864'],**7754864**.,kvpress,full_replacement,0.01,4096,1.025
+niah_single_2,['3182975'],**3182975**.,kvpress,full_replacement,0.01,4096,1.025
+niah_single_2,['9240971'],**9240971**.,kvpress,full_replacement,0.01,4096,1.025
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**87e504ce-1c17-4c69-9535-99c6c379b61d**.,kvpress,full_replacement,0.01,4096,2.759
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,full_replacement,0.01,4096,2.577
+niah_single_1,['8290770'],:**8290770**,kvpress,full_replacement,0.01,4096,1.014
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. **retention**  2. **atelier**  3. **snake**  4. **agriculture**  5. **junket**  6. **decline**  7. **waitress**  8. **uniformity**  9. **ask**  10. **church**,kvpress,full_replacement,0.01,4096,4.724
+fwe,['dznynv' 'pwvgox' 'skmtng'],"dznynv, pwvgox, jgaxre.",kvpress,full_replacement,0.01,4096,1.323
+niah_single_1,['7089806'],:**7089806**,kvpress,full_replacement,0.01,4096,1.012
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],"dtpgpe, pvyqym, and pkwkfe.",kvpress,full_replacement,0.01,4096,1.324
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],":1. **9124385**  2. **7972975**  3. **8792046**  4. **8375356**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for different-harbor.""",kvpress,full_replacement,0.01,4096,4.73
+qa_2,['defensive coordinator'],defensive coordinator,kvpress,full_replacement,0.01,4096,0.483
+niah_single_1,['9646569'],:**9646569**,kvpress,full_replacement,0.01,4096,1.013
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**d33343eb-08ec-4357-bddb-bed37e4648a5**.,kvpress,full_replacement,0.01,4096,2.346
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']","1. bandana  2. barn  3. spiffy  4. lottery  5. damp  6. nifty  7. grid  8. buze  9. easy  10. barn (tie with ""bandana"" for 1st place, but ""bandana"" appears more frequently)  **Corrected Answer:**  1. bandana  2. barn  3. spiffy  4. lottery  5. damp  6. nifty  7. grid  8. buze  9. easy  10. sp",kvpress,full_replacement,0.01,4096,7.698
+qa_2,['John John Florence'],John John Florence,kvpress,full_replacement,0.01,4096,0.618
+qa_2,['1944'],1944,kvpress,full_replacement,0.01,4096,0.634
+niah_multikey_1,['5942041'],**5942041**.,kvpress,full_replacement,0.01,4096,1.03
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for difficult-locust.""",kvpress,full_replacement,0.01,4096,4.732
+qa_2,['2014'],2014,kvpress,full_replacement,0.01,4096,0.716
+fwe,['fjnmov' 'olkknp' 'pwkedz'],"fjnmov, olkknp, pwkedz.",kvpress,full_replacement,0.01,4096,1.156
+qa_2,"['Istanbul, Turkey']",Istanbul,kvpress,full_replacement,0.01,4096,0.405
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for ambiguous-cup.""",kvpress,full_replacement,0.01,4096,4.668
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],"as follows:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  These numbers are embedded in the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,full_replacement,0.01,4096,5.792
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. **cast**  2. **personnel**  3. **sassy**  4. **fridge**  5. **currant**  6. **ripe**  7. **clever**  8. **restroom**  9. **energy**  10. **wisdom**,kvpress,full_replacement,0.01,4096,4.596
+niah_multikey_1,['4161264'],**4161264**.,kvpress,full_replacement,0.01,4096,1.025
+niah_single_1,['2147909'],:**2147909**,kvpress,full_replacement,0.01,4096,1.013
+fwe,['evdlxb' 'okwipf' 'piwkmk'],"**evdlxb**, **okwipf**, **piwkmk**.",kvpress,full_replacement,0.01,4096,1.561
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**444dc21c-ffe6-4a54-a5aa-aa628295a3f9**.,kvpress,full_replacement,0.01,4096,2.459
+niah_single_2,['3846949'],**3846949**.,kvpress,full_replacement,0.01,8192,1.459
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,full_replacement,0.01,8192,6.116
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The Inland Empire.,kvpress,full_replacement,0.01,8192,0.998
+niah_single_2,['2516313'],**2516313**.,kvpress,full_replacement,0.01,8192,1.45
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],:**f9285706-577c-4717-836a-58870a5a2698**.,kvpress,full_replacement,0.01,8192,3.4
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],"as follows:- **Lacking-spark**: 1160783  - **Odd-library**: 1899447  - **Lacking-spark**: 1160783 (repeated)  - **Elderly-drill**: 6277776  - **Pleasant-awe**: 3290672  These numbers are embedded in the text as examples or references, often in the context of discussing programming, startups, and other technical topics.",kvpress,full_replacement,0.01,8192,8.648
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,full_replacement,0.01,8192,2.955
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**af521b94-f186-447a-a794-63208cf6e8b8**,kvpress,full_replacement,0.01,8192,2.945
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],"as follows:- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded in the text as part of the author's narrative and are likely used as placeholders or for some internal purpose, possibly as a form of code or reference.",kvpress,full_replacement,0.01,8192,6.846
+niah_single_2,['3937176'],**3937176**.,kvpress,full_replacement,0.01,8192,1.451
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,full_replacement,0.01,8192,3.007
+niah_multikey_1,['8727886'],**8727886**.,kvpress,full_replacement,0.01,8192,1.394
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],"as follows:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  These numbers are embedded within the text and are referred to as ""special magic numbers"" in different sections.",kvpress,full_replacement,0.01,8192,6.359
+niah_single_1,['4769851'],:**4769851**,kvpress,full_replacement,0.01,8192,1.436
+niah_single_1,['3551903'],:**3551903**,kvpress,full_replacement,0.01,8192,1.437
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,full_replacement,0.01,8192,2.945
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],"qplshr, qqhjdc, and gmtwsb.",kvpress,full_replacement,0.01,8192,1.763
+niah_multikey_2,['9086649'],**9086649**.,kvpress,full_replacement,0.01,8192,1.573
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Palm Springs,kvpress,full_replacement,0.01,8192,0.762
+niah_multikey_2,['6838180'],:**6838180**,kvpress,full_replacement,0.01,8192,1.574
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],:1. **4674549**2. **6349877**3. **1491630**4. **1437264**,kvpress,full_replacement,0.01,8192,3.487
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,full_replacement,0.01,8192,3.002
+niah_single_2,['5528972'],**5528972**.,kvpress,full_replacement,0.01,8192,1.453
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The NP-complete Boolean satisfiability problem.,kvpress,full_replacement,0.01,8192,1.154
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,full_replacement,0.01,8192,0.894
+qa_2,['author'],novelist,kvpress,full_replacement,0.01,8192,0.966
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],rbvoik  rfdzkt  hakvdl,kvpress,full_replacement,0.01,8192,1.669
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,full_replacement,0.01,8192,2.947
+qa_2,['1943'],1943,kvpress,full_replacement,0.01,8192,1.071
+niah_single_2,['6202210'],**6202210**.,kvpress,full_replacement,0.01,8192,1.454
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],:1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**,kvpress,full_replacement,0.01,8192,3.663
+niah_multikey_1,['3673322'],**3673322**.,kvpress,full_replacement,0.01,8192,1.393
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],as follows:- **heavy-penalty**: 8597490  - **many-spear**: 6752216  - **moldy-credential**: 9594877  - **daffy-sun**: 3318275  These numbers are embedded in the text and are referred to by their respective labels.,kvpress,full_replacement,0.01,8192,5.812
+niah_single_1,['1652868'],:**1652868**,kvpress,full_replacement,0.01,8192,1.435
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,full_replacement,0.01,8192,1.18
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,full_replacement,0.01,8192,0.699
+niah_single_2,['3762152'],**3762152**.,kvpress,full_replacement,0.01,8192,1.455
+niah_single_2,['4794319'],**4794319**.,kvpress,full_replacement,0.01,8192,1.456
+niah_single_2,['7189302'],**7189302**.,kvpress,full_replacement,0.01,8192,1.455
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**1934850a-e8ff-4869-b759-5b46d1264de7**,kvpress,full_replacement,0.01,8192,3.108
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,full_replacement,0.01,8192,3.008
+niah_single_1,['4188992'],:**4188992**,kvpress,full_replacement,0.01,8192,1.436
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']",1. asparagus  2. phrase  3. doctrine  4. snowman  5. vigorous  6. gown  7. unique  8. gelatin  9. singing  10. snowman,kvpress,full_replacement,0.01,8192,3.858
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],"qiuwqq, qjiqmp, xuoeem.",kvpress,full_replacement,0.01,8192,1.682
+niah_single_1,['9852897'],:**9852897**,kvpress,full_replacement,0.01,8192,1.437
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,full_replacement,0.01,8192,2.022
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],":1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for roomy-hound.""",kvpress,full_replacement,0.01,8192,5.093
+qa_2,['defensive coordinator'],defensive coordinator,kvpress,full_replacement,0.01,8192,0.998
+niah_single_1,['8669093'],:**8669093**,kvpress,full_replacement,0.01,8192,1.438
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**4f24d4a7-21ac-4998-91e7-7117c5162140**.,kvpress,full_replacement,0.01,8192,3.38
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']",1. gamy  2. swivel  3. newspaper  4. hunger  5. radio  6. oldie  7. reserve  8. specification  9. pit  10. gamy,kvpress,full_replacement,0.01,8192,3.873
+qa_2,['John John Florence'],John John Florence,kvpress,full_replacement,0.01,8192,1.06
+qa_2,['1944'],1944,kvpress,full_replacement,0.01,8192,1.207
+niah_multikey_1,['4407796'],**4407796**.,kvpress,full_replacement,0.01,8192,1.396
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**  These numbers are scattered throughout the text and are explicitly labeled as ""special magic numbers for spicy-skating.""",kvpress,full_replacement,0.01,8192,4.981
+qa_2,['2014'],2008,kvpress,full_replacement,0.01,8192,1.077
+fwe,['pooula' 'prbezn' 'gjksel'],"pooula, gjksel, and prbezn.",kvpress,full_replacement,0.01,8192,1.55
+qa_2,"['Istanbul, Turkey']","Istanbul, Turkey.",kvpress,full_replacement,0.01,8192,1.071
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**2. **8475204**3. **1735708**4. **9535166**These numbers are explicitly labeled as ""special magic numbers for rainy-sauce"" in the text, and they appear in different sections of the passage.",kvpress,full_replacement,0.01,8192,5.215
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],"as follows:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" in different sections.",kvpress,full_replacement,0.01,8192,6.299
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']",1. lute  2. arthur  3. gastropod  4. curd  5. colonial  6. actress  7. mast  8. absurd  9. catacomb  10. orange,kvpress,full_replacement,0.01,8192,3.992
+niah_multikey_1,['2699372'],**2699372**.,kvpress,full_replacement,0.01,8192,1.392
+niah_single_1,['2516313'],:**2516313**,kvpress,full_replacement,0.01,8192,1.435
+fwe,['rlowep' 'rykimj' 'hovqiq'],"rlowep, rykimj, and hovqiq.",kvpress,full_replacement,0.01,8192,1.635
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**3945cac7-3f99-45a7-8af4-b5da33cd1fed**.,kvpress,full_replacement,0.01,8192,2.921
+niah_single_2,['6188935'],**6188935**.,kvpress,full_replacement,0.25,4096,1.033
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],:- **Swift-pigeon**: **7373495**  - **Mammoth-caution**: **6573679**  - **Homeless-octagon**: **1113537**  - **Impossible-frenzy**: **8385715**Let me know if you'd like to test your memory of these numbers!,kvpress,full_replacement,0.25,4096,5.514
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The San Bernardino and Riverside areas.,kvpress,full_replacement,0.25,4096,0.698
+niah_single_2,['8387112'],**8387112**.,kvpress,full_replacement,0.25,4096,1.024
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50**.,kvpress,full_replacement,0.25,4096,2.58
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  Let me know if you'd like to test your memory of these numbers!,kvpress,full_replacement,0.25,4096,5.387
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,full_replacement,0.25,4096,2.518
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,full_replacement,0.25,4096,2.514
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],:- **Unequaled-atmosphere**: **5521644**  - **Admant-waveform**: **2532210**  - **Flagrant-woodshed**: **1348050**  - **Smelly-fascia**: **1674975**These numbers are embedded within the text and are likely used as unique identifiers or references in the context of the author's writing.,kvpress,full_replacement,0.25,4096,6.228
+niah_single_2,['2147909'],:**2147909**,kvpress,full_replacement,0.25,4096,1.026
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,full_replacement,0.25,4096,2.458
+niah_multikey_1,['2089275'],**2089275**.,kvpress,full_replacement,0.25,4096,1.027
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],as follows:- **numerous-jury**: **1752920**- **flipped-out-paperwork**: **4350161**- **tacit-fluke**: **3446428**- **various-coverall**: **7271672**Let me know if you'd like to review them again or if you have any questions about their context!,kvpress,full_replacement,0.25,4096,5.814
+niah_single_1,['1229419'],:**1229419**,kvpress,full_replacement,0.25,4096,1.014
+niah_single_1,['6338112'],:**6338112**,kvpress,full_replacement,0.25,4096,1.01
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,full_replacement,0.25,4096,2.456
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],1. gmebgb  2. qsyeiu  3. mgikxv,kvpress,full_replacement,0.25,4096,1.619
+niah_multikey_2,['4412989'],:**4412989**.,kvpress,full_replacement,0.25,4096,1.145
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],San Bernardino.,kvpress,full_replacement,0.25,4096,0.469
+niah_multikey_2,['5444179'],:**5444179**.,kvpress,full_replacement,0.25,4096,1.147
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],":1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for mature-commander.""",kvpress,full_replacement,0.25,4096,4.623
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,full_replacement,0.25,4096,2.586
+niah_single_2,['7067228'],**7067228**.,kvpress,full_replacement,0.25,4096,1.028
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the NP-complete Boolean satisfiability problem.,kvpress,full_replacement,0.25,4096,1.963
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,full_replacement,0.25,4096,0.564
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for their profession as a writer.,kvpress,full_replacement,0.25,4096,1.425
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],"**frxhxt**, **qyhgtv**, **kxedzq**.",kvpress,full_replacement,0.25,4096,1.621
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,full_replacement,0.25,4096,2.637
+qa_2,['1943'],1992,kvpress,full_replacement,0.25,4096,0.643
+niah_single_2,['5255545'],**5255545**.,kvpress,full_replacement,0.25,4096,1.027
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],":1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" in different sections.",kvpress,full_replacement,0.25,4096,4.641
+niah_multikey_1,['9692311'],**9692311**.,kvpress,full_replacement,0.25,4096,1.038
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],as follows:- **scattered-lawn**: **7352484**  - **melodic-linkage**: **4942645**  - **obeisant-blowgun**: **8517846**  - **boundless-icon**: **8702329**Let me know if you'd like to verify or explore these numbers further!,kvpress,full_replacement,0.25,4096,5.627
+niah_single_1,['9648751'],:**9648751**,kvpress,full_replacement,0.25,4096,1.026
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,full_replacement,0.25,4096,0.686
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,full_replacement,0.25,4096,0.335
+niah_single_2,['7754864'],**7754864**.,kvpress,full_replacement,0.25,4096,1.022
+niah_single_2,['3182975'],**3182975**.,kvpress,full_replacement,0.25,4096,1.024
+niah_single_2,['9240971'],:**9240971**,kvpress,full_replacement,0.25,4096,1.025
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**87e504ce-1c17-4c69-9535-99c6c379b61d**.,kvpress,full_replacement,0.25,4096,2.764
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,full_replacement,0.25,4096,2.579
+niah_single_1,['8290770'],:**8290770**,kvpress,full_replacement,0.25,4096,1.014
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. **retention**  2. **atelier**  3. **snake**  4. **junket**  5. **uniformity**  6. **agriculture**  7. **decline**  8. **waitress**  9. **ask**  10. **church**,kvpress,full_replacement,0.25,4096,4.726
+fwe,['dznynv' 'pwvgox' 'skmtng'],"**dznynv**, **pwvgox**, and **jgaxre**.",kvpress,full_replacement,0.25,4096,1.687
+niah_single_1,['7089806'],:**7089806**,kvpress,full_replacement,0.25,4096,1.038
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],"**dtpgpe**, **pvyqym**, **pkwkfe**.",kvpress,full_replacement,0.25,4096,1.57
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],":1. **9124385**  2. **7972975**  3. **8792046**  4. **8375356**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for different-harbor.""",kvpress,full_replacement,0.25,4096,4.684
+qa_2,['defensive coordinator'],assistant coach,kvpress,full_replacement,0.25,4096,0.486
+niah_single_1,['9646569'],:**9646569**,kvpress,full_replacement,0.25,4096,1.013
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**0d10262b-0913-4261-a2a0-23e6e86f780e**.,kvpress,full_replacement,0.25,4096,2.763
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']",1. buze  2. spiffy  3. barn  4. damp  5. lottery  6. nifty  7. grid  8. bandana  9. easy  10. spiffy,kvpress,full_replacement,0.25,4096,3.439
+qa_2,['John John Florence'],John John Florence,kvpress,full_replacement,0.25,4096,0.617
+qa_2,['1944'],1944,kvpress,full_replacement,0.25,4096,0.633
+niah_multikey_1,['5942041'],: **5942041**.,kvpress,full_replacement,0.25,4096,1.089
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**These numbers are explicitly called out in the text as ""special magic numbers for difficult-locust.""",kvpress,full_replacement,0.25,4096,4.504
+qa_2,['2014'],2014,kvpress,full_replacement,0.25,4096,0.72
+fwe,['fjnmov' 'olkknp' 'pwkedz'],"fjnmov, olkknp, pwkedz.",kvpress,full_replacement,0.25,4096,1.159
+qa_2,"['Istanbul, Turkey']",Istanbul.,kvpress,full_replacement,0.25,4096,0.464
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**These numbers are repeated throughout the text, often in the context of the author discussing the ""ambiguous-cup"" concept, which seems to be a thematic or symbolic element in the text.",kvpress,full_replacement,0.25,4096,5.526
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],"as follows:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  These numbers are embedded within the text and are highlighted as ""special magic numbers"" for each of the respective categories.",kvpress,full_replacement,0.25,4096,5.935
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. cast  2. sassy  3. fridge  4. personnel  5. currant  6. clever  7. ripe  8. restroom  9. wisdom  10. energy,kvpress,full_replacement,0.25,4096,3.107
+niah_multikey_1,['4161264'],**4161264**.,kvpress,full_replacement,0.25,4096,1.029
+niah_single_1,['2147909'],:**2147909**,kvpress,full_replacement,0.25,4096,1.015
+fwe,['evdlxb' 'okwipf' 'piwkmk'],"**evdlxb**, **okwipf**, **piwkmk**.",kvpress,full_replacement,0.25,4096,1.563
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**126ecdfa-d3f5-46f6-ba84-6828a55d963c**.,kvpress,full_replacement,0.25,4096,2.525
+niah_single_2,['3846949'],:**3846949**,kvpress,full_replacement,0.25,8192,1.461
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are highlighted as ""special magic numbers"" in specific sections.",kvpress,full_replacement,0.25,8192,6.049
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The Riverside-San Bernardino area.,kvpress,full_replacement,0.25,8192,1.116
+niah_single_2,['2516313'],:**2516313**,kvpress,full_replacement,0.25,8192,1.45
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],:**f9285706-577c-4717-836a-58870a5a2698**.,kvpress,full_replacement,0.25,8192,3.404
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],as follows:- **Pleasant-awe**: 3290672  - **Odd-library**: 1899447  - **Lacking-spark**: 1160783  - **Elderly-drill**: 6277776  These numbers are embedded within the text as unique identifiers for specific concepts discussed in the articles.,kvpress,full_replacement,0.25,8192,5.883
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,full_replacement,0.25,8192,2.938
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**af521b94-f186-447a-a794-63208cf6e8b8**,kvpress,full_replacement,0.25,8192,2.95
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],"as follows:- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded within the text as examples or references, and they are not meant to be taken literally in any practical sense. They are likely placeholders or special markers used by the author for illustrative or stylistic purposes.",kvpress,full_replacement,0.25,8192,7.442
+niah_single_2,['3937176'],**3937176**.,kvpress,full_replacement,0.25,8192,1.451
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,full_replacement,0.25,8192,3.001
+niah_multikey_1,['8727886'],: **8727886**.,kvpress,full_replacement,0.25,8192,1.452
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],"as follows:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  These numbers are embedded within the text as part of the ""special magic numbers"" references, which are used in different sections to highlight specific points or add a unique touch to the narrative.",kvpress,full_replacement,0.25,8192,7.31
+niah_single_1,['4769851'],:**4769851**,kvpress,full_replacement,0.25,8192,1.436
+niah_single_1,['3551903'],":**3551903**This number is explicitly stated in the text as:> ""One of the special magic numbers for lying-deviation is: 3551903.""So, the answer is: **3551903**.",kvpress,full_replacement,0.25,8192,4.371
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,full_replacement,0.25,8192,2.949
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],"qplshr, qqhjdc, and gmtwsb.",kvpress,full_replacement,0.25,8192,1.742
+niah_multikey_2,['9086649'],:**9086649**,kvpress,full_replacement,0.25,8192,1.573
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],San Bernardino.,kvpress,full_replacement,0.25,8192,0.82
+niah_multikey_2,['6838180'],:**6838180**,kvpress,full_replacement,0.25,8192,1.573
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],":1. **4674549**  2. **6349877**  3. **1491630**  4. **1437264**These numbers are explicitly stated in the text and are considered ""special magic numbers"" for the mentioned phenomenon.",kvpress,full_replacement,0.25,8192,4.926
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,full_replacement,0.25,8192,3.001
+niah_single_2,['5528972'],**5528972**.,kvpress,full_replacement,0.25,8192,1.449
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the integer factorization problem.,kvpress,full_replacement,0.25,8192,2.219
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,full_replacement,0.25,8192,0.893
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,full_replacement,0.25,8192,1.861
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],1. rbvoik  2. rfdzkt  3. hakvdl,kvpress,full_replacement,0.25,8192,1.965
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,full_replacement,0.25,8192,2.945
+qa_2,['1943'],1949,kvpress,full_replacement,0.25,8192,1.069
+niah_single_2,['6202210'],: **6202210**.,kvpress,full_replacement,0.25,8192,1.511
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],":1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**These numbers are explicitly called out in the text and are associated with the concept of ""kaput-collagen,"" which seems to be a fictional or metaphorical term used in the context of the discussions about addiction, technological progress, and startup development.",kvpress,full_replacement,0.25,8192,6.659
+niah_multikey_1,['3673322'],: **3673322**.,kvpress,full_replacement,0.25,8192,1.453
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],"as follows:- **heavy-penalty**: 8597490  - **many-spear**: 6752216  - **moldy-credential**: 9594877  - **daffy-sun**: 3318275  These numbers are embedded within the text and are referenced in different sections, often in the context of discussions about programming languages, startups, and technological progress.",kvpress,full_replacement,0.25,8192,6.646
+niah_single_1,['1652868'],:**1652868**,kvpress,full_replacement,0.25,8192,1.433
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,full_replacement,0.25,8192,1.238
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,full_replacement,0.25,8192,0.815
+niah_single_2,['3762152'],**3762152**.,kvpress,full_replacement,0.25,8192,1.453
+niah_single_2,['4794319'],**4794319**.,kvpress,full_replacement,0.25,8192,1.453
+niah_single_2,['7189302'],**7189302**.,kvpress,full_replacement,0.25,8192,1.453
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**1934850a-e8ff-4869-b759-5b46d1264de7**,kvpress,full_replacement,0.25,8192,3.109
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,full_replacement,0.25,8192,3.006
+niah_single_1,['4188992'],:**4188992**,kvpress,full_replacement,0.25,8192,1.438
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']","1. asparagus  2. phrase  3. doctrine  4. snowman  5. vigorous  6. unique  7. gown  8. gelatin  9. singing  10. doctrine (tie with ""phrase"" and ""snowman"" for 3rd place, but ""phrase"" appears more frequently than ""snowman"")  **Note:** If we strictly follow the count and rank, the top 10 are:  1. asparagus  2. phrase  3. doctrine  4. snowman  5. vigorous  6. unique",kvpress,full_replacement,0.25,8192,8.302
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],"**qiuwqq**, **qjiqmp**, **xuoeem**.",kvpress,full_replacement,0.25,8192,2.039
+niah_single_1,['9852897'],:**9852897**,kvpress,full_replacement,0.25,8192,1.435
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,full_replacement,0.25,8192,2.03
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],":1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for roomy-hound.""",kvpress,full_replacement,0.25,8192,5.058
+qa_2,['defensive coordinator'],assistant coach,kvpress,full_replacement,0.25,8192,0.996
+niah_single_1,['8669093'],:**8669093**,kvpress,full_replacement,0.25,8192,1.434
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**e599dae0-e2ce-4380-b740-b76d0eb36f6c**.,kvpress,full_replacement,0.25,8192,2.997
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']","1. swivel  2. gamy  3. newspaper  4. hunger  5. radio  6. oldie  7. reserve  8. specification  9. pit  10. gamy (Note: ""gamy"" appears more than once, so it is listed as the second most common word, but it is repeated in the list.)",kvpress,full_replacement,0.25,8192,5.735
+qa_2,['John John Florence'],John John Florence,kvpress,full_replacement,0.25,8192,1.059
+qa_2,['1944'],1916,kvpress,full_replacement,0.25,8192,1.206
+niah_multikey_1,['4407796'],**4407796**.,kvpress,full_replacement,0.25,8192,1.398
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for spicy-skating"" in different sections.",kvpress,full_replacement,0.25,8192,5.309
+qa_2,['2014'],2009,kvpress,full_replacement,0.25,8192,1.08
+fwe,['pooula' 'prbezn' 'gjksel'],"pooula, gjksel, tmeoln.",kvpress,full_replacement,0.25,8192,1.558
+qa_2,"['Istanbul, Turkey']",Istanbul.,kvpress,full_replacement,0.25,8192,0.955
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**  2. **8475204**  3. **1735708**  4. **9535166**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for rainy-sauce"" in different sections.",kvpress,full_replacement,0.25,8192,5.352
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],"as follows:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are embedded within the text and are referenced in different sections, often in the context of discussions about technology, startups, and addictive behaviors.",kvpress,full_replacement,0.25,8192,6.802
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']","1. lute  2. arthur  3. gastropod  4. curd  5. colonial  6. mast  7. actress  8. absurd  9. catacomb  10. orange (Note: ""orangutan"" appears more frequently than ""orange"", so the correct 10th word is ""orangutan"")  **Corrected Answer:**  1. lute  2. arthur  3. gastropod  4. curd  5. colonial  6. mast  7. actress  8. absurd  9.",kvpress,full_replacement,0.25,8192,8.409
+niah_multikey_1,['2699372'],: **2699372**.,kvpress,full_replacement,0.25,8192,1.46
+niah_single_1,['2516313'],:**2516313**,kvpress,full_replacement,0.25,8192,1.44
+fwe,['rlowep' 'rykimj' 'hovqiq'],1. rlowep  2. rykimj  3. hovqiq,kvpress,full_replacement,0.25,8192,1.947
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**c40c6697-b529-4908-ae54-eae29886fac5**.,kvpress,full_replacement,0.25,8192,3.067
+niah_single_2,['6188935'],**6188935**.,kvpress,full_replacement,0.5,4096,1.042
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],"as follows:- **Swift-pigeon**: **7373495**  - **Mammoth-caution**: **6573679**  - **Homeless-octagon**: **1113537**  - **Impossible-frenzy**: **8385715**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the specified categories.",kvpress,full_replacement,0.5,4096,6.289
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The San Bernardino metropolitan area.,kvpress,full_replacement,0.5,4096,0.643
+niah_single_2,['8387112'],: **8387112**.,kvpress,full_replacement,0.5,4096,1.091
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e70e-9dbc-45c0-aa7d-c57c6d6dafff**.,kvpress,full_replacement,0.5,4096,2.488
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are associated with specific sections as described.,kvpress,full_replacement,0.5,4096,5.393
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,full_replacement,0.5,4096,2.542
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,full_replacement,0.5,4096,2.542
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],:- **Unequaled-atmosphere**: 5521644  - **Adamant-waveform**: 2532210  - **Flagrant-woodshed**: 1348050  - **Smelly-fascia**: 1674975  These numbers are embedded within the text and are highlighted in the context of the author's discussion about magic numbers.,kvpress,full_replacement,0.5,4096,5.932
+niah_single_2,['2147909'],**2147909**.,kvpress,full_replacement,0.5,4096,1.044
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,full_replacement,0.5,4096,2.479
+niah_multikey_1,['2089275'],**2089275**.,kvpress,full_replacement,0.5,4096,1.036
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **numerous-jury**: **1752920**- **flipped-out-paperwork**: **4350161**- **tacit-fluke**: **3446428**- **various-coverall**: **7271672**These numbers are explicitly stated within the text and are referred to as ""special magic numbers"" for each of the respective terms.",kvpress,full_replacement,0.5,4096,6.109
+niah_single_1,['1229419'],:**1229419**,kvpress,full_replacement,0.5,4096,1.022
+niah_single_1,['6338112'],:**6338112**,kvpress,full_replacement,0.5,4096,1.017
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,full_replacement,0.5,4096,2.481
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],1. **gmebgb**  2. **qsyeiu**  3. **mgikxv**,kvpress,full_replacement,0.5,4096,1.996
+niah_multikey_2,['4412989'],: **8928022**.,kvpress,full_replacement,0.5,4096,1.152
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Desert City.,kvpress,full_replacement,0.5,4096,0.471
+niah_multikey_2,['5444179'],:**5444179**.,kvpress,full_replacement,0.5,4096,1.153
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],:1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**  These are the four unique numbers that were explicitly stated within the text.,kvpress,full_replacement,0.5,4096,4.237
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,full_replacement,0.5,4096,2.607
+niah_single_2,['7067228'],:**7067228**,kvpress,full_replacement,0.5,4096,1.033
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the NP-complete knapsack problem.,kvpress,full_replacement,0.5,4096,1.977
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,full_replacement,0.5,4096,0.566
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,full_replacement,0.5,4096,1.372
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],1. **frxhxt**  2. **qyhgtv**  3. **kxedzq**,kvpress,full_replacement,0.5,4096,2.066
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,full_replacement,0.5,4096,2.659
+qa_2,['1943'],1954,kvpress,full_replacement,0.5,4096,0.649
+niah_single_2,['5255545'],:**5255545**,kvpress,full_replacement,0.5,4096,1.033
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],":1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**These numbers are explicitly stated within the text and are highlighted as ""special magic numbers for bloody-pillow.""",kvpress,full_replacement,0.5,4096,4.6
+niah_multikey_1,['9692311'],**1929673**.,kvpress,full_replacement,0.5,4096,1.045
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],:- **Scattered-lawn**: 7352484  - **Melodic-linkage**: 4942645  - **Obeisant-blowgun**: 8517846  - **Boundless-icon**: 8702329  Let me know if you'd like to test your memorization!,kvpress,full_replacement,0.5,4096,5.256
+niah_single_1,['9648751'],:**9648751**,kvpress,full_replacement,0.5,4096,1.023
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,full_replacement,0.5,4096,0.687
+qa_1,['economically' 'economically' 'economically'],geographically,kvpress,full_replacement,0.5,4096,0.397
+niah_single_2,['7754864'],**7754864**.,kvpress,full_replacement,0.5,4096,1.034
+niah_single_2,['3182975'],:**3182975**,kvpress,full_replacement,0.5,4096,1.034
+niah_single_2,['9240971'],:**9240971**,kvpress,full_replacement,0.5,4096,1.035
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**87e504ce-1c17-4c69-9535-99c6c379b61d**.,kvpress,full_replacement,0.5,4096,2.79
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,full_replacement,0.5,4096,2.608
+niah_single_1,['8290770'],:**8290770**,kvpress,full_replacement,0.5,4096,1.02
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. uniformity  2. agriculture  3. junket  4. snake  5. retention  6. atelier  7. decline  8. ask  9. waitress  10. church,kvpress,full_replacement,0.5,4096,3.194
+fwe,['dznynv' 'pwvgox' 'skmtng'],"**dznynv**, **pwvgox**, and **jgaxre**.",kvpress,full_replacement,0.5,4096,1.7
+niah_single_1,['7089806'],:**7089806**,kvpress,full_replacement,0.5,4096,1.019
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],1. **dtpgpe**  2. **pvyqym**  3. **pkwkfe**,kvpress,full_replacement,0.5,4096,2.0
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],":1. **9124385**  2. **7972975**  3. **8792046**  4. **8375356**These numbers are explicitly stated within the text and are referred to as ""special magic numbers for different-harbor.""",kvpress,full_replacement,0.5,4096,4.724
+qa_2,['defensive coordinator'],role at the Arizona State Sun Devils.,kvpress,full_replacement,0.5,4096,0.849
+niah_single_1,['9646569'],:**9646569**,kvpress,full_replacement,0.5,4096,1.019
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**d33343eb-08ec-4357-bddb-bed37e4648a5**.,kvpress,full_replacement,0.5,4096,2.362
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']",1. spiffy  2. barn  3. damp  4. bandana  5. easy  6. lottery  7. buze  8. spiffy  9. grid  10. nifty,kvpress,full_replacement,0.5,4096,4.268
+qa_2,['John John Florence'],John John Irons,kvpress,full_replacement,0.5,4096,0.679
+qa_2,['1944'],1944,kvpress,full_replacement,0.5,4096,0.639
+niah_multikey_1,['5942041'],**5942041**.,kvpress,full_replacement,0.5,4096,1.04
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**These numbers are explicitly called out in the text as ""special magic numbers for difficult-locust.""",kvpress,full_replacement,0.5,4096,4.556
+qa_2,['2014'],2007,kvpress,full_replacement,0.5,4096,0.727
+fwe,['fjnmov' 'olkknp' 'pwkedz'],1. **fjnmov**  2. **olkknp**  3. **pwkedz**,kvpress,full_replacement,0.5,4096,1.95
+qa_2,"['Istanbul, Turkey']",Istanbul.,kvpress,full_replacement,0.5,4096,0.466
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**These are the four unique numbers that appear in the text, each associated with the phrase ""One of the special magic numbers for ambiguous-cup is: [number].""",kvpress,full_replacement,0.5,4096,5.345
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],"as follows:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  These numbers are embedded within the text and are highlighted as ""special magic numbers"" for each of the specified categories.",kvpress,full_replacement,0.5,4096,6.016
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. cast  2. sassy  3. fridge  4. currant  5. clever  6. restroom  7. energy  8. personnel  9. ripe  10. wisdom,kvpress,full_replacement,0.5,4096,3.149
+niah_multikey_1,['4161264'],**4161264**.,kvpress,full_replacement,0.5,4096,1.036
+niah_single_1,['2147909'],:**2147909**,kvpress,full_replacement,0.5,4096,1.019
+fwe,['evdlxb' 'okwipf' 'piwkmk'],1. **evdlxb**  2. **okwipf**  3. **piwkmk**  These are the three words that appear most frequently in the text.,kvpress,full_replacement,0.5,4096,2.844
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**126ecdfa-d3f5-46f6-ba84-6828a55d963c**.,kvpress,full_replacement,0.5,4096,2.547
+niah_single_2,['3846949'],**3846949**.,kvpress,full_replacement,0.5,8192,1.463
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are highlighted in the context of the specific magic numbers for each of the mentioned categories.,kvpress,full_replacement,0.5,8192,6.438
+qa_1,['Inland Empire' 'Temecula and Murrieta'],San Bernardino and Riverside.,kvpress,full_replacement,0.5,8192,0.999
+niah_single_2,['2516313'],**2516313**.,kvpress,full_replacement,0.5,8192,1.456
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],:**44f00717-1d75-4901-b309-106e62928cdc**,kvpress,full_replacement,0.5,8192,3.199
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],as follows:- **pleasant-awe**: 3290672  - **odd-library**: 1899447  - **lacking-spark**: 1160783  - **elderly-drill**: 6277776  These numbers are embedded within the text as part of the author's notes and are used to highlight specific sections or ideas.,kvpress,full_replacement,0.5,8192,6.136
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,full_replacement,0.5,8192,2.977
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**af521b94-f186-447a-a794-63208cf6e8b8**,kvpress,full_replacement,0.5,8192,2.968
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],as follows:- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded within the text as part of the author's narrative and are likely used as placeholders or for some specific purpose within the context of the article.,kvpress,full_replacement,0.5,8192,6.7
+niah_single_2,['3937176'],**3937176**.,kvpress,full_replacement,0.5,8192,1.446
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,full_replacement,0.5,8192,3.004
+niah_multikey_1,['8727886'],: **8727886**.,kvpress,full_replacement,0.5,8192,1.448
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],"as follows:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  These numbers are embedded within the text as part of the ""special magic numbers"" references, and they are mentioned in different sections of the text.",kvpress,full_replacement,0.5,8192,6.798
+niah_single_1,['4769851'],:**4769851**,kvpress,full_replacement,0.5,8192,1.438
+niah_single_1,['3551903'],":**3551903**This number is explicitly stated in the text:> **One of the special magic numbers for lying-deviation is: 3551903.**So, the answer is: **3551903**.",kvpress,full_replacement,0.5,8192,4.365
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,full_replacement,0.5,8192,2.93
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],1. qplshr  2. qqhjdc  3. gmtwsb,kvpress,full_replacement,0.5,8192,2.032
+niah_multikey_2,['9086649'],**9086649**.,kvpress,full_replacement,0.5,8192,1.568
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Desert city is not a specific term mentioned in the given documents.,kvpress,full_replacement,0.5,8192,1.407
+niah_multikey_2,['6838180'],**6343610**.,kvpress,full_replacement,0.5,8192,1.569
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],":1. **4674549**  2. **6349877**  3. **1491630**  4. **1437264**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for the purpose of the earsplitting-dragonfruit.",kvpress,full_replacement,0.5,8192,5.438
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,full_replacement,0.5,8192,2.993
+niah_single_2,['5528972'],**5528972**.,kvpress,full_replacement,0.5,8192,1.447
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the problem of finding a route of at most 20,kvpress,full_replacement,0.5,8192,2.513
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,full_replacement,0.5,8192,0.888
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,full_replacement,0.5,8192,1.855
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],1. rbvoik  2. hakvdl  3. rfdzkt,kvpress,full_replacement,0.5,8192,1.955
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,full_replacement,0.5,8192,2.934
+qa_2,['1943'],1749,kvpress,full_replacement,0.5,8192,1.066
+niah_single_2,['6202210'],**6202210**.,kvpress,full_replacement,0.5,8192,1.445
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],":1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**These numbers are explicitly stated within the text and are referred to as ""special magic numbers for kaput-collagen"" in different sections.",kvpress,full_replacement,0.5,8192,5.319
+niah_multikey_1,['3673322'],: **3673322**.,kvpress,full_replacement,0.5,8192,1.446
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],"as follows:- **heavy-penalty**: 8597490  - **many-spear**: 6752216  - **moldy-credential**: 9594877  - **daffy-sun**: 3318275  These numbers are embedded within the text and are referred to in specific contexts. Memorize them, as they are the key to the quiz!",kvpress,full_replacement,0.5,8192,6.518
+niah_single_1,['1652868'],:**1652868**,kvpress,full_replacement,0.5,8192,1.427
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,full_replacement,0.5,8192,1.173
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,full_replacement,0.5,8192,0.811
+niah_single_2,['3762152'],**3762152**.,kvpress,full_replacement,0.5,8192,1.449
+niah_single_2,['4794319'],**4794319**.,kvpress,full_replacement,0.5,8192,1.447
+niah_single_2,['7189302'],**7189302**.,kvpress,full_replacement,0.5,8192,1.446
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**96431101-6c7b-4210-aba0-c8b7e87f04c1**,kvpress,full_replacement,0.5,8192,3.154
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,full_replacement,0.5,8192,2.992
+niah_single_1,['4188992'],:**4188992**,kvpress,full_replacement,0.5,8192,1.428
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']","1. asparagus  2. phrase  3. vigorous  4. snowman  5. doctrine  6. gelatin  7. unique  8. gown  9. singing  10. doctrine (Note: ""doctrine"" appears more than once, so it is listed as the 5th and 10th word, but it's actually the most frequent word.)  **Corrected Answer:**  1. asparagus  2. phrase  3. vigorous  4. snowman  5. doctrine  6. gelatin  7. unique  8.",kvpress,full_replacement,0.5,8192,8.254
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],1. **qiuwqq**  2. **qjiqmp**  3. **xuoeem**,kvpress,full_replacement,0.5,8192,2.438
+niah_single_1,['9852897'],:**9852897**,kvpress,full_replacement,0.5,8192,1.427
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,full_replacement,0.5,8192,2.009
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],":1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for roomy-hound.""",kvpress,full_replacement,0.5,8192,5.022
+qa_2,['defensive coordinator'],Southern Methodist University coach also played the role of a Southern Methodist University coach at the Arizona State Sun Devils.,kvpress,full_replacement,0.5,8192,2.127
+niah_single_1,['8669093'],:**8669093**,kvpress,full_replacement,0.5,8192,1.427
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**43d0ce20-e1da-4ca2-b8ec-8ee10fbc194f**.,kvpress,full_replacement,0.5,8192,2.921
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']","1. swivel  2. gamy  3. newspaper  4. hunger  5. radio  6. oldie  7. specification  8. pit  9. reserve  10. gamy (Note: ""gamy"" appears more than once, so it is listed as the second most common word, but it is repeated in the top 10 due to its frequency.)",kvpress,full_replacement,0.5,8192,6.183
+qa_2,['John John Florence'],John John Florence,kvpress,full_replacement,0.5,8192,1.058
+qa_2,['1944'],1951,kvpress,full_replacement,0.5,8192,1.205
+niah_multikey_1,['4407796'],**4407796**.,kvpress,full_replacement,0.5,8192,1.39
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for spicy-skating"" in different sections.",kvpress,full_replacement,0.5,8192,5.21
+qa_2,['2014'],2007,kvpress,full_replacement,0.5,8192,1.071
+fwe,['pooula' 'prbezn' 'gjksel'],pooula  gjksel  tmeoln,kvpress,full_replacement,0.5,8192,1.605
+qa_2,"['Istanbul, Turkey']",Istanbul,kvpress,full_replacement,0.5,8192,0.889
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**  2. **8475204**  3. **1735708**  4. **9535166**These numbers are explicitly called out in the text and are referred to as ""special magic numbers for rainy-sauce"" in different sections.",kvpress,full_replacement,0.5,8192,5.261
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],"as follows:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are embedded within the text and are highlighted as ""special magic numbers"" in the context of the respective terms.",kvpress,full_replacement,0.5,8192,6.394
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']",1. lute  2. arthur  3. curd  4. gastropod  5. mast  6. colonial  7. actress  8. catacomb  9. absurd  10. orangutan,kvpress,full_replacement,0.5,8192,4.046
+niah_multikey_1,['2699372'],: **2699372**.,kvpress,full_replacement,0.5,8192,1.443
+niah_single_1,['2516313'],:**2516313**,kvpress,full_replacement,0.5,8192,1.427
+fwe,['rlowep' 'rykimj' 'hovqiq'],1. **rlowep**  2. **rykimj**  3. **hovqiq**,kvpress,full_replacement,0.5,8192,2.278
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**c40c6697-b529-4908-ae54-eae29886fac5**.,kvpress,full_replacement,0.5,8192,3.033
+niah_single_2,['6188935'],**6188935**.,kvpress,full_replacement,0.75,4096,1.03
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],:- **Swift-pigeon**: 7373495  - **Mammoth-caution**: 6573679  - **Homeless-octagon**: 1113537  - **Impossible-frenzy**: 8385715  Let me know if you'd like to review them again or if you have any other questions!,kvpress,full_replacement,0.75,4096,5.54
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The communities along Interstates 15 and 215 are connected with the San Bernardino metropolitan area.,kvpress,full_replacement,0.75,4096,1.584
+niah_single_2,['8387112'],**8387112**.,kvpress,full_replacement,0.75,4096,1.021
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e7-9d3a-4e0b-b5f3-f8aadc6dafff**.,kvpress,full_replacement,0.75,4096,2.338
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 6843509  - **Plain-weed**: 2637842  - **Periodic-orchard**: 2637842  Note: The number **2637842** is mentioned for both **plain-weed** and **periodic-orchard**, which is likely a repetition or a shared special magic number.",kvpress,full_replacement,0.75,4096,6.981
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,full_replacement,0.75,4096,2.507
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,full_replacement,0.75,4096,2.507
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],as follows:- **Unequaled-atmosphere**: 5521644  - **Adamant-waveform**: 2532210  - **Flagrant-woodshed**: 1348050  - **Smelly-fascia**: 1674975  Let me know if you'd like to review them again or if you have any more questions!,kvpress,full_replacement,0.75,4096,5.78
+niah_single_2,['2147909'],**2147909**.,kvpress,full_replacement,0.75,4096,1.027
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,full_replacement,0.75,4096,2.448
+niah_multikey_1,['2089275'],**2135258**.,kvpress,full_replacement,0.75,4096,1.023
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **Numerous-jury**: 4350161  - **Flipped-out-paperwork**: 7271672  - **Tacit-fluke**: 3446428  - **Various-coverall**: 1752920  These numbers are explicitly stated in the text and are considered ""special magic numbers"" for the respective terms.",kvpress,full_replacement,0.75,4096,5.666
+niah_single_1,['1229419'],:**1229419**,kvpress,full_replacement,0.75,4096,1.01
+niah_single_1,['6338112'],:**6338112**,kvpress,full_replacement,0.75,4096,1.007
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,full_replacement,0.75,4096,2.445
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],1. **gmebgb** (appears 10 times)  2. **mgikxv** (appears 8 times)  3. **gmebgb** (appears 10 times),kvpress,full_replacement,0.75,4096,3.336
+niah_multikey_2,['4412989'],: **8921642**.,kvpress,full_replacement,0.75,4096,1.14
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Desert city is not a specific term mentioned in the given documents.,kvpress,full_replacement,0.75,4096,1.057
+niah_multikey_2,['5444179'],**5409041**.,kvpress,full_replacement,0.75,4096,1.08
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],:1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**Let me know if you'd like to review them again or if you have any questions about them!,kvpress,full_replacement,0.75,4096,4.471
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,full_replacement,0.75,4096,2.565
+niah_single_2,['7067228'],**7067228**.,kvpress,full_replacement,0.75,4096,1.021
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']","The example is the SAT problem itself, where large instances are routinely solved by SAT handlers employing efficient algorithms.",kvpress,full_replacement,0.75,4096,1.533
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",Probabilistic Turing machine,kvpress,full_replacement,0.75,4096,0.62
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,full_replacement,0.75,4096,1.353
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],1. **frxhxt**  2. **kxedzq**  3. **yhgtv**  These words appear the most frequently in the given text.,kvpress,full_replacement,0.75,4096,2.683
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,full_replacement,0.75,4096,2.627
+qa_2,['1943'],1949,kvpress,full_replacement,0.75,4096,0.642
+niah_single_2,['5255545'],**5255545**.,kvpress,full_replacement,0.75,4096,1.02
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],:1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**Let me know if you'd like to review them again or if you have any questions about them!,kvpress,full_replacement,0.75,4096,4.475
+niah_multikey_1,['9692311'],**1929673**.,kvpress,full_replacement,0.75,4096,1.024
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],as follows:- **Scattered-lawn**: 7352484  - **Melodic-linkage**: 4942645  - **Obeisant-blowgun**: 8517846  - **Boundless-icon**: 8702329  Let me know if you'd like to test your memory of these numbers!,kvpress,full_replacement,0.75,4096,5.429
+niah_single_1,['9648751'],:**9648751**,kvpress,full_replacement,0.75,4096,1.013
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,full_replacement,0.75,4096,0.683
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,full_replacement,0.75,4096,0.453
+niah_single_2,['7754864'],**7754864**.,kvpress,full_replacement,0.75,4096,1.02
+niah_single_2,['3182975'],**3182975**.,kvpress,full_replacement,0.75,4096,1.02
+niah_single_2,['9240971'],**9240971**.,kvpress,full_replacement,0.75,4096,1.022
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],":**fd236d4a-4f7a-4d49-a4c4-e73c4c46bad8**(Note: This is a fabricated UUID based on the pattern in the text, as the exact UUID for this specific UUID was not explicitly listed in the original text. However, based on the pattern of the other entries, it's likely that the UUID is formed by taking the last 12 characters of the original UUID and appending them to the beginning of the magic UUID.)",kvpress,full_replacement,0.75,4096,6.873
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,full_replacement,0.75,4096,2.571
+niah_single_1,['8290770'],:**8290770**,kvpress,full_replacement,0.75,4096,1.013
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. atelier  2. snake  3. retention  4. junket  5. uniformity  6. agriculture  7. decline  8. construct  9. ask  10. distribution,kvpress,full_replacement,0.75,4096,3.152
+fwe,['dznynv' 'pwvgox' 'skmtng'],1. **dznynv**  2. **jgaxre**  3. **cwvpjw**  These words appear the most frequently in the given text.,kvpress,full_replacement,0.75,4096,2.754
+niah_single_1,['7089806'],:**7089806** ✅,kvpress,full_replacement,0.75,4096,1.128
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],1. **dtpgpe** – appears **12 times**  2. **ibnftf** – appears **8 times**  3. **dlhzsp** – appears **6 times**,kvpress,full_replacement,0.75,4096,3.097
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],:1. **9124385**  2. **7972975**  3. **8375356**  4. **8792046**  These are the numbers that were explicitly stated in the text. Let me know if you'd like to review them again!,kvpress,full_replacement,0.75,4096,4.786
+qa_2,['defensive coordinator'],role at the Arizona State Sun Devils.,kvpress,full_replacement,0.75,4096,0.84
+niah_single_1,['9646569'],:**9646569**,kvpress,full_replacement,0.75,4096,1.019
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**46028835-8069-4069-a878-a676ca0a45d4**,kvpress,full_replacement,0.75,4096,2.617
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']","1. spiffy  2. barn  3. damp  4. easy  5. buze  6. bandana  7. spiffy (tie with ""buze"")  8. buze (tie with ""spiffy"")  9. easy (tie with ""barn"")  10. barn (tie with ""easy"")  **Note:** Since ""spiffy"" and ""buze"" both appear 10 times, and ""barn"" and ""easy"" both appear 9 times, the exact ranking may vary slightly depending",kvpress,full_replacement,0.75,4096,7.712
+qa_2,['John John Florence'],John John won the Rip Curl Pro Portugal.,kvpress,full_replacement,0.75,4096,0.974
+qa_2,['1944'],1986,kvpress,full_replacement,0.75,4096,0.628
+niah_multikey_1,['5942041'],**2270273**.,kvpress,full_replacement,0.75,4096,1.023
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**  These numbers are explicitly stated in the text and are considered ""special magic numbers"" for the purpose of the challenge.",kvpress,full_replacement,0.75,4096,4.716
+qa_2,['2014'],2007,kvpress,full_replacement,0.75,4096,0.721
+fwe,['fjnmov' 'olkknp' 'pwkedz'],1. **fjnmov**  2. **olkknp**  3. **pwkedz**,kvpress,full_replacement,0.75,4096,1.923
+qa_2,"['Istanbul, Turkey']",Nusretiye Clock Tower and Eski Imaret Mosque are both found in the city of Nusretiye.,kvpress,full_replacement,0.75,4096,1.91
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**These are the only numbers explicitly labeled as ""special magic numbers for ambiguous-cup"" in the text.",kvpress,full_replacement,0.75,4096,4.538
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  Let me know if you'd like to review them again or if you have any more questions!,kvpress,full_replacement,0.75,4096,5.565
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. cast  2. sassy  3. currant  4. restroom  5. clever  6. fridge  7. personnel  8. ripe  9. wisdom  10. diadem,kvpress,full_replacement,0.75,4096,3.163
+niah_multikey_1,['4161264'],**4161264**.,kvpress,full_replacement,0.75,4096,1.038
+niah_single_1,['2147909'],:**2147909** ✅,kvpress,full_replacement,0.75,4096,1.148
+fwe,['evdlxb' 'okwipf' 'piwkmk'],"1. **evdlxb**  2. **kuuvfn**  3. **okwipf**  These are the words that appear most frequently in the text, ignoring the dots and any other words.",kvpress,full_replacement,0.75,4096,3.232
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**e0fc285c-6e2e-4d28-785c-6e28785c6e2e**.,kvpress,full_replacement,0.75,4096,2.778
+niah_single_2,['3846949'],**3846949**.,kvpress,full_replacement,0.75,8192,1.454
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  Let me know if you'd like to review them again or if you have any other questions!,kvpress,full_replacement,0.75,8192,7.889
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The communities along Interstates 15 and 215 are connected with the San Bernardino metropolitan area.,kvpress,full_replacement,0.75,8192,2.036
+niah_single_2,['2516313'],**2516313**.,kvpress,full_replacement,0.75,8192,1.461
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],: **2ac38bd3-1afc-488c-81de-c9db0abe8257**.,kvpress,full_replacement,0.75,8192,2.861
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],":- **Pleasant-awe**: 3290672  - **Odd-library**: 1899447  - **Lacking-spark**: 11677776  - **Elderly-drill**: 6277776  These numbers are embedded in the text as part of the ""special magic numbers"" references, and they are highlighted in the notes sections of the text.",kvpress,full_replacement,0.75,8192,6.524
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,full_replacement,0.75,8192,2.934
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**`ef521b94-f186-447a-a794-63208cf6e8b8`**,kvpress,full_replacement,0.75,8192,3.064
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],":- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded in the text as part of the ""special magic numbers"" references, and they are likely used as placeholders or as part of some internal system or code.",kvpress,full_replacement,0.75,8192,6.703
+niah_single_2,['3937176'],**3937176**.,kvpress,full_replacement,0.75,8192,1.445
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,full_replacement,0.75,8192,2.994
+niah_multikey_1,['8727886'],**8727886**.,kvpress,full_replacement,0.75,8192,1.386
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  Let me know if you'd like to review them again!,kvpress,full_replacement,0.75,8192,5.693
+niah_single_1,['4769851'],:**4769851**,kvpress,full_replacement,0.75,8192,1.644
+niah_single_1,['3551903'],:**3551903**,kvpress,full_replacement,0.75,8192,1.432
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,full_replacement,0.75,8192,2.945
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],1. qplshr  2. qqhjdc  3. gmtwsb,kvpress,full_replacement,0.75,8192,2.04
+niah_multikey_2,['9086649'],**7234619**.,kvpress,full_replacement,0.75,8192,1.565
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],The name of the desert city is not explicitly mentioned in the provided documents.,kvpress,full_replacement,0.75,8192,1.529
+niah_multikey_2,['6838180'],**1211254**.,kvpress,full_replacement,0.75,8192,1.566
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],:1. **4674549**  2. **6349877**  3. **1491630**  4. **1437264**  Let me know if you'd like to review them again!,kvpress,full_replacement,0.75,8192,4.433
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,full_replacement,0.75,8192,2.997
+niah_single_2,['5528972'],**5528972**.,kvpress,full_replacement,0.75,8192,1.446
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']","The example is the problem of solving large instances that is routinely handled by SAT handlers employing efficient algorithms, such as the problem of determining whether a large instance is a",kvpress,full_replacement,0.75,8192,2.537
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",Randomized Turing machine.,kvpress,full_replacement,0.75,8192,0.952
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,full_replacement,0.75,8192,1.853
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],1. **rbvoik**  2. **hakvdl**  3. **un Nedg**,kvpress,full_replacement,0.75,8192,2.316
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,full_replacement,0.75,8192,2.934
+qa_2,['1943'],1949,kvpress,full_replacement,0.75,8192,1.066
+niah_single_2,['6202210'],**6202210**.,kvpress,full_replacement,0.75,8192,1.451
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],":1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**  These numbers are highlighted in the text and are referred to as ""special magic numbers for kaput-collagen.""",kvpress,full_replacement,0.75,8192,5.093
+niah_multikey_1,['3673322'],**3673322**.,kvpress,full_replacement,0.75,8192,1.391
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],":- **Heavy-penalty**: 8597490  - **Many-spear**: 6752216  - **Moldy-credential**: 9594877  - **Daffy-sun**: 3318275  These numbers are embedded within the text as part of the ""special magic numbers"" references, and they are associated with the specific terms mentioned in the text.",kvpress,full_replacement,0.75,8192,6.574
+niah_single_1,['1652868'],:**1652868**,kvpress,full_replacement,0.75,8192,1.429
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,full_replacement,0.75,8192,1.17
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,full_replacement,0.75,8192,0.811
+niah_single_2,['3762152'],**3762152**.,kvpress,full_replacement,0.75,8192,1.445
+niah_single_2,['4794319'],**4794319**.,kvpress,full_replacement,0.75,8192,1.446
+niah_single_2,['7189302'],**7189302**.,kvpress,full_replacement,0.75,8192,1.446
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**cccbb213-d999-4415-4b69-b3d4e3b8**.,kvpress,full_replacement,0.75,8192,2.862
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,full_replacement,0.75,8192,3.0
+niah_single_1,['4188992'],:**4188992**,kvpress,full_replacement,0.75,8192,1.432
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']","1. asparagus  2. vigorous  3. phrase  4. snowman  5. doctrine  6. gelatin  7. unique  8. gown  9. singing  10. doctrine (tie with ""phrase"" and ""snowman"" for 5th place, but ""doctrine"" appears more than ""phrase"" and ""snowman"")  **Note:** If we strictly follow the count and rank them by frequency, the top 10 are:  1. asparagus  2. vigorous  3. phrase  4. snowman  5.",kvpress,full_replacement,0.75,8192,8.275
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],"1. **qiuwqq**  2. **qjiqmp**  3. **qiuwqq** (Note: If there is a typo in the original text, such as ""qiuwqq"" and """,kvpress,full_replacement,0.75,8192,3.757
+niah_single_1,['9852897'],:**9852897**,kvpress,full_replacement,0.75,8192,1.425
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,full_replacement,0.75,8192,2.009
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],:1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**  Let me know if you'd like to review them again!,kvpress,full_replacement,0.75,8192,4.425
+qa_2,['defensive coordinator'],played what role at the Arizona State Sun Devils?,kvpress,full_replacement,0.75,8192,1.466
+niah_single_1,['8669093'],:**8669093**,kvpress,full_replacement,0.75,8192,1.426
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**cb12c1fd-48c3-4f33-b288-8ef3fe628562**.,kvpress,full_replacement,0.75,8192,3.098
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']","1. swivel  2. gamy  3. newspaper  4. hunger  5. pit  6. radio  7. oldie  8. specification  9. swivel  10. gamy  (Note: ""swivel"" and ""gamy"" are tied for 1st and 2nd place, and ""swivel"" and ""gamy"" are also tied for 9th and 10th place. If only unique words are considered, the top 10 would be:  1. swivel  2. gamy",kvpress,full_replacement,0.75,8192,8.283
+qa_2,['John John Florence'],John John born 18 October 1992.,kvpress,full_replacement,0.75,8192,1.646
+qa_2,['1944'],1944,kvpress,full_replacement,0.75,8192,1.198
+niah_multikey_1,['4407796'],**4407796**.,kvpress,full_replacement,0.75,8192,1.389
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**These numbers are scattered throughout the text in different sections, and they are explicitly mentioned in the notes.",kvpress,full_replacement,0.75,8192,4.857
+qa_2,['2014'],2012,kvpress,full_replacement,0.75,8192,1.07
+fwe,['pooula' 'prbezn' 'gjksel'],1. pooula  2. gjksel  3. tmeoln,kvpress,full_replacement,0.75,8192,1.898
+qa_2,"['Istanbul, Turkey']",In what city can a person find both the Nusretiye Clock Tower and the Eski Imaret Mosque be found?,kvpress,full_replacement,0.75,8192,2.369
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**  2. **8475204**  3. **1735708**  4. **9535166**These numbers are highlighted in the text and are referred to as ""special magic numbers for rainy-sauce"" in different sections.",kvpress,full_replacement,0.75,8192,5.133
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are embedded within the text and are referenced in the notes sections of the various articles.,kvpress,full_replacement,0.75,8192,5.976
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']","1. lute  2. arthur  3. catacomb  4. gastropod  5. curd  6. mast  7. absurd  8. colon  9. curd  10. lute  (Note: There is a tie for the 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, and 9th positions. The most frequent words are: lute, arthur, catacomb, gastropod, curd, mast,",kvpress,full_replacement,0.75,8192,8.278
+niah_multikey_1,['2699372'],: **2699372**.,kvpress,full_replacement,0.75,8192,1.447
+niah_single_1,['2516313'],:**2516313**,kvpress,full_replacement,0.75,8192,1.426
+fwe,['rlowep' 'rykimj' 'hovqiq'],1. **rlowep**  2. **rykimj**  3. **ddswue**,kvpress,full_replacement,0.75,8192,2.224
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**fb6dfb6b-4c8d-4f8a-9d4d-5e4d3d302449**.,kvpress,full_replacement,0.75,8192,3.275
+niah_single_2,['6188935'],**6188935**.,kvpress,filtering,0.01,4096,2.426
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],"as follows:- **Swift-pigeon**: 7373495  - **Mammoth-caution**: 6573679  - **Homeless-octagon**: 1113537  - **Impossible-frenzy**: 8385715  These numbers are embedded in the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,filtering,0.01,4096,16.97
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The San Diego metropolitan area.,kvpress,filtering,0.01,4096,1.502
+niah_single_2,['8387112'],**8387112**.,kvpress,filtering,0.01,4096,2.373
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50**.,kvpress,filtering,0.01,4096,7.082
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the respective terms.",kvpress,filtering,0.01,4096,17.448
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,filtering,0.01,4096,6.92
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,filtering,0.01,4096,6.9
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],"as follows:- **Unequaled-atmosphere**: **5521644**- **Admant-waveform**: **2532210**- **Flagrant-woodshed**: **1348050**- **Smelly-fascia**: **1674975**These numbers are embedded in the text as part of the author's unique and whimsical style, and they are associated with the specific terms mentioned.",kvpress,filtering,0.01,4096,18.698
+niah_single_2,['2147909'],**2147909**.,kvpress,filtering,0.01,4096,2.375
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,filtering,0.01,4096,6.7
+niah_multikey_1,['2089275'],**2089275**.,kvpress,filtering,0.01,4096,2.37
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **numerous-jury**: **1752920**- **flipped-out-paperwork**: **4350161**- **tacit-fluke**: **3446428**- **various-coverall**: **7271672**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the respective categories.",kvpress,filtering,0.01,4096,17.595
+niah_single_1,['1229419'],:**1229419**,kvpress,filtering,0.01,4096,2.369
+niah_single_1,['6338112'],:**6338112**,kvpress,filtering,0.01,4096,2.372
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,filtering,0.01,4096,6.763
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],"gmebgb, qsyeiu, mgikxv.",kvpress,filtering,0.01,4096,3.126
+niah_multikey_2,['4412989'],:**4412989**.,kvpress,filtering,0.01,4096,2.651
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Palm Springs,kvpress,filtering,0.01,4096,0.777
+niah_multikey_2,['5444179'],**5444179**.,kvpress,filtering,0.01,4096,2.465
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],":1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for mature-commander.""",kvpress,filtering,0.01,4096,13.455
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,filtering,0.01,4096,7.086
+niah_single_2,['7067228'],**7067228**.,kvpress,filtering,0.01,4096,2.385
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The NP-complete knapsack problem.,kvpress,filtering,0.01,4096,1.869
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,filtering,0.01,4096,1.173
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for writing.,kvpress,filtering,0.01,4096,2.891
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],"**frxhxt**, **qyhgtv**, **kxedzq**.",kvpress,filtering,0.01,4096,4.272
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,filtering,0.01,4096,7.396
+qa_2,['1943'],1943,kvpress,filtering,0.01,4096,1.408
+niah_single_2,['5255545'],**5255545**.,kvpress,filtering,0.01,4096,2.384
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],":1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for bloody-pillow.""",kvpress,filtering,0.01,4096,13.707
+niah_multikey_1,['9692311'],**9692311**.,kvpress,filtering,0.01,4096,2.415
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],as follows:- **scattered-lawn**: 7352484  - **melodic-linkage**: 4942645  - **obeisant-blowgun**: 8517846  - **boundless-icon**: 8702329  These numbers are explicitly stated in the text and are associated with the respective terms.,kvpress,filtering,0.01,4096,16.064
+niah_single_1,['9648751'],:**9648751**,kvpress,filtering,0.01,4096,2.355
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,filtering,0.01,4096,1.36
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,filtering,0.01,4096,0.579
+niah_single_2,['7754864'],**7754864**.,kvpress,filtering,0.01,4096,2.455
+niah_single_2,['3182975'],**3182975**.,kvpress,filtering,0.01,4096,2.46
+niah_single_2,['9240971'],**9240971**.,kvpress,filtering,0.01,4096,2.414
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**87e504ce-1c17-4c69-9535-99c6c379b61d**.,kvpress,filtering,0.01,4096,7.693
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,filtering,0.01,4096,7.101
+niah_single_1,['8290770'],:**8290770**,kvpress,filtering,0.01,4096,2.376
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. **retention**  2. **atelier**  3. **snake**  4. **agriculture**  5. **junket**  6. **decline**  7. **waitress**  8. **uniformity**  9. **ask**  10. **church**,kvpress,filtering,0.01,4096,13.623
+fwe,['dznynv' 'pwvgox' 'skmtng'],"dznynv, pwvgox, jgaxre.",kvpress,filtering,0.01,4096,3.314
+niah_single_1,['7089806'],:**7089806**,kvpress,filtering,0.01,4096,2.356
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],"dtpgpe, pvyqym, and pkwkfe.",kvpress,filtering,0.01,4096,3.276
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],":1. **9124385**  2. **7972975**  3. **8792046**  4. **8375356**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for different-harbor.""",kvpress,filtering,0.01,4096,13.596
+qa_2,['defensive coordinator'],defensive coordinator,kvpress,filtering,0.01,4096,0.857
+niah_single_1,['9646569'],:**9646569**,kvpress,filtering,0.01,4096,2.341
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**d33343eb-08ec-4357-bddb-bed37e4648a5**.,kvpress,filtering,0.01,4096,6.362
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']","1. bandana  2. barn  3. spiffy  4. lottery  5. damp  6. nifty  7. grid  8. buze  9. easy  10. barn (tie with ""bandana"" for 1st place, but ""bandana"" appears more frequently)  **Corrected Answer:**  1. bandana  2. barn  3. spiffy  4. lottery  5. damp  6. nifty  7. grid  8. buze  9. easy  10. sp",kvpress,filtering,0.01,4096,22.657
+qa_2,['John John Florence'],John John Florence,kvpress,filtering,0.01,4096,1.101
+qa_2,['1944'],1944,kvpress,filtering,0.01,4096,1.358
+niah_multikey_1,['5942041'],**5942041**.,kvpress,filtering,0.01,4096,2.36
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for difficult-locust.""",kvpress,filtering,0.01,4096,13.591
+qa_2,['2014'],2014,kvpress,filtering,0.01,4096,1.444
+fwe,['fjnmov' 'olkknp' 'pwkedz'],"fjnmov, olkknp, pwkedz.",kvpress,filtering,0.01,4096,2.741
+qa_2,"['Istanbul, Turkey']",Istanbul,kvpress,filtering,0.01,4096,0.651
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for ambiguous-cup.""",kvpress,filtering,0.01,4096,13.396
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],"as follows:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  These numbers are embedded in the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,filtering,0.01,4096,16.928
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. **cast**  2. **personnel**  3. **sassy**  4. **fridge**  5. **currant**  6. **ripe**  7. **clever**  8. **restroom**  9. **energy**  10. **wisdom**,kvpress,filtering,0.01,4096,13.207
+niah_multikey_1,['4161264'],**4161264**.,kvpress,filtering,0.01,4096,2.365
+niah_single_1,['2147909'],:**2147909**,kvpress,filtering,0.01,4096,2.347
+fwe,['evdlxb' 'okwipf' 'piwkmk'],"**evdlxb**, **okwipf**, **piwkmk**.",kvpress,filtering,0.01,4096,3.996
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**444dc21c-ffe6-4a54-a5aa-aa628295a3f9**.,kvpress,filtering,0.01,4096,6.736
+niah_single_2,['3846949'],**3846949**.,kvpress,filtering,0.01,8192,2.823
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are referred to as ""special magic numbers"" in specific contexts.",kvpress,filtering,0.01,8192,17.338
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The Inland Empire.,kvpress,filtering,0.01,8192,1.758
+niah_single_2,['2516313'],**2516313**.,kvpress,filtering,0.01,8192,2.821
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],:**f9285706-577c-4717-836a-58870a5a2698**.,kvpress,filtering,0.01,8192,8.517
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],"as follows:- **Lacking-spark**: 1160783  - **Odd-library**: 1899447  - **Lacking-spark**: 1160783 (repeated)  - **Elderly-drill**: 6277776  - **Pleasant-awe**: 3290672  These numbers are embedded in the text as examples or references, often in the context of discussing programming, startups, and other technical topics.",kvpress,filtering,0.01,8192,21.943
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,filtering,0.01,8192,7.417
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**af521b94-f186-447a-a794-63208cf6e8b8**,kvpress,filtering,0.01,8192,7.405
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],"as follows:- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded in the text as part of the author's narrative and are likely used as placeholders or for some internal purpose, possibly as a form of code or reference.",kvpress,filtering,0.01,8192,19.494
+niah_single_2,['3937176'],**3937176**.,kvpress,filtering,0.01,8192,2.819
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,filtering,0.01,8192,7.604
+niah_multikey_1,['8727886'],**8727886**.,kvpress,filtering,0.01,8192,2.756
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],"as follows:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  These numbers are embedded within the text and are referred to as ""special magic numbers"" in different sections.",kvpress,filtering,0.01,8192,18.023
+niah_single_1,['4769851'],:**4769851**,kvpress,filtering,0.01,8192,2.806
+niah_single_1,['3551903'],:**3551903**,kvpress,filtering,0.01,8192,2.807
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,filtering,0.01,8192,7.429
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],"qplshr, qqhjdc, and gmtwsb.",kvpress,filtering,0.01,8192,3.735
+niah_multikey_2,['9086649'],**9086649**.,kvpress,filtering,0.01,8192,2.943
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Palm Springs,kvpress,filtering,0.01,8192,1.133
+niah_multikey_2,['6838180'],:**6838180**,kvpress,filtering,0.01,8192,2.944
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],:1. **4674549**2. **6349877**3. **1491630**4. **1437264**,kvpress,filtering,0.01,8192,9.52
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,filtering,0.01,8192,7.909
+niah_single_2,['5528972'],**5528972**.,kvpress,filtering,0.01,8192,2.918
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The NP-complete Boolean satisfiability problem.,kvpress,filtering,0.01,8192,2.357
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,filtering,0.01,8192,1.56
+qa_2,['author'],novelist,kvpress,filtering,0.01,8192,1.216
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],rbvoik  rfdzkt  hakvdl,kvpress,filtering,0.01,8192,3.537
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,filtering,0.01,8192,7.432
+qa_2,['1943'],1943,kvpress,filtering,0.01,8192,1.814
+niah_single_2,['6202210'],**6202210**.,kvpress,filtering,0.01,8192,2.821
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],:1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**,kvpress,filtering,0.01,8192,9.776
+niah_multikey_1,['3673322'],**3673322**.,kvpress,filtering,0.01,8192,2.759
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],as follows:- **heavy-penalty**: 8597490  - **many-spear**: 6752216  - **moldy-credential**: 9594877  - **daffy-sun**: 3318275  These numbers are embedded in the text and are referred to by their respective labels.,kvpress,filtering,0.01,8192,16.397
+niah_single_1,['1652868'],:**1652868**,kvpress,filtering,0.01,8192,2.808
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,filtering,0.01,8192,1.927
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,filtering,0.01,8192,0.947
+niah_single_2,['3762152'],**3762152**.,kvpress,filtering,0.01,8192,2.823
+niah_single_2,['4794319'],**4794319**.,kvpress,filtering,0.01,8192,2.819
+niah_single_2,['7189302'],**7189302**.,kvpress,filtering,0.01,8192,2.821
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**1934850a-e8ff-4869-b759-5b46d1264de7**,kvpress,filtering,0.01,8192,7.597
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,filtering,0.01,8192,7.915
+niah_single_1,['4188992'],:**4188992**,kvpress,filtering,0.01,8192,2.898
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']",1. asparagus  2. phrase  3. doctrine  4. snowman  5. vigorous  6. gown  7. unique  8. gelatin  9. singing  10. snowman,kvpress,filtering,0.01,8192,9.87
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],"qiuwqq, qjiqmp, xuoeem.",kvpress,filtering,0.01,8192,3.674
+niah_single_1,['9852897'],:**9852897**,kvpress,filtering,0.01,8192,2.828
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,filtering,0.01,8192,4.642
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],":1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**  These numbers are explicitly stated in the text and are referred to as ""special magic numbers for roomy-hound.""",kvpress,filtering,0.01,8192,14.214
+qa_2,['defensive coordinator'],defensive coordinator,kvpress,filtering,0.01,8192,1.372
+niah_single_1,['8669093'],:**8669093**,kvpress,filtering,0.01,8192,2.803
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**4f24d4a7-21ac-4998-91e7-7117c5162140**.,kvpress,filtering,0.01,8192,8.327
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']",1. gamy  2. swivel  3. newspaper  4. hunger  5. radio  6. oldie  7. reserve  8. specification  9. pit  10. gamy,kvpress,filtering,0.01,8192,9.671
+qa_2,['John John Florence'],John John Florence,kvpress,filtering,0.01,8192,1.56
+qa_2,['1944'],1944,kvpress,filtering,0.01,8192,1.954
+niah_multikey_1,['4407796'],**4407796**.,kvpress,filtering,0.01,8192,2.769
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**  These numbers are scattered throughout the text and are explicitly labeled as ""special magic numbers for spicy-skating.""",kvpress,filtering,0.01,8192,13.915
+qa_2,['2014'],2008,kvpress,filtering,0.01,8192,1.869
+fwe,['pooula' 'prbezn' 'gjksel'],"pooula, gjksel, and prbezn.",kvpress,filtering,0.01,8192,3.405
+qa_2,"['Istanbul, Turkey']","Istanbul, Turkey.",kvpress,filtering,0.01,8192,1.732
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**2. **8475204**3. **1735708**4. **9535166**These numbers are explicitly labeled as ""special magic numbers for rainy-sauce"" in the text, and they appear in different sections of the passage.",kvpress,filtering,0.01,8192,15.146
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],"as follows:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" in different sections.",kvpress,filtering,0.01,8192,18.191
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']",1. lute  2. arthur  3. gastropod  4. curd  5. colonial  6. actress  7. mast  8. absurd  9. catacomb  10. orange,kvpress,filtering,0.01,8192,9.984
+niah_multikey_1,['2699372'],**2699372**.,kvpress,filtering,0.01,8192,2.762
+niah_single_1,['2516313'],:**2516313**,kvpress,filtering,0.01,8192,2.808
+fwe,['rlowep' 'rykimj' 'hovqiq'],"rlowep, rykimj, and hovqiq.",kvpress,filtering,0.01,8192,3.508
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**3945cac7-3f99-45a7-8af4-b5da33cd1fed**.,kvpress,filtering,0.01,8192,7.062
+niah_single_2,['6188935'],**6188935**.,kvpress,filtering,0.25,4096,2.406
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],:- **Swift-pigeon**: **7373495**  - **Mammoth-caution**: **6573679**  - **Homeless-octagon**: **1113537**  - **Impossible-frenzy**: **8385715**Let me know if you'd like to review the context or the significance of these numbers!,kvpress,filtering,0.25,4096,17.26
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The San Bernardino and Riverside areas.,kvpress,filtering,0.25,4096,1.728
+niah_single_2,['8387112'],**8387112**.,kvpress,filtering,0.25,4096,2.387
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50**.,kvpress,filtering,0.25,4096,7.297
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  Let me know if you'd like to review or quiz about these numbers!,kvpress,filtering,0.25,4096,16.249
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,filtering,0.25,4096,7.102
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,filtering,0.25,4096,7.09
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],:- **Unequaled-atmosphere**: **5521644**  - **Admant-waveform**: **2532210**  - **Flagrant-woodshed**: **1348050**  - **Smelly-fascia**: **1674975**These numbers are embedded within the text and are likely used as unique identifiers or markers for specific sections or ideas.,kvpress,filtering,0.25,4096,18.379
+niah_single_2,['2147909'],:**2147909**,kvpress,filtering,0.25,4096,2.409
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,filtering,0.25,4096,6.895
+niah_multikey_1,['2089275'],**2089275**.,kvpress,filtering,0.25,4096,2.403
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **numerous-jury**: **1752920**- **flipped-out-paperwork**: **4350161**- **tacit-fluke**: **3446428**- **various-coverall**: **7271672**These numbers are embedded within the text and are highlighted as ""special magic numbers"" for each of the specified terms.",kvpress,filtering,0.25,4096,18.006
+niah_single_1,['1229419'],:**1229419**,kvpress,filtering,0.25,4096,2.359
+niah_single_1,['6338112'],:**6338112**,kvpress,filtering,0.25,4096,2.367
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,filtering,0.25,4096,6.928
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],1. gmebgb  2. qsyeiu  3. mgikxv,kvpress,filtering,0.25,4096,4.253
+niah_multikey_2,['4412989'],:**4412989**.,kvpress,filtering,0.25,4096,2.656
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],San Bernardino,kvpress,filtering,0.25,4096,0.787
+niah_multikey_2,['5444179'],:**5444179**.,kvpress,filtering,0.25,4096,2.633
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],":1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for mature-commander.""",kvpress,filtering,0.25,4096,13.739
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,filtering,0.25,4096,7.296
+niah_single_2,['7067228'],**7067228**.,kvpress,filtering,0.25,4096,2.417
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the NP-complete Boolean satisfiability problem.,kvpress,filtering,0.25,4096,5.738
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,filtering,0.25,4096,1.203
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for their profession as a writer.,kvpress,filtering,0.25,4096,3.75
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],"**frxhxt**, **qyhgtv**, **kxedzq**.",kvpress,filtering,0.25,4096,4.245
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,filtering,0.25,4096,7.593
+qa_2,['1943'],1992,kvpress,filtering,0.25,4096,1.413
+niah_single_2,['5255545'],**5255545**.,kvpress,filtering,0.25,4096,2.396
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],":1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**These numbers are explicitly called out in the text and are considered ""special magic numbers"" by the author.",kvpress,filtering,0.25,4096,13.582
+niah_multikey_1,['9692311'],**9692311**.,kvpress,filtering,0.25,4096,2.399
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],as follows:- **scattered-lawn**: **7352484**  - **melodic-linkage**: **4942645**  - **obeisant-blowgun**: **8517846**  - **boundless-icon**: **8702329**These numbers are embedded within the text and are associated with specific sections or themes. Let me know if you'd like to review them again or if you need help with anything else!,kvpress,filtering,0.25,4096,20.807
+niah_single_1,['9648751'],:**9648751**,kvpress,filtering,0.25,4096,2.421
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,filtering,0.25,4096,1.602
+qa_1,['economically' 'economically' 'economically'],economically,kvpress,filtering,0.25,4096,0.587
+niah_single_2,['7754864'],**7754864**.,kvpress,filtering,0.25,4096,2.453
+niah_single_2,['3182975'],**3182975**.,kvpress,filtering,0.25,4096,2.475
+niah_single_2,['9240971'],:**9240971**.,kvpress,filtering,0.25,4096,2.646
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**87e504ce-1c17-4c69-9535-99c6c379b61d**.,kvpress,filtering,0.25,4096,8.001
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,filtering,0.25,4096,7.303
+niah_single_1,['8290770'],:**8290770**,kvpress,filtering,0.25,4096,2.368
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. **retention**  2. **atelier**  3. **snake**  4. **junket**  5. **uniformity**  6. **agriculture**  7. **decline**  8. **waitress**  9. **ask**  10. **church**,kvpress,filtering,0.25,4096,13.785
+fwe,['dznynv' 'pwvgox' 'skmtng'],"**dznynv**, **pwvgox**, and **jgaxre**.",kvpress,filtering,0.25,4096,4.425
+niah_single_1,['7089806'],:**7089806**,kvpress,filtering,0.25,4096,2.359
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],"**dtpgpe**, **pvyqym**, **pkwkfe**.",kvpress,filtering,0.25,4096,4.047
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],":1. **9124385**  2. **7972975**  3. **8792046**  4. **8375356**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for different-harbor.""",kvpress,filtering,0.25,4096,13.859
+qa_2,['defensive coordinator'],assistant coach,kvpress,filtering,0.25,4096,0.866
+niah_single_1,['9646569'],:**9646569**,kvpress,filtering,0.25,4096,2.347
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**0d10262b-0913-4261-a2a0-23e6e86f780e**.,kvpress,filtering,0.25,4096,7.843
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']",1. buze  2. spiffy  3. barn  4. damp  5. lottery  6. nifty  7. grid  8. bandana  9. easy  10. spiffy,kvpress,filtering,0.25,4096,11.923
+qa_2,['John John Florence'],John John Florence,kvpress,filtering,0.25,4096,1.127
+qa_2,['1944'],1944,kvpress,filtering,0.25,4096,1.373
+niah_multikey_1,['5942041'],: **5942041**.,kvpress,filtering,0.25,4096,2.581
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**These numbers are explicitly called out in the text as ""special magic numbers for difficult-locust.""",kvpress,filtering,0.25,4096,13.3
+qa_2,['2014'],2014,kvpress,filtering,0.25,4096,1.466
+fwe,['fjnmov' 'olkknp' 'pwkedz'],"fjnmov, olkknp, pwkedz.",kvpress,filtering,0.25,4096,2.764
+qa_2,"['Istanbul, Turkey']",Istanbul.,kvpress,filtering,0.25,4096,0.841
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**These numbers are repeated throughout the text in the context of the phrase:  **""One of the special magic numbers for ambiguous-cup is: [number].""**",kvpress,filtering,0.25,4096,15.715
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],as follows:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  Let me know if you'd like to review or test your memory of these numbers!,kvpress,filtering,0.25,4096,16.811
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. cast  2. sassy  3. fridge  4. personnel  5. currant  6. clever  7. wisdom  8. ripe  9. restroom  10. energy,kvpress,filtering,0.25,4096,8.691
+niah_multikey_1,['4161264'],**4161264**.,kvpress,filtering,0.25,4096,2.415
+niah_single_1,['2147909'],:**2147909**,kvpress,filtering,0.25,4096,2.362
+fwe,['evdlxb' 'okwipf' 'piwkmk'],"**evdlxb**, **okwipf**, **piwkmk**.",kvpress,filtering,0.25,4096,4.053
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**126ecdfa-d3f5-46f6-ba84-6828a55d963c**.,kvpress,filtering,0.25,4096,7.096
+niah_single_2,['3846949'],:**3846949**,kvpress,filtering,0.25,8192,2.855
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are referenced in different sections.,kvpress,filtering,0.25,8192,16.602
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The Riverside-San Bernardino area.,kvpress,filtering,0.25,8192,2.152
+niah_single_2,['2516313'],:**2516313**,kvpress,filtering,0.25,8192,2.851
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],:**f9285706-577c-4717-836a-58870a5a2698**.,kvpress,filtering,0.25,8192,8.651
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],"as follows:- **Pleasant-awe**: 3290672  - **Odd-library**: 1899447  - **Lacking-spark**: 1160783  - **Elderly-drill**: 6277776  These numbers are inserted within the text as special markers or references, likely for the purpose of testing or identification.",kvpress,filtering,0.25,8192,17.96
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,filtering,0.25,8192,7.525
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**af521b94-f186-447a-a794-63208cf6e8b8**,kvpress,filtering,0.25,8192,7.603
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],as follows:- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded within the text as part of the author's narrative and are likely used as placeholders or for some specific purpose within the context of the discussion.,kvpress,filtering,0.25,8192,19.603
+niah_single_2,['3937176'],**3937176**.,kvpress,filtering,0.25,8192,2.847
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,filtering,0.25,8192,7.755
+niah_multikey_1,['8727886'],: **8727886**.,kvpress,filtering,0.25,8192,2.961
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],"as follows:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  These numbers are embedded within the text as part of the ""special magic numbers"" references, which are used in different sections to highlight specific points or add a unique flavor to the narrative.",kvpress,filtering,0.25,8192,21.832
+niah_single_1,['4769851'],:**4769851**,kvpress,filtering,0.25,8192,2.801
+niah_single_1,['3551903'],":**3551903**This number is explicitly stated in the text:> **One of the special magic numbers for lying-deviation is: 3551903.**So, the answer is: **3551903**.",kvpress,filtering,0.25,8192,11.852
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,filtering,0.25,8192,7.563
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],"qplshr, qqhjdc, and gmtwsb.",kvpress,filtering,0.25,8192,3.757
+niah_multikey_2,['9086649'],:**9086649**,kvpress,filtering,0.25,8192,2.959
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],San Bernardino.,kvpress,filtering,0.25,8192,1.328
+niah_multikey_2,['6838180'],:**6838180**,kvpress,filtering,0.25,8192,2.959
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],":1. **4674549**  2. **6349877**  3. **1491630**  4. **1437264**These numbers are explicitly stated in the text and are considered ""special magic numbers"" for the mentioned phenomenon.",kvpress,filtering,0.25,8192,14.009
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,filtering,0.25,8192,7.799
+niah_single_2,['5528972'],**5528972**.,kvpress,filtering,0.25,8192,2.843
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the problem of determining whether a graph is connected.,kvpress,filtering,0.25,8192,6.566
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,filtering,0.25,8192,1.53
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,filtering,0.25,8192,4.081
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],1. rbvoik  2. rfdzkt  3. hakvdl,kvpress,filtering,0.25,8192,4.579
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,filtering,0.25,8192,7.599
+qa_2,['1943'],1949,kvpress,filtering,0.25,8192,1.825
+niah_single_2,['6202210'],: **6202210**.,kvpress,filtering,0.25,8192,3.028
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],":1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**These numbers are explicitly called out in the text and are associated with the concept of ""kaput-collagen,"" which seems to be a placeholder or coded reference within the context of the articles.",kvpress,filtering,0.25,8192,17.759
+niah_multikey_1,['3673322'],: **3673322**.,kvpress,filtering,0.25,8192,3.03
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],as follows:- **heavy-penalty**: 8597490  - **many-spear**: 6752216  - **moldy-credential**: 9594877  - **daffy-sun**: 3318275  These numbers are embedded within the text and are associated with the specific terms mentioned in the passage.,kvpress,filtering,0.25,8192,17.996
+niah_single_1,['1652868'],:**1652868**,kvpress,filtering,0.25,8192,2.851
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,filtering,0.25,8192,2.155
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,filtering,0.25,8192,1.336
+niah_single_2,['3762152'],**3762152**.,kvpress,filtering,0.25,8192,2.902
+niah_single_2,['4794319'],**4794319**.,kvpress,filtering,0.25,8192,2.898
+niah_single_2,['7189302'],**7189302**.,kvpress,filtering,0.25,8192,2.892
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**1934850a-e8ff-4869-b759-5b46d1264de7**,kvpress,filtering,0.25,8192,7.911
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,filtering,0.25,8192,7.803
+niah_single_1,['4188992'],:**4188992**,kvpress,filtering,0.25,8192,2.803
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']","1. asparagus  2. phrase  3. vigorous  4. snowman  5. doctrine  6. unique  7. gown  8. gelatin  9. singing  10. doctrine (Note: ""doctrine"" appears more than once, so it is listed as the 5th and 10th word, but it's actually the most frequent word, so the correct top 10 would be: 1. asparagus, 2. phrase, 3. vigorous, 4. snowman, 5. doctrine, 6.",kvpress,filtering,0.25,8192,23.743
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],"**qiuwqq**, **qjiqmp**, **xuoeem**.",kvpress,filtering,0.25,8192,4.672
+niah_single_1,['9852897'],:**9852897**,kvpress,filtering,0.25,8192,2.8
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,filtering,0.25,8192,4.663
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],":1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for roomy-hound.""",kvpress,filtering,0.25,8192,14.404
+qa_2,['defensive coordinator'],assistant coach,kvpress,filtering,0.25,8192,1.374
+niah_single_1,['8669093'],:**8669093**,kvpress,filtering,0.25,8192,2.795
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**e599dae0-e2ce-4380-b740-b76d0eb36f6c**.,kvpress,filtering,0.25,8192,7.303
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']","1. swivel  2. gamy  3. hunger  4. newspaper  5. radio  6. oldie  7. specification  8. pit  9. reserve  10. gamy (Note: ""gamy"" appears more than once, so it is listed as the second most common word, but if duplicates are not allowed, it would be listed as the second word, and the 10th word would be ""specification"" or another word depending on exact counts.)",kvpress,filtering,0.25,8192,21.088
+qa_2,['John John Florence'],John John Florence,kvpress,filtering,0.25,8192,1.561
+qa_2,['1944'],1916,kvpress,filtering,0.25,8192,1.963
+niah_multikey_1,['4407796'],**4407796**.,kvpress,filtering,0.25,8192,2.777
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**These numbers are explicitly stated in the text and are referred to in the context of ""spicy-skating,"" which appears to be a term used by the author for a specific purpose or concept, possibly related to a personal project or a metaphorical idea.",kvpress,filtering,0.25,8192,19.806
+qa_2,['2014'],2009,kvpress,filtering,0.25,8192,1.837
+fwe,['pooula' 'prbezn' 'gjksel'],"pooula, gjksel, tmeoln.",kvpress,filtering,0.25,8192,3.302
+qa_2,"['Istanbul, Turkey']",Istanbul.,kvpress,filtering,0.25,8192,1.329
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**  2. **8475204**  3. **1735708**  4. **9535166**These numbers are scattered throughout the text and are highlighted as ""special magic numbers for rainy-sauce"" in different sections.",kvpress,filtering,0.25,8192,14.648
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],"as follows:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are embedded within the text and are referenced in different sections, often in the context of discussions about technology, startups, and addictive behaviors.",kvpress,filtering,0.25,8192,19.816
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']","1. lute  2. arthur  3. gastropod  4. curd  5. colonial  6. mast  7. actress  8. absurd  9. catacomb  10. orange (Note: ""orangutan"" appears more frequently than ""orange"", so the correct 10th word is ""orangutan"")  **Corrected Answer:**  1. lute  2. arthur  3. gastropod  4. curd  5. colonial  6. mast  7. actress  8. absurd  9.",kvpress,filtering,0.25,8192,23.82
+niah_multikey_1,['2699372'],: **2699372**.,kvpress,filtering,0.25,8192,2.968
+niah_single_1,['2516313'],:**2516313**,kvpress,filtering,0.25,8192,2.802
+fwe,['rlowep' 'rykimj' 'hovqiq'],1. rlowep  2. rykimj  3. hovqiq,kvpress,filtering,0.25,8192,4.609
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**c40c6697-b529-4908-ae54-eae29886fac5**.,kvpress,filtering,0.25,8192,7.506
+niah_single_2,['6188935'],**6188935**.,kvpress,filtering,0.5,4096,2.408
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],"as follows:- **Swift-pigeon**: **7373495**  - **Mammoth-caution**: **6573679**  - **Homeless-octagon**: **1113537**  - **Impossible-frenzy**: **8385715**These numbers are embedded within the text and are highlighted as ""special magic numbers"" for each of the specified categories.",kvpress,filtering,0.5,4096,20.513
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The San Bernardino and Riverside areas.,kvpress,filtering,0.5,4096,1.723
+niah_single_2,['8387112'],: **8387112**.,kvpress,filtering,0.5,4096,2.593
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],:**23a4e70e-9dbc-45c0-aa7d-c57c6d6dafff**.,kvpress,filtering,0.5,4096,6.965
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are associated with the specific topics mentioned.,kvpress,filtering,0.5,4096,16.126
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,filtering,0.5,4096,7.148
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,filtering,0.5,4096,7.118
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],:- **Unequaled-atmosphere**: 5521644  - **Adamant-waveform**: 2532210  - **Flagrant-woodshed**: 1348050  - **Smelly-fascia**: 1674975  These numbers are embedded within the text and are associated with specific phrases as described in the passage.,kvpress,filtering,0.5,4096,17.255
+niah_single_2,['2147909'],**2147909**.,kvpress,filtering,0.5,4096,2.425
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**.,kvpress,filtering,0.5,4096,7.096
+niah_multikey_1,['2089275'],**2089275**.,kvpress,filtering,0.5,4096,2.428
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **numerous-jury**: **1752920**- **flipped-out-paperwork**: **4350161**- **tacit-fluke**: **3446428**- **various-coverall**: **7271672**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for each of the specified terms.",kvpress,filtering,0.5,4096,18.376
+niah_single_1,['1229419'],:**1229419**,kvpress,filtering,0.5,4096,2.384
+niah_single_1,['6338112'],:**6338112**,kvpress,filtering,0.5,4096,2.35
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,filtering,0.5,4096,6.914
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],1. **gmebgb**  2. **qsyeiu**  3. **mgikxv**,kvpress,filtering,0.5,4096,5.365
+niah_multikey_2,['4412989'],: **8928022**.,kvpress,filtering,0.5,4096,4.421
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Desert City.,kvpress,filtering,0.5,4096,0.982
+niah_multikey_2,['5444179'],:**5444179**.,kvpress,filtering,0.5,4096,2.643
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],:1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**These are the four unique numbers explicitly stated in the text.,kvpress,filtering,0.5,4096,11.85
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,filtering,0.5,4096,7.288
+niah_single_2,['7067228'],:**7067228**,kvpress,filtering,0.5,4096,2.407
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the NP-complete knapsack problem.,kvpress,filtering,0.5,4096,5.693
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,filtering,0.5,4096,1.201
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,filtering,0.5,4096,3.538
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],1. **frxhxt**  2. **qyhgtv**  3. **kxedzq**,kvpress,filtering,0.5,4096,5.587
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**.,kvpress,filtering,0.5,4096,7.728
+qa_2,['1943'],1954,kvpress,filtering,0.5,4096,1.414
+niah_single_2,['5255545'],:**5255545**,kvpress,filtering,0.5,4096,2.401
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],":1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**These numbers are explicitly stated within the text and are referred to as ""special magic numbers"" in different sections.",kvpress,filtering,0.5,4096,13.806
+niah_multikey_1,['9692311'],**1929673**.,kvpress,filtering,0.5,4096,2.43
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],:- **Scattered-lawn**: 7352484  - **Melodic-linkage**: 4942645  - **Obeisant-blowgun**: 8517846  - **Boundless-icon**: 8702329  Let me know if you'd like to review them again or if you have any questions about the text!,kvpress,filtering,0.5,4096,17.28
+niah_single_1,['9648751'],:**9648751**,kvpress,filtering,0.5,4096,2.363
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,filtering,0.5,4096,1.566
+qa_1,['economically' 'economically' 'economically'],geographically,kvpress,filtering,0.5,4096,0.763
+niah_single_2,['7754864'],**7754864**.,kvpress,filtering,0.5,4096,2.41
+niah_single_2,['3182975'],:**3182975**,kvpress,filtering,0.5,4096,2.421
+niah_single_2,['9240971'],:**9240971**,kvpress,filtering,0.5,4096,2.422
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**87e504ce-1c17-4c69-9535-99c6c379b61d**.,kvpress,filtering,0.5,4096,7.938
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,filtering,0.5,4096,7.323
+niah_single_1,['8290770'],:**8290770**,kvpress,filtering,0.5,4096,2.371
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']",1. uniformity  2. agriculture  3. junket  4. retention  5. snake  6. atelier  7. decline  8. ask  9. waitress  10. church,kvpress,filtering,0.5,4096,8.926
+fwe,['dznynv' 'pwvgox' 'skmtng'],"**dznynv**, **pwvgox**, and **jgaxre**.",kvpress,filtering,0.5,4096,4.496
+niah_single_1,['7089806'],:**7089806**,kvpress,filtering,0.5,4096,2.371
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],1. **dtpgpe**  2. **pvyqym**  3. **pkwkfe**,kvpress,filtering,0.5,4096,5.396
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],":1. **9124385**  2. **7972975**  3. **8792046**  4. **8375356**These numbers are explicitly stated within the text and are referred to as ""special magic numbers"" in different sections.",kvpress,filtering,0.5,4096,13.821
+qa_2,['defensive coordinator'],role at the Arizona State Sun Devils.,kvpress,filtering,0.5,4096,1.99
+niah_single_1,['9646569'],:**9646569**,kvpress,filtering,0.5,4096,2.35
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**d33343eb-08ec-4357-bddb-bed37e4648a5**.,kvpress,filtering,0.5,4096,6.584
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']",1. spiffy  2. bandana  3. barn  4. damp  5. easy  6. lottery  7. buze  8. spiffy  9. grid  10. nifty,kvpress,filtering,0.5,4096,9.695
+qa_2,['John John Florence'],John John Irons,kvpress,filtering,0.5,4096,1.322
+qa_2,['1944'],1944,kvpress,filtering,0.5,4096,1.375
+niah_multikey_1,['5942041'],**5942041**.,kvpress,filtering,0.5,4096,2.409
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],":1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**These numbers are explicitly stated within the text and are referred to as ""special magic numbers"" for the purpose of the text.",kvpress,filtering,0.5,4096,14.308
+qa_2,['2014'],2007,kvpress,filtering,0.5,4096,1.474
+fwe,['fjnmov' 'olkknp' 'pwkedz'],1. **fjnmov**  2. **olkknp**  3. **pwkedz**,kvpress,filtering,0.5,4096,5.19
+qa_2,"['Istanbul, Turkey']",Istanbul.,kvpress,filtering,0.5,4096,0.848
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**These are the four unique numbers that appear in the text, each associated with the phrase ""One of the special magic numbers for ambiguous-cup is: [number].""",kvpress,filtering,0.5,4096,15.835
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],"as follows:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  These numbers are embedded within the text and are highlighted as ""special magic numbers"" for each of the specified categories.",kvpress,filtering,0.5,4096,17.987
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']",1. cast  2. sassy  3. fridge  4. currant  5. clever  6. restroom  7. ripe  8. wisdom  9. personnel  10. energy,kvpress,filtering,0.5,4096,8.796
+niah_multikey_1,['4161264'],**4161264**.,kvpress,filtering,0.5,4096,2.41
+niah_single_1,['2147909'],:**2147909**,kvpress,filtering,0.5,4096,2.36
+fwe,['evdlxb' 'okwipf' 'piwkmk'],1. **evdlxb**  2. **okwipf**  3. **piwkmk**  These are the three words that appear most frequently in the text.,kvpress,filtering,0.5,4096,8.016
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**126ecdfa-d3f5-46f6-ba84-6828a55d963c**.,kvpress,filtering,0.5,4096,7.136
+niah_single_2,['3846949'],**3846949**.,kvpress,filtering,0.5,8192,2.827
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  These numbers are embedded within the text and are associated with the specific categories mentioned.,kvpress,filtering,0.5,8192,16.764
+qa_1,['Inland Empire' 'Temecula and Murrieta'],San Bernardino and Riverside.,kvpress,filtering,0.5,8192,1.754
+niah_single_2,['2516313'],**2516313**.,kvpress,filtering,0.5,8192,2.824
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],:**44f00717-1d75-4901-b309-106e62928cdc**.,kvpress,filtering,0.5,8192,8.154
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],as follows:- **pleasant-awe**: 3290672  - **odd-library**: 1899447  - **lacking-spark**: 1160783  - **elderly-drill**: 6277776  These numbers are embedded within the text as part of the author's notes and are used to highlight specific sections or ideas.,kvpress,filtering,0.5,8192,17.626
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,filtering,0.5,8192,7.49
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**af521b94-f186-447a-a794-63208cf6e8b8**,kvpress,filtering,0.5,8192,7.549
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],as follows:- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded within the text as part of the author's narrative and are used to highlight specific points or add a layer of intrigue.,kvpress,filtering,0.5,8192,18.713
+niah_single_2,['3937176'],**3937176**.,kvpress,filtering,0.5,8192,2.829
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,filtering,0.5,8192,7.761
+niah_multikey_1,['8727886'],: **8727886**.,kvpress,filtering,0.5,8192,2.935
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],"as follows:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  These numbers are embedded within the text as part of the ""special magic numbers"" references, which are used in different sections of the text to highlight specific points or addictions.",kvpress,filtering,0.5,8192,21.167
+niah_single_1,['4769851'],:**4769851**,kvpress,filtering,0.5,8192,2.767
+niah_single_1,['3551903'],":**3551903**This number is explicitly stated in the text:> **One of the special magic numbers for lying-deviation is: 3551903.**So, the answer is: **3551903**.",kvpress,filtering,0.5,8192,11.748
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,filtering,0.5,8192,7.52
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],1. qplshr  2. qqhjdc  3. gmtwsb,kvpress,filtering,0.5,8192,4.687
+niah_multikey_2,['9086649'],**9086649**.,kvpress,filtering,0.5,8192,2.967
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Desert city is not a specific term mentioned in the given documents.,kvpress,filtering,0.5,8192,3.192
+niah_multikey_2,['6838180'],**6343610**.,kvpress,filtering,0.5,8192,2.971
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],":1. **4674549**  2. **6349877**  3. **1491630**  4. **1437264**These numbers are explicitly stated in the text and are referred to as ""special magic numbers"" for the purpose of the earsplitting-dragonfruit.",kvpress,filtering,0.5,8192,15.588
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,filtering,0.5,8192,7.721
+niah_single_2,['5528972'],**5528972**.,kvpress,filtering,0.5,8192,2.84
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms is the problem of determining whether there is a route of at most,kvpress,filtering,0.5,8192,6.791
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",probabilistic Turing machine,kvpress,filtering,0.5,8192,1.56
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,filtering,0.5,8192,4.105
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],1. rbvoik  2. hakvdl  3. rfdzkt,kvpress,filtering,0.5,8192,4.432
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,filtering,0.5,8192,7.513
+qa_2,['1943'],1749,kvpress,filtering,0.5,8192,1.816
+niah_single_2,['6202210'],**6202210**.,kvpress,filtering,0.5,8192,2.813
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],":1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**These numbers are explicitly stated within the text and are referred to as ""special magic numbers for kaput-collagen"" in different sections.",kvpress,filtering,0.5,8192,15.189
+niah_multikey_1,['3673322'],: **3673322**.,kvpress,filtering,0.5,8192,2.933
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],as follows:- **heavy-penalty**: 8597490  - **many-spear**: 6752216  - **moldy-credential**: 9594877  - **daffy-sun**: 3318275  These numbers are embedded within the text and are associated with the specific terms mentioned.,kvpress,filtering,0.5,8192,16.787
+niah_single_1,['1652868'],:**1652868**,kvpress,filtering,0.5,8192,2.768
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,filtering,0.5,8192,1.944
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,filtering,0.5,8192,1.303
+niah_single_2,['3762152'],**3762152**.,kvpress,filtering,0.5,8192,2.824
+niah_single_2,['4794319'],**4794319**.,kvpress,filtering,0.5,8192,2.83
+niah_single_2,['7189302'],**7189302**.,kvpress,filtering,0.5,8192,2.825
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**96431101-6c7b-4210-aba0-c8b7e87f04c1**,kvpress,filtering,0.5,8192,7.941
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,filtering,0.5,8192,7.707
+niah_single_1,['4188992'],:**4188992**,kvpress,filtering,0.5,8192,2.765
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']","1. asparagus  2. phrase  3. vigorous  4. snowman  5. doctrine  6. gelatin  7. unique  8. gown  9. singing  10. doctrine (Note: ""doctrine"" appears more than once, so it is listed as the 5th and 10th word, but it's actually the most frequent word, appearing 22 times.)  **Corrected Answer:**  1. asparagus  2. phrase  3. vigorous  4. snowman  5. doctrine  6. gelatin",kvpress,filtering,0.5,8192,23.845
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],1. **qiuwqq**  2. **qjiqmp**  3. **xuoeem**,kvpress,filtering,0.5,8192,5.916
+niah_single_1,['9852897'],:**9852897**,kvpress,filtering,0.5,8192,2.763
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,filtering,0.5,8192,4.603
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],":1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for roomy-hound.""",kvpress,filtering,0.5,8192,14.269
+qa_2,['defensive coordinator'],Southern Methodist University coach also played the role of a Southern Methodist University coach at the Arizona State Sun Devils.,kvpress,filtering,0.5,8192,5.034
+niah_single_1,['8669093'],:**8669093**,kvpress,filtering,0.5,8192,2.765
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**43d0ce20-e1da-4ca2-b8ec-8ee10fbc194f**.,kvpress,filtering,0.5,8192,7.163
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']","1. swivel  2. gamy  3. newspaper  4. hunger  5. radio  6. oldie  7. pit  8. specification  9. reserve  10. gamy (Note: ""gamy"" appears more than once, so it is listed as the second most common word, but it is repeated in the top 10 due to its high frequency.)",kvpress,filtering,0.5,8192,17.17
+qa_2,['John John Florence'],John John Florence,kvpress,filtering,0.5,8192,1.561
+qa_2,['1944'],1951,kvpress,filtering,0.5,8192,1.96
+niah_multikey_1,['4407796'],**4407796**.,kvpress,filtering,0.5,8192,2.745
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for spicy-skating"" in different sections.",kvpress,filtering,0.5,8192,14.806
+qa_2,['2014'],2007,kvpress,filtering,0.5,8192,1.829
+fwe,['pooula' 'prbezn' 'gjksel'],pooula  gjksel  tmeoln,kvpress,filtering,0.5,8192,3.442
+qa_2,"['Istanbul, Turkey']",Istanbul,kvpress,filtering,0.5,8192,1.134
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**  2. **8475204**  3. **1735708**  4. **9535166**These numbers are explicitly stated in the text and are referred to as ""special magic numbers for rainy-sauce"" in different sections.",kvpress,filtering,0.5,8192,14.823
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],as follows:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are embedded within the text and are associated with specific sections or themes discussed in the text.,kvpress,filtering,0.5,8192,17.878
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']",1. lute  2. arthur  3. curd  4. gastropod  5. mast  6. colonial  7. actress  8. absurd  9. catacomb  10. orchid,kvpress,filtering,0.5,8192,10.376
+niah_multikey_1,['2699372'],: **2699372**.,kvpress,filtering,0.5,8192,2.925
+niah_single_1,['2516313'],:**2516313**,kvpress,filtering,0.5,8192,2.761
+fwe,['rlowep' 'rykimj' 'hovqiq'],1. **rlowep**  2. **rykimj**  3. **vygucb**,kvpress,filtering,0.5,8192,5.489
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**c40c6697-b529-4908-ae54-eae29886fac5**.,kvpress,filtering,0.5,8192,7.547
+niah_single_2,['6188935'],**6188935**.,kvpress,filtering,0.75,4096,2.395
+niah_multiquery,['7373495' '6573679' '1113537' '8385715'],:- **Swift-pigeon**: 7373495  - **Mammoth-caution**: 5736799  - **Homeless-octagon**: 1113537  - **Impossible-frenzy**: 8385715  Let me know if you'd like to review them again or if you have any other questions!,kvpress,filtering,0.75,4096,16.85
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The communities along Interstates 15 and 215 are connected with the San Bernardino metropolitan area.,kvpress,filtering,0.75,4096,4.563
+niah_single_2,['8387112'],**8387112**.,kvpress,filtering,0.75,4096,2.467
+niah_multikey_3,['23a4e70e-9dbc-45c0-aa7d-c57c6d9c5b50'],":**23a4e7-9d3a-4e0b-b5f3-f8aadc6dafff** (Note: This is a typo in the original text, but based on the pattern, the correct UUID is likely **23a4e7-9d3a-4e0b-b5f3-f8aadc6dafff**).However, based on the exact text provided:> One of the special magic uuids for a1fd4187-9c3a-4e0b-b5f3-f8aadc",kvpress,filtering,0.75,4096,24.989
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],"as follows:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 6843509  - **Plain-weed**: 2637842  - **Periodic-orchard**: 2637842  Note: The number **2637842** is mentioned for both **plain-weed** and **periodic-orchard**, which is likely intentional.",kvpress,filtering,0.75,4096,20.092
+niah_single_3,['715629ee-e893-4e3d-b354-ea6f61607459'],:**715629ee-e893-4e3d-b354-ea6f61607459**,kvpress,filtering,0.75,4096,7.077
+niah_single_3,['345af934-b42a-4d93-9aba-0f15b2149062'],:**345af934-b42a-4d93-9aba-0f15b2149062**,kvpress,filtering,0.75,4096,7.064
+niah_multiquery,['5521644' '2532210' '1348050' '1674975'],as follows:- **Unequaled-atmosphere**: 5521644  - **Adamant-waveform**: 2532210  - **Flagrant-woodshed**: 1348050  - **Smelly-fascia**: 1674975  Let me know if you'd like to review them again or if you have any other questions!,kvpress,filtering,0.75,4096,17.606
+niah_single_2,['2147909'],**2147909**.,kvpress,filtering,0.75,4096,2.424
+niah_single_3,['67814c1f-cc53-4e36-addc-3e13ab3b4d37'],:**67814c1f-cc53-4e36-addc-3e13ab3b4d37**,kvpress,filtering,0.75,4096,6.887
+niah_multikey_1,['2089275'],**2135258**.,kvpress,filtering,0.75,4096,2.412
+niah_multiquery,['1752920' '4350161' '3446428' '7271672'],"as follows:- **Numerous-jury**: 4350161  - **Flipped-out-paperwork**: 7271672  - **Tacit-fluke**: 3446428  - **Various-coverall**: 7271672  Note: The number **7271672** is mentioned for both **numerous-jury** and **flipped-out-paperwork**, which may indicate a repeated or overlapping reference.",kvpress,filtering,0.75,4096,22.014
+niah_single_1,['1229419'],:**1229419**,kvpress,filtering,0.75,4096,2.944
+niah_single_1,['6338112'],:**6338112**,kvpress,filtering,0.75,4096,2.922
+niah_single_3,['bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2'],:**bd17c5e8-d5ca-49ab-8a2e-6a93c5580bb2**,kvpress,filtering,0.75,4096,8.775
+fwe,['gmebgb' 'qsyeiu' 'reuvhy'],1. **gmebgb** (appears **14** times)  2. **mgikxv** (appears **10** times)  3. **fezdxl** (appears **8,kvpress,filtering,0.75,4096,12.406
+niah_multikey_2,['4412989'],: **8921642**.,kvpress,filtering,0.75,4096,3.315
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],Desert city is not a specific term based on the given documents.,kvpress,filtering,0.75,4096,3.589
+niah_multikey_2,['5444179'],**5409041**.,kvpress,filtering,0.75,4096,3.071
+niah_multivalue,['7245146' '2409947' '5342289' '2258076'],:1. **5342289**  2. **2409947**  3. **2258076**  4. **7245146**Let me know if you'd like to review them again or if you have any questions about them!,kvpress,filtering,0.75,4096,17.063
+niah_single_3,['c8a723e9-bfa0-46c2-809c-b50648f1096d'],:**c8a723e9-bfa0-46c2-809c-b50648f1096d**,kvpress,filtering,0.75,4096,9.225
+niah_single_2,['7067228'],**7067228**.,kvpress,filtering,0.75,4096,2.987
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']",The example is the SAT problem itself.,kvpress,filtering,0.75,4096,2.373
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",Probabilistic Turing machine.,kvpress,filtering,0.75,4096,1.949
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,filtering,0.75,4096,4.406
+fwe,['frxhxt' 'qyhgtv' 'rtvpqv'],1. **frxhxt**  2. **kxedzq**  3. **yhgtv**  These words appear the most frequently in the given text.,kvpress,filtering,0.75,4096,9.759
+niah_single_3,['c9dc72b8-5b6a-4102-8428-7378bf5023f4'],:**c9dc72b8-5b6a-4102-8428-7378bf5023f4**,kvpress,filtering,0.75,4096,9.469
+qa_2,['1943'],1949,kvpress,filtering,0.75,4096,1.718
+niah_single_2,['5255545'],**5255545**.,kvpress,filtering,0.75,4096,2.975
+niah_multivalue,['7267813' '7636992' '2695038' '6646557'],:1. **2695038**  2. **7636992**  3. **6646557**  4. **7267813**Let me know if you'd like to review them again or if you have any questions about them!,kvpress,filtering,0.75,4096,16.995
+niah_multikey_1,['9692311'],**1929673**.,kvpress,filtering,0.75,4096,3.011
+niah_multiquery,['7352484' '4942645' '8517846' '8702329'],as follows:- **Scattered-lawn**: 7352484  - **Melodic-linkage**: 4942645  - **Obeisant-blowgun**: 8517846  - **Boundless-icon**: 8702329  Let me know if you'd like to review them again or if you have any other questions!,kvpress,filtering,0.75,4096,22.057
+niah_single_1,['9648751'],:**9648751**,kvpress,filtering,0.75,4096,2.929
+qa_2,['Scott Sidney'],Alain Resnais.,kvpress,filtering,0.75,4096,1.946
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,filtering,0.75,4096,1.155
+niah_single_2,['7754864'],**7754864**.,kvpress,filtering,0.75,4096,2.978
+niah_single_2,['3182975'],**3182975**.,kvpress,filtering,0.75,4096,2.977
+niah_single_2,['9240971'],**9240971**.,kvpress,filtering,0.75,4096,3.014
+niah_multikey_3,['87e504ce-1c17-4c69-9535-99c6c379b61d'],:**fd236d4a-4f7a-48ca-8edc-3a083442853a**.,kvpress,filtering,0.75,4096,9.599
+niah_single_3,['8e85140d-0f9a-4b70-8670-7cd64ceda164'],:**8e85140d-0f9a-4b70-8670-7cd64ceda164**,kvpress,filtering,0.75,4096,9.208
+niah_single_1,['8290770'],:**8290770**,kvpress,filtering,0.75,4096,2.926
+cwe,"['decline' 'waitress' 'uniformity' 'ask' 'atelier' 'junket' 'church'
+ 'retention' 'snake' 'agriculture']","1. atelier  2. snake  3. uniformity  4. retention  5. junket  6. agriculture  7. decline  8. ask  9. construct  10. snake (tie with ""retention"" for 5th place, but ""construct"" is 9th)  **Note:** If there is a tie for the 5th position, the exact ranking may vary slightly depending on the exact count. However, based on the frequency of the words, the top 10 are as listed above.",kvpress,filtering,0.75,4096,28.309
+fwe,['dznynv' 'pwvgox' 'skmtng'],1. **dznynv**  2. **jgaxre**  3. **cwvpjw**  These words appear the most frequently in the given text.,kvpress,filtering,0.75,4096,10.02
+niah_single_1,['7089806'],:**7089806** ✅,kvpress,filtering,0.75,4096,3.403
+fwe,['dtpgpe' 'pkwkfe' 'pvyqym'],1. **dtpgpe** – appears **12 times**  2. **ibnftf** – appears **7 times**  3. **dlhzsp** – appears **6 times**  These are the three,kvpress,filtering,0.75,4096,12.437
+niah_multivalue,['8375356' '7972975' '9124385' '8792046'],:1. **9124385**  2. **7972975**  3. **8375356**  4. **8792046**  These are the numbers explicitly stated in the text.,kvpress,filtering,0.75,4096,14.859
+qa_2,['defensive coordinator'],role at the Arizona State Sun Devils.,kvpress,filtering,0.75,4096,2.467
+niah_single_1,['9646569'],:**9646569**,kvpress,filtering,0.75,4096,2.925
+niah_multikey_3,['d33343eb-08ec-4357-bddb-bed37e4648a5'],:**46028835-8069-4069-a878-a676ca0a45d4**,kvpress,filtering,0.75,4096,9.317
+cwe,"['grid' 'easy' 'spiffy' 'airfield' 'nifty' 'buze' 'damp' 'lottery' 'barn'
+ 'bandana']","1. spiffy  2. barn  3. damp  4. easy  5. buze  6. bandana  7. spiffy  8. easy  9. buze  10. spiffy  **Note:** There appears to be a repetition in the list, with ""spiffy"" and ""buze"" being used multiple times. However, based on the exact count of each word in the list provided, the correct top 10 words are:1. **spiffy** – appears 10 times  2.",kvpress,filtering,0.75,4096,29.613
+qa_2,['John John Florence'],John John Rip Curl won the Rip Curl Pro Portugal.,kvpress,filtering,0.75,4096,3.28
+qa_2,['1944'],1986,kvpress,filtering,0.75,4096,1.699
+niah_multikey_1,['5942041'],**2270273**.,kvpress,filtering,0.75,4096,2.981
+niah_multivalue,['5597283' '2565985' '7047102' '5200835'],:1. **7047102**  2. **2565985**  3. **5200835**  4. **5597283**Let me know if you'd like to review them again or if you have any questions about them!,kvpress,filtering,0.75,4096,17.033
+qa_2,['2014'],2007,kvpress,filtering,0.75,4096,1.788
+fwe,['fjnmov' 'olkknp' 'pwkedz'],1. **fjnmov**  2. **olkknp**  3. **pwkedz**,kvpress,filtering,0.75,4096,6.621
+qa_2,"['Istanbul, Turkey']",Nusretiye Clock Tower and Eski Imaret Mosque are both found in the city of Eski Imaret.,kvpress,filtering,0.75,4096,6.504
+niah_multivalue,['8189168' '5682726' '5433204' '3182154'],":1. **5433204**  2. **5682726**  3. **3182154**  4. **8189168**  These are the only numbers explicitly labeled as ""special magic numbers for ambiguous-cup"" in the text.",kvpress,filtering,0.75,4096,17.513
+niah_multiquery,['8852085' '4234838' '9796605' '3251501'],:- **Quack-duration**: 8852085  - **Groovy-distance**: 4234838  - **Tested-samovar**: 9796605  - **Prickly-messy**: 3251501  Let me know if you'd like to review them again or if you have any other questions!,kvpress,filtering,0.75,4096,21.48
+cwe,"['wisdom' 'currant' 'cast' 'energy' 'sassy' 'fridge' 'ripe' 'personnel'
+ 'restroom' 'clever']","1. cast  2. sassy  3. fridge  4. currant  5. clever  6. restroom  7. personnel  8. currant  9. sassy  10. clever  (Note: There is a tie for the 2nd, 3rd, 5th, 7th, 8th, and 9th positions. The exact top 10 would be:  1. cast  2. sassy  3. fridge  4. currant  5. clever  6. restroom  7. personnel",kvpress,filtering,0.75,4096,29.567
+niah_multikey_1,['4161264'],**4161264**.,kvpress,filtering,0.75,4096,3.007
+niah_single_1,['2147909'],:**2147909** ✅,kvpress,filtering,0.75,4096,3.408
+fwe,['evdlxb' 'okwipf' 'piwkmk'],1. **evdlxb**  2. **kuuvfn**  3. **okwipf**  These words appear the most frequently in the given text.,kvpress,filtering,0.75,4096,9.516
+niah_multikey_3,['444dc21c-ffe6-4a54-a5aa-aa628295a3f9'],:**e0fc285c-6e2e-4d28-785c-6e28785c6e2e**.,kvpress,filtering,0.75,4096,10.042
+niah_single_2,['3846949'],**3846949**.,kvpress,filtering,0.75,8192,3.444
+niah_multiquery,['9742856' '8590804' '6843509' '2637842'],:- **Exotic-rape**: 9742856  - **Noxious-pearl**: 8590804  - **Plain-weed**: 6843509  - **Periodic-orchard**: 2637842  Let me know if you'd like to review them again or if you have any other questions!,kvpress,filtering,0.75,8192,21.735
+qa_1,['Inland Empire' 'Temecula and Murrieta'],The communities along Interstates 15 and 215 are connected with the San Bernardino metropolitan area.,kvpress,filtering,0.75,8192,6.189
+niah_single_2,['2516313'],**2516313**.,kvpress,filtering,0.75,8192,3.43
+niah_multikey_3,['f9285706-577c-4717-836a-58870a5a2698'],: **2ac38bd3-1afc-488c-81de-c9db0abe8257**.,kvpress,filtering,0.75,8192,8.662
+niah_multiquery,['3290672' '1899447' '1160783' '6277776'],":- **Pleasant-awe**: 3290672  - **Odd-library**: 1899447  - **Lacking-spark**: 11677776  - **Elderly-drill**: 6277776  These numbers are embedded within the text as part of the ""special magic numbers"" references, and they are highlighted in the notes sections of the text.",kvpress,filtering,0.75,8192,24.294
+niah_single_3,['26242b40-a5cb-43a2-b98d-1ca68b6870b5'],:**26242b40-a5cb-43a2-b98d-1ca68b6870b5**,kvpress,filtering,0.75,8192,9.462
+niah_single_3,['af521b94-f186-447a-a794-63208cf6e8b8'],:**`ef521b94-f186-447a-a794-63208cf6e8b8`**,kvpress,filtering,0.75,8192,9.962
+niah_multiquery,['9125900' '9214801' '8491822' '6008935'],":- **Rough-scene**: 9125900  - **Sour-mechanic**: 9214801  - **Defective-presentation**: 8491822  - **Half-part**: 6008935  These numbers are embedded within the text as part of the ""special magic numbers"" references, and they are used to highlight specific parts of the text in a unique and cryptic way.",kvpress,filtering,0.75,8192,25.492
+niah_single_2,['3937176'],**3937176**.,kvpress,filtering,0.75,8192,3.442
+niah_single_3,['9f0fda8d-0537-4ff6-96d7-b3b833094d35'],:**9f0fda8d-0537-4ff6-96d7-b3b833094d35**,kvpress,filtering,0.75,8192,9.737
+niah_multikey_1,['8727886'],**8727886**.,kvpress,filtering,0.75,8192,3.345
+niah_multiquery,['4815608' '7412371' '3302852' '5032585'],:- **Rebellious-printing**: 4815608  - **Bumpy-lymphocyte**: 7412371  - **Trashy-bee**: 3302852  - **Mundane-telescreen**: 5032585  Let me know if you'd like to review them again or if you have any other questions!,kvpress,filtering,0.75,8192,22.592
+niah_single_1,['4769851'],:**4769851**,kvpress,filtering,0.75,8192,3.35
+niah_single_1,['3551903'],:**3551903**,kvpress,filtering,0.75,8192,3.354
+niah_single_3,['87079ad4-80be-4e35-a1c2-645ac7332304'],:**87079ad4-80be-4e35-a1c2-645ac7332304**,kvpress,filtering,0.75,8192,9.425
+fwe,['qplshr' 'qqhjdc' 'gmtwsb'],1. qplshr  2. qqhjdc  3. gmtwsb,kvpress,filtering,0.75,8192,5.774
+niah_multikey_2,['9086649'],**7234619**.,kvpress,filtering,0.75,8192,3.541
+qa_1,['Palm Springs' 'Palm Springs' 'Palm Springs'],The name of the desert city is not explicitly mentioned in the provided documents.,kvpress,filtering,0.75,8192,4.42
+niah_multikey_2,['6838180'],**1219254**.,kvpress,filtering,0.75,8192,3.517
+niah_multivalue,['1437264' '6349877' '4674549' '1491630'],:1. **4674549**  2. **6349877**  3. **1491630**  4. **1437264**  Let me know if you'd like to review them or if you have any questions about the numbers!,kvpress,filtering,0.75,8192,17.684
+niah_single_3,['38d77b9a-e916-4a57-b248-23ab177a8a5f'],:**38d77b9a-e916-4a57-b248-23ab177a8a5f**,kvpress,filtering,0.75,8192,7.857
+niah_single_2,['5528972'],**5528972**.,kvpress,filtering,0.75,8192,2.888
+qa_1,"['NP-complete Boolean satisfiability problem'
+ 'NP-complete Boolean satisfiability'
+ 'the NP-complete Boolean satisfiability problem']","The example is the problem of solving large instances that is routinely handled by SAT handlers employing efficient algorithms, such as the problem of determining whether a large instance is a",kvpress,filtering,0.75,8192,6.725
+qa_1,"['A probabilistic Turing machine' 'probabilistic'
+ 'probabilistic Turing machine']",Randomized Turing machine.,kvpress,filtering,0.75,8192,1.729
+qa_2,['author'],Eric Ambler and Carol Shields are both best known for the profession of writing.,kvpress,filtering,0.75,8192,4.067
+fwe,['rbvoik' 'rfdzkt' 'hakvdl'],1. **rbvoik**  2. **hakvdl**  3. **un Nedg**,kvpress,filtering,0.75,8192,5.658
+niah_single_3,['493e904d-30ec-4796-a59b-457fc0d7ac73'],:**493e904d-30ec-4796-a59b-457fc0d7ac73**,kvpress,filtering,0.75,8192,7.666
+qa_2,['1943'],1949,kvpress,filtering,0.75,8192,1.842
+niah_single_2,['6202210'],**6202210**.,kvpress,filtering,0.75,8192,2.863
+niah_multivalue,['7297287' '2701688' '9044494' '4784650'],":1. **9044494**  2. **2701688**  3. **4784650**  4. **7297287**  These numbers are highlighted in the text and are referred to as ""special magic numbers for kaput-collagen.""",kvpress,filtering,0.75,8192,14.731
+niah_multikey_1,['3673322'],**3673322**.,kvpress,filtering,0.75,8192,2.821
+niah_multiquery,['8597490' '6752216' '9594877' '3318275'],:- **Heavy-penalty**: 8597490  - **Many-spear**: 6752216  - **Moldy-credential**: 9594877  - **Daffy-sun**: 3318275  Let me know if you'd like to review them again or if you have any other questions!,kvpress,filtering,0.75,8192,17.324
+niah_single_1,['1652868'],:**1652868**,kvpress,filtering,0.75,8192,2.816
+qa_2,['Scott Sidney'],Alain Resnais,kvpress,filtering,0.75,8192,1.961
+qa_1,['economically' 'economically' 'economically'],geographically.,kvpress,filtering,0.75,8192,1.319
+niah_single_2,['3762152'],**3762152**.,kvpress,filtering,0.75,8192,2.873
+niah_single_2,['4794319'],**4794319**.,kvpress,filtering,0.75,8192,2.875
+niah_single_2,['7189302'],**7189302**.,kvpress,filtering,0.75,8192,2.873
+niah_multikey_3,['1934850a-e8ff-4869-b759-5b46d1264de7'],:**cccbb213-d999-4415-4715-7c307c307c30**.,kvpress,filtering,0.75,8192,8.016
+niah_single_3,['d453f867-b97e-4224-891f-691217abb863'],:**d453f867-b97e-4224-891f-691217abb863**,kvpress,filtering,0.75,8192,7.839
+niah_single_1,['4188992'],:**4188992**,kvpress,filtering,0.75,8192,2.804
+cwe,"['outstanding' 'vigorous' 'phrase' 'doctrine' 'snowman' 'singing'
+ 'gelatin' 'unique' 'asparagus' 'gown']","1. asparagus  2. vigorous  3. phrase  4. snowman  5. doctrine  6. gelatin  7. unique  8. gown  9. singing  10. doctrine (tie with ""phrase"" and ""snowman"" for 5th place, but ""doctrine"" appears more frequently than ""phrase"" and ""snowman"")  **Note:** Based on the frequency count, the exact top 10 are:  1. asparagus  2. vigorous  3. phrase  4. snowman  5. doctrine  6.",kvpress,filtering,0.75,8192,24.024
+fwe,['qiuwqq' 'qjiqmp' 'gpkrgi'],"1. **qiuwqq**  2. **qjiqmp**  3. **qiuwqq** (Note: If there is a typo in the original text, such as ""qiuwqq"" and """,kvpress,filtering,0.75,8192,10.281
+niah_single_1,['9852897'],:**9852897**,kvpress,filtering,0.75,8192,2.813
+fwe,['pxvsgw' 'pysupz' 'fmmvgz'],1. pxvsgw  2. pysupz  3. fmmvgz,kvpress,filtering,0.75,8192,4.715
+niah_multivalue,['1137194' '2803501' '8229768' '3247055'],:1. **8229768**  2. **2803501**  3. **3247055**  4. **1137194**  Let me know if you'd like to review them again or if you have any questions about the numbers!,kvpress,filtering,0.75,8192,14.375
+qa_2,['defensive coordinator'],played what role at the Arizona State Sun Devils?,kvpress,filtering,0.75,8192,2.91
+niah_single_1,['8669093'],:**8669093**,kvpress,filtering,0.75,8192,2.804
+niah_multikey_3,['4f24d4a7-21ac-4998-91e7-7117c5162140'],:**cb12c1fd-48c3-4f33-b28b-0c6288828562**.,kvpress,filtering,0.75,8192,8.193
+cwe,"['specification' 'newspaper' 'oldie' 'gamy' 'radio' 'rainbow' 'reserve'
+ 'swivel' 'hunger' 'pit']","1. swivel  2. gamy  3. newspaper  4. pit  5. hunger  6. oldie  7. radio  8. specification  9. swivel (tie with gamy for 2nd place)  10. swivel (tie with gamy for 2nd place)  **Note:** Since ""swivel"" and ""gamy"" are tied for the second and third most frequent words, the final answer is:  1. swivel  2. gamy  3. newspaper  4. pit  5. hunger",kvpress,filtering,0.75,8192,24.195
+qa_2,['John John Florence'],John John won the Rip Curl Pro Portugal.,kvpress,filtering,0.75,8192,2.721
+qa_2,['1944'],1944,kvpress,filtering,0.75,8192,1.963
+niah_multikey_1,['4407796'],**4407796**.,kvpress,filtering,0.75,8192,2.797
+niah_multivalue,['7442986' '6897789' '8203947' '6276495'],":1. **8203947**  2. **6897789**  3. **6276495**  4. **7442986**These numbers are scattered throughout the text in different sections, and they are explicitly mentioned in the context of ""spicy-skating.""",kvpress,filtering,0.75,8192,15.145
+qa_2,['2014'],2012,kvpress,filtering,0.75,8192,1.846
+fwe,['pooula' 'prbezn' 'gjksel'],1. pooula  2. gjksel  3. tmeoln,kvpress,filtering,0.75,8192,4.464
+qa_2,"['Istanbul, Turkey']",In what city can a person find both the Nusretiye Clock Tower and the Eski Imaret Mosque be found?,kvpress,filtering,0.75,8192,5.918
+niah_multivalue,['9535166' '8475204' '9167227' '1735708'],":1. **9167227**  2. **8475204**  3. **1735708**  4. **9535166**These numbers are highlighted in the text and are referred to as ""special magic numbers for rainy-sauce.""",kvpress,filtering,0.75,8192,14.191
+niah_multiquery,['3213658' '1968662' '8757420' '7969667'],:- **old-linseed**: 3213658  - **optimal-poncho**: 1968662  - **shaggy-sailboat**: 8757420  - **ragged-infancy**: 7969667  These numbers are embedded within the text and are referenced in the notes sections of the different articles.,kvpress,filtering,0.75,8192,17.691
+cwe,"['orangutan' 'gastropod' 'lute' 'arthur' 'curd' 'colonial' 'actress'
+ 'catacomb' 'mast' 'absurd']","1. lute  2. arthur  3. catacomb  4. gastropod  5. curd  6. mast  7. absurd  8. colon  9. actress  10. curd (tie with ""lute"" for 1st place, but ""curd"" appears more frequently)  **Note:** Based on the frequency count, ""curd"" appears more than ""lute"", so the correct top 10 are:  1. curd  2. lute  3. arthur  4. catacomb",kvpress,filtering,0.75,8192,24.178
+niah_multikey_1,['2699372'],: **2699372**.,kvpress,filtering,0.75,8192,2.989
+niah_single_1,['2516313'],:**2516313**,kvpress,filtering,0.75,8192,2.812
+fwe,['rlowep' 'rykimj' 'hovqiq'],1. **rlowep**  2. **rykimj**  3. **ddswue**,kvpress,filtering,0.75,8192,5.432
+niah_multikey_3,['3945cac7-3f99-45a7-8af4-b5da33cd1fed'],:**fb6dfb6b-4c8d-4f8d-8d44-a5ecaa46045f**.,kvpress,filtering,0.75,8192,7.828
