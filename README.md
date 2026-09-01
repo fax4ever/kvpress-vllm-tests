@@ -1,113 +1,114 @@
-# kvpress-vllm-tests
+# KeyDiff compression with vLLM
 
-Comparing KV cache compression strategies for long-context LLM inference,
-with a focus on bringing techniques like KeyDiffPress into vLLM.
+At the time of writing, [vLLM](https://github.com/vllm-project/vllm), a high-throughput inference engine built around PagedAttention, does not yet support KV eviction algorithms.
 
-## Context
+We developed two implementations of the KeyDiff algorithm on a [v0.18.0 fork](https://github.com/fax4ever/vllm/tree/fax-0.18), based on the [v0.18.0 tag](https://github.com/vllm-project/vllm/releases/tag/v0.18.0):
 
-This repository is part of a master thesis exploring whether KV cache
-compression — specifically the KeyDiff algorithm
-([arXiv:2504.15364](https://arxiv.org/abs/2504.15364)) — can be applied
-to [vLLM](https://github.com/vllm-project/vllm), a high-throughput
-inference engine built around PagedAttention.
+1. The classic implementation described in the KeyDiff paper. This can be configured by running vLLM with the `kv_compression_algorithm` and `kv_compression_ratio` parameters. For instance:
 
-Today, KV cache compression and production serving engines live in
-separate worlds. Libraries like
-[kvpress](https://github.com/NVIDIA/kvpress) (NVIDIA) implement
-compression algorithms on top of Hugging Face Transformers, but they
-don't integrate with the paged memory management and continuous batching
-that make vLLM fast. On the other side, vLLM provides excellent serving
-performance but has no built-in support for KV cache compression.
+    ```python
+    vLLM_args = {
+        "model": MODEL_NAME,
+        "dtype": "auto",
+        "gpu_memory_utilization": 0.90,
+        "trust_remote_code": True,
+        "attention_config": {"backend": "FLASH_ATTN"},
+        "kv_compression_algorithm": "full_replacement",
+        "kv_compression_ratio": cr,
+        "enable_prefix_caching": False,
+    }
+    ```
 
-The thesis goal is to bridge this gap: understand both systems deeply
-enough to evaluate whether KeyDiff-style compression can work within
-vLLM's architecture, and if so, prototype it. This is a hard problem —
-vLLM's KV cache is physically paged, non-contiguous, and managed by a
-block allocator that compression algorithms were never designed for.
+The algorithm is detailed in: [keydiff-vllm-integration](feasibility/keydiff-vllm-integration.md)
 
-## What's in This Repo
+2. An append-only variant of KeyDiff, where once a token has been chosen to be kept on a specific head, it is never selected for removal. This can also be configured by running vLLM with the `kv_compression_algorithm` and `kv_compression_ratio` parameters. For instance:
 
-The work is organized in three parts.
+    ```python
+    vLLM_args = {
+        "model": MODEL_NAME,
+        "dtype": "auto",
+        "gpu_memory_utilization": 0.90,
+        "trust_remote_code": True,
+        "attention_config": {"backend": "FLASH_ATTN"},
+        "kv_compression_algorithm": "filtering",
+        "kv_compression_ratio": cr,
+    }
+    ```
 
-### Notebooks — NIAH Comparison (`notebooks/`)
+The full name of this algorithm is **leftover padding filtering press**, and it uses a [PaddedTensor class](https://github.com/fax4ever/kvpress/blob/padded-tensor/kvpress/padded_tensor.py) to address the ragged dimension. 
+The algorithm is detailed in: [cache-filtering-approach](feasibility/cache-filtering-approach.md)
 
-The first part is a Needle-in-a-Haystack (NIAH) benchmark that compares
-kvpress and vLLM side by side using Qwen3-8B on an NVIDIA A10G GPU.
-The NIAH test inserts a known sentence ("the needle") at various depth
-positions within a long document, then asks the model to retrieve it.
-This measures whether compression degrades the model's ability to attend
-to information at different positions in the context.
+This algorithm is not yet optimized. We are currently focusing only on its validity and may consider optimizing it in future iterations. Here, we solely want to test its behavior.
 
-The notebooks are numbered sequentially:
+**Note:**
+For this variant, the `kv_compression_ratio` is only an expected value. A Monte Carlo estimation of the effective `kv_compression_ratio` can be found in [filtering_bias_analysis](vllm-experiments/05a_filtering_bias_analysis.md), performed under the unrealistic assumption that token keys are sampled uniformly at random.
 
-| Notebook | Description |
-|----------|-------------|
-| `00_setup_check` | Verifies GPU access, installs dependencies, runs smoke tests |
-| `01_kvpress_fork_setup` | Installs kvpress from a fork for testing unreleased changes |
-| `02_kvpress_niah` | Runs NIAH with KeyDiffPress at compression ratios 0%, 25%, 50%, 75% |
-| `03_vllm_fork_setup` | Prepares a [vLLM fork](https://github.com/fax4ever/vllm) for testing Python-level modifications |
-| `04_vllm_niah` | Runs the same NIAH benchmark on vLLM (no compression baseline) |
-| `05_compare_results` | Loads results from both frameworks, produces heatmaps and comparison charts |
+**Why does an append-only implementation matter?** 
+Simply because pages may sometimes be shared by different sequences (for instance, if `prefix_caching` is enabled). In this case, we don't have the luxury of removing tokens that were chosen to be kept in a previous step. Furthermore, an append-only approach allows a page to become immutable once filled, providing natural scalability and distribution.
 
-The kvpress configuration uses **PrefillDecodingPress**, combining
-BlockPress(KeyDiffPress) for prefill-phase compression with
-CompressionRatioDecodingPress(KeyDiffPress) for decoding-phase
-compression. Results (metrics and predictions) are saved under
-`notebooks/results/`.
+In both cases, the compression ratio will be applied to all phases of the sequence's lifecycle: prefill, decoding, and continuation.
 
-### vLLM Experiments (`vllm-experiments/`)
+Some implementation details and ideas can be found in:
+1. [final_implementation](feasibility/final_implementation.md)
+2. [basic-ideas](feasibility/basic-ideas.md)
+3. [block-table-chain](feasibility/block-table-chain.md)
 
-The second part is a collection of smaller, focused notebooks that
-explore individual pieces of vLLM's internals. The goal here is to
-build understanding incrementally — testing isolated functions and
-primitives before attempting any larger integration.
+**Note:**
+The two algorithms have only been tested with Flash Attention using CUDA APIs. They are not guaranteed to work with other vLLM attention implementations.
 
-The first experiments focus on **scatter/gather operations** for paged
-KV caches. These operations are fundamental to any compression scheme
-that needs to read KV cache pages into a contiguous buffer, apply
-compression, and write the results back.
+## KeyDiff compression with kvpress
 
-### Feasibility Analysis (`feasibility/`)
+vLLM is a very complex project. To establish a baseline for the two algorithm implementations, we decided to test them (and also implement the filtering variant) in [kvpress](https://github.com/NVIDIA/kvpress).
 
-The third part is a feasibility assessment for integrating KeyDiff
-compression into vLLM. It evaluates the approach (gather, score,
-select, scatter), identifies the hard problems (metadata tracking,
-block management, scheduler integration), and proposes an incremental
-roadmap from the current validated primitives to a working prototype.
+Using [our padded tensor fork of kvpress](https://github.com/fax4ever/kvpress/tree/padded-tensor), we defined the two equivalent presses for kvpress:
 
-## Environment
+    ```python
+    full_replacement = PrefillDecodingPress(
+        prefilling_press=KeyDiffPress(compression_ratio=cr),
+        decoding_press=CompressionRatioDecodingPress(
+            base_press=KeyDiffPress(), target_compression_ratio=cr,
+        )
+    )
 
-The notebooks are designed to run on an **OpenShift AI Workbench** with:
+    filtering = PrefillDecodingPress(
+        prefilling_press=KeyDiffPress(compression_ratio=cr),
+        decoding_press=FilteringPress(
+            base_press=KeyDiffPress(), target_compression_ratio=cr,
+            fill_padding=False,
+        )
+    )
+    ```
 
-- **Image:** PyTorch (CUDA)
-- **GPU:** NVIDIA A10G (24 GB VRAM) or similar with 20+ GB VRAM
-- **Container size:** Large (8+ CPU, 32+ GB RAM)
+This allows us to apply the compression ratio to both the prefill and decoding phases. Note that continuation is currently not supported in kvpress, to my understanding.
 
-Key dependencies: vLLM 0.18, kvpress 0.5.4, Transformers 4.57,
-Qwen3-8B. For step-by-step setup instructions — from creating the
-RHOAI workbench to running the first notebook — see
-[`setup/rhoai-workbench.md`](setup/rhoai-workbench.md).
+## Evaluations
 
-## Future Directions
+We tested RULER, Qasper, and LongBench on the baseline (no compression) and on the two algorithms (total-replacement, filtering), applying various compression ratios (0.01, 0.25, 0.5, 0.75) across both kvpress and vLLM implementations.
 
-The long-term research direction is to implement KV cache compression
-directly inside vLLM. The feasibility analysis
-(`feasibility/keydiff-vllm-integration.md`) lays out the full picture:
-the proposed approach, the open problems, and the incremental roadmap
-from validated primitives to a working prototype.
+1. **RULER**
+   *Ideal for testing prefill compression.*
+  * [kvpress notebook](notebooks/07_kvpress_ruler.ipynb)
+  * [vLLM notebook](notebooks/08_vllm_ruler.ipynb)
+  * [comparison notebook](notebooks/13_compare_ruler.ipynb)
 
-The `vllm-experiments/` notebooks are the hands-on side of this
-effort — building understanding of vLLM's internals one piece at a time.
+  ![RULER 4096](notebooks/results/compare_ruler_4096_heatmaps.png)
+  
+  ![RULER 8192](notebooks/results/compare_ruler_8192_heatmaps.png)
+  
+  ![RULER scores](notebooks/results/compare_ruler_score_vs_ratio.png)
 
-## References
+2. **LongBench**
+   *Ideal for testing decoding compression.*
+  * [kvpress notebook](notebooks/11_kvpress_longbench.ipynb)
+  * [vLLM notebook](notebooks/12_vllm_longbench.ipynb)
+  * [comparison notebook](notebooks/15_compare_longbench.ipynb)
 
-- S. Dong et al. *QPress and KeyDiff: Scalable KV Cache Compression via Query-agnostic Strategies.* [arXiv:2504.15364](https://arxiv.org/abs/2504.15364), 2025.
-- G. Kamradt. *Needle in a Haystack — Pressure Testing LLMs.* [GitHub](https://github.com/gkamradt/LLMTest_NeedleInAHaystack), 2023.
-- N. F. Liu et al. *Lost in the Middle: How Language Models Use Long Contexts.* TACL, 2024.
-- [kvpress](https://github.com/NVIDIA/kvpress) — NVIDIA's KV cache compression library
-- [vLLM](https://github.com/vllm-project/vllm) — High-throughput LLM serving engine
-- [vLLM fork](https://github.com/fax4ever/vllm) — Fork used for testing Python-level modifications
+  ![LongBench Scores](notebooks/results/compare_longbench_scores.png)  
 
-## License
+3. **Qasper**
+   *Should cover both prefill and decoding.*
+  * [kvpress notebook](notebooks/09_kvpress_qasper.ipynb)
+  * [vLLM notebook](notebooks/10_vllm_qasper.ipynb)
+  * [comparison notebook](notebooks/14_compare_qasper.ipynb)
 
-[Apache 2.0](LICENSE)
+  ![Qasper Scores](notebooks/results/compare_qasper_scores.png)
