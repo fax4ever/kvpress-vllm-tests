@@ -79,3 +79,23 @@ above differently:
    token) → filter → conditionally scatter the new token. The cache
    only grows, never shrinks — compression comes from skipping
    low-scoring tokens before they enter the cache.
+
+## Chunked Prefill
+
+vLLM's V1 scheduler limits the number of tokens processed in a single
+forward pass via `max_num_batched_tokens`. When a prompt exceeds this
+budget (or shares it with other requests), the prompt is split across
+multiple scheduling steps — this is **chunked prefill**. Enabled by
+default in V1 (`enable_chunked_prefill=True`).
+
+The budget defaults depend on the GPU and usage context. For `LLM(...)`
+(offline batch inference):
+
+| GPU                              | Default |
+|----------------------------------|---------|
+| H100, MI300x (>=70GB, not A100)  | 16384   |
+| A100 and everything else         | 8192    |
+
+An additional knob, `long_prefill_token_threshold`, can cap any single
+request's chunk size even if the budget allows more (default 0 =
+disabled).
