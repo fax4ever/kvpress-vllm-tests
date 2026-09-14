@@ -8,8 +8,8 @@ Each request carries four compression fields, all defaulting to "nothing happene
 - kv_last_compaction_total: int = 0 — logical token count at last compaction
 - kv_filter_lengths — only used by filtering, valid lengths [num_layers, num_kv_heads]
 
-Fable's idea was crucially to compress after the `GpuModeRunner#_model_forward`.
---> `KVCompressionManager#run_post_forward` that returns `_kv_compression_discarded` update.
+Fable's key idea was to compress after `GPUModelRunner#_model_forward`.
+--> `KVCompressionManager#run_post_forward` that returns the `_kv_compression_discarded` update.
 
 in `KVCompressionManager#run_post_forward`:
 
@@ -26,7 +26,7 @@ for req_index, req_id in enumerate(input_batch.req_ids):
     # Total logical tokens
     logical_total = num_computed_before + num_scheduled
 
-    # Total phisical tokens
+    # Total physical tokens
     num_cached = logical_total - req_state.num_kv_discarded
 
     # Did prefill complete in this exact step ?
@@ -53,7 +53,7 @@ if compaction_due or prefill_completes:
 in `KVCompressionManager#_compact`:
 
 ```python
-# phisical tokens = (1-compression_ratio) * logical tokens
+# physical tokens = (1 - compression_ratio) * logical tokens
 n_kept_target = max(1, int(logical_total * (1.0 - self.compression_ratio)))
 n_kept = compact_request_kv(
         self.kv_caches,
@@ -67,12 +67,12 @@ n_kept = compact_request_kv(
 in `KVCompressionManager#compact_request_kv`:
 
 ```python
-# phisycal slots for each token, shape [num_cached_tokens], before compression
+# physical slots for each token, shape [num_cached_tokens], before compression
 src_slots = _slots_for_positions(block_row, block_size, num_cached_tokens, device)
-# phisycal slots for each token, shape [n_kept], after compression
+# physical slots for each token, shape [n_kept], after compression
 dst_slots = src_slots[:n_kept]
 
-# for each layer we do have a paged phisycal cache: 
+# for each layer we have a paged physical cache: 
 # [2, num_blocks, block_size, num_kv_heads, head_size]
 for kv_cache in kv_caches:
     # [num_blocks, block_size, num_kv_heads, head_size]       
@@ -88,7 +88,7 @@ for kv_cache in kv_caches:
     scores = keydiff_scores(keys)
 
     # 3: SELECT (sorted to preserve temporal order) **keys** / **values**
-    # indexes of survivors [num_kv_heads, n_kept]
+    # indices of survivors [num_kv_heads, n_kept]
     kept_idx = scores.topk(n_kept, dim=-1).indices.sort(dim=-1).values
     kept_keys = keys.transpose(0, 1).gather(1, kept_idx).transpose(0, 1)
     kept_values = values.transpose(0, 1).gather(1, kept_idx).transpose(0, 1)

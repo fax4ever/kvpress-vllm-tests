@@ -1,9 +1,9 @@
 # Fable's Implementation: filtering
 
 * `kv_compressed`: 
-  Used only by the filtering implementation to trigger prefill compress once.
+  Used only by the filtering implementation to trigger prefill compaction once.
 
-> fitering is done when we're on decoding:
+> filtering is done when we're on decoding:
   `num_scheduled == 1 and num_computed_before >= prompt_len`
 
 * `kv_filter_lengths`:  
@@ -21,8 +21,7 @@ req_state.kv_filter_lengths = torch.full(
   * len(self.kv_caches): num of layers
 * self.kv_caches[0]: has shape `[2, num_blocks, block_size, num_kv_heads, head_size]`
   * self.kv_caches[0].shape[3]: num of heads
-* num_cached: total (num_computed_before + num_scheduled) physical tokens
-  * num_cached
+* num_cached: total physical tokens = (num_computed_before + num_scheduled) - num_kv_discarded
 
 Shape is [num_layers, num_kv_heads]. Every (layer, head) starts at the same value: the compacted length before this step's new token was added. This is because after prefill compaction the cache is fully packed — all heads have the same valid length.
 
@@ -38,7 +37,7 @@ new_shared_len = filtering_step(
 )
 ```
 
-The conseguences:
+The consequences:
 
 ```python
 # The trailing column is freed iff no head extended past the
@@ -51,11 +50,11 @@ assert 0 <= num_discarded <= 1
 
 in `KVCompressionManager#filtering_step`:
 
-1. Compute block indeces and slots
+1. Compute block indices and slots
 
 ```python
 num_cols = num_cached_tokens
-# phisycal slots for each token, shape [num_cols]
+# physical slots for each token, shape [num_cols]
 slots = _slots_for_positions(block_row, block_size, num_cols, device)
 block_indices = slots // block_size
 block_offsets = slots % block_size
@@ -72,7 +71,7 @@ n_kept = min(max(n_kept, 1), num_cols)
 3. Loop on layers + unbind:
 
 ```python
-# for each layer we do have a paged phisycal cache: 
+# for each layer we have a paged physical cache: 
 # [2, num_blocks, block_size, num_kv_heads, head_size]
 for kv_cache in kv_caches:
   # [num_blocks, block_size, num_kv_heads, head_size]       
@@ -80,7 +79,7 @@ for kv_cache in kv_caches:
   # [num_kv_heads]
   layer_lengths = lengths[layer_idx]
 
-  # 1: GATHER **keys** / **values** (paged -> dense)
+  # 1: GATHER **keys** (paged -> dense, for scoring only)
   # [num_cached_tokens, num_kv_heads, head_size]
   keys = key_cache[block_indices, block_offsets]
 
@@ -100,21 +99,21 @@ for kv_cache in kv_caches:
   accepts = scores[:, -1] >= threshold
 ```
 
-Now the PaddingTensor algotirhm `accept_last`:
+Now the PaddedTensor algorithm:
 
 If on a given head the key is accepted:
-  1. the value will be replace the first lefover
+  1. the key and value will replace the first leftover
   2. layer_lengths[current_head]++
 Otherwise:
-  **nothing** the value simply remains as leftover-padding 
-  layer_lengths[current_head] is not touch!
+  **nothing** — the value simply remains as leftover-padding.
+  layer_lengths[current_head] is not touched!
 
 The impressive part is that my FilteringPress design operated on dense contiguous tensors (PaddedTensor), 
 while Fable mapped the same operations directly onto the paged cache through slot indirection.
 So we don't need to scatter, working directly on paged memory.
 
 ```python
-# layer_lengths.shape[0] is the number of heads of current layer 
+# layer_lengths.shape[0] is the number of heads of the current layer 
 # [num_kv_heads]
 head_indices = torch.arange(layer_lengths.shape[0], device=device)
 
@@ -129,16 +128,16 @@ dst = slots[dst_cols]
 src_blk, src_off = block_indices[-1], block_offsets[-1]
 
 # copy source blocks to destination blocks
-key_cache[dst // block_size, dst % block_size, head_indices] = 
-  key_cache[src_blk, src_off, head_indices]
-value_cache[dst // block_size, dst % block_size, head_indices] = 
-  value_cache[src_blk, src_off, head_indices]
+key_cache[dst // block_size, dst % block_size, head_indices] = \
+    key_cache[src_blk, src_off, head_indices]
+value_cache[dst // block_size, dst % block_size, head_indices] = \
+    value_cache[src_blk, src_off, head_indices]
 
-# update the lenghts only if accept!
+# update the lengths only if accepted!
 lengths[layer_idx] = layer_lengths + accepts.long()  
 ```
 
-4. Conseguences
+4. Consequences
 
 ```
 return int(lengths.max().item()) # <-- new_shared_len
