@@ -1,10 +1,10 @@
 {
   "no_press__0.0__4096": {
     "cwe": {
-      "string_match": 96.67
+      "string_match": 98.54
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 94.93
     },
     "niah_multikey_1": {
       "string_match": 100.0
@@ -19,7 +19,7 @@
       "string_match": 100.0
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.9
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -31,27 +31,30 @@
       "string_match": 100.0
     },
     "qa_1": {
-      "string_match": 80.0
+      "string_match": 76.6
     },
     "qa_2": {
-      "string_match": 62.5
+      "string_match": 56.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "no_press__0.0__8192": {
     "cwe": {
-      "string_match": 90.0
+      "string_match": 92.48
     },
     "fwe": {
-      "string_match": 94.44
+      "string_match": 91.93
     },
     "niah_multikey_1": {
       "string_match": 100.0
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_multikey_3": {
-      "string_match": 75.0
+      "string_match": 99.6
     },
     "niah_multiquery": {
       "string_match": 100.0
@@ -69,18 +72,21 @@
       "string_match": 100.0
     },
     "qa_1": {
-      "string_match": 80.0
+      "string_match": 69.4
     },
     "qa_2": {
-      "string_match": 50.0
+      "string_match": 55.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "full_replacement__0.01__4096": {
     "cwe": {
-      "string_match": 93.33
+      "string_match": 97.18
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 94.8
     },
     "niah_multikey_1": {
       "string_match": 100.0
@@ -89,13 +95,13 @@
       "string_match": 100.0
     },
     "niah_multikey_3": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_multiquery": {
-      "string_match": 95.83
+      "string_match": 100.0
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.95
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -104,36 +110,39 @@
       "string_match": 100.0
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "qa_1": {
-      "string_match": 80.0
+      "string_match": 76.2
     },
     "qa_2": {
-      "string_match": 62.5
+      "string_match": 55.4
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "full_replacement__0.01__8192": {
     "cwe": {
-      "string_match": 86.67
+      "string_match": 91.8
     },
     "fwe": {
-      "string_match": 94.44
+      "string_match": 91.13
     },
     "niah_multikey_1": {
       "string_match": 100.0
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 99.0
     },
     "niah_multikey_3": {
-      "string_match": 100.0
+      "string_match": 99.0
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 99.95
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.65
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -145,33 +154,36 @@
       "string_match": 100.0
     },
     "qa_1": {
-      "string_match": 60.0
+      "string_match": 69.4
     },
     "qa_2": {
-      "string_match": 37.5
+      "string_match": 56.8
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "full_replacement__0.25__4096": {
     "cwe": {
-      "string_match": 93.33
+      "string_match": 94.8
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 92.93
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 99.4
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 97.8
     },
     "niah_multikey_3": {
-      "string_match": 75.0
+      "string_match": 81.0
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 99.9
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.65
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -180,36 +192,39 @@
       "string_match": 100.0
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "qa_1": {
-      "string_match": 80.0
+      "string_match": 73.2
     },
     "qa_2": {
-      "string_match": 62.5
+      "string_match": 50.8
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "full_replacement__0.25__8192": {
     "cwe": {
-      "string_match": 86.67
+      "string_match": 94.04
     },
     "fwe": {
-      "string_match": 88.89
+      "string_match": 89.53
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 99.4
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 96.0
     },
     "niah_multikey_3": {
-      "string_match": 75.0
+      "string_match": 56.8
     },
     "niah_multiquery": {
-      "string_match": 95.83
+      "string_match": 99.05
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.55
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -221,170 +236,185 @@
       "string_match": 100.0
     },
     "qa_1": {
-      "string_match": 60.0
+      "string_match": 58.2
     },
     "qa_2": {
-      "string_match": 12.5
+      "string_match": 47.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "full_replacement__0.5__4096": {
     "cwe": {
-      "string_match": 86.67
+      "string_match": 87.7
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 85.73
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 84.8
     },
     "niah_multikey_3": {
-      "string_match": 25.0
+      "string_match": 30.6
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 97.25
     },
     "niah_multivalue": {
-      "string_match": 80.0
+      "string_match": 99.7
     },
     "niah_single_1": {
       "string_match": 100.0
     },
     "niah_single_2": {
-      "string_match": 100.0
+      "string_match": 99.0
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 99.2
     },
     "qa_1": {
-      "string_match": 60.0
+      "string_match": 63.8
     },
     "qa_2": {
-      "string_match": 25.0
+      "string_match": 37.4
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "full_replacement__0.5__8192": {
     "cwe": {
-      "string_match": 90.0
+      "string_match": 92.72
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 87.4
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 97.4
     },
     "niah_multikey_2": {
-      "string_match": 50.0
+      "string_match": 74.2
     },
     "niah_multikey_3": {
-      "string_match": 25.0
+      "string_match": 16.4
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 95.5
     },
     "niah_multivalue": {
-      "string_match": 85.0
+      "string_match": 97.7
     },
     "niah_single_1": {
-      "string_match": 100.0
+      "string_match": 99.6
     },
     "niah_single_2": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 99.6
     },
     "qa_1": {
-      "string_match": 40.0
+      "string_match": 46.6
     },
     "qa_2": {
-      "string_match": 12.5
+      "string_match": 38.2
+    },
+    "vt": {
+      "string_match": 99.92
     }
   },
   "full_replacement__0.75__4096": {
     "cwe": {
-      "string_match": 63.33
+      "string_match": 60.64
     },
     "fwe": {
-      "string_match": 50.0
+      "string_match": 66.47
     },
     "niah_multikey_1": {
-      "string_match": 25.0
+      "string_match": 96.0
     },
     "niah_multikey_2": {
-      "string_match": 50.0
+      "string_match": 33.6
     },
     "niah_multikey_3": {
-      "string_match": 0.0
+      "string_match": 1.0
     },
     "niah_multiquery": {
-      "string_match": 75.0
+      "string_match": 73.0
     },
     "niah_multivalue": {
-      "string_match": 90.0
+      "string_match": 92.05
     },
     "niah_single_1": {
       "string_match": 100.0
     },
     "niah_single_2": {
-      "string_match": 100.0
+      "string_match": 94.4
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 91.4
     },
     "qa_1": {
-      "string_match": 40.0
+      "string_match": 38.8
     },
     "qa_2": {
-      "string_match": 25.0
+      "string_match": 19.4
+    },
+    "vt": {
+      "string_match": 96.4
     }
   },
   "full_replacement__0.75__8192": {
     "cwe": {
-      "string_match": 80.0
+      "string_match": 79.72
     },
     "fwe": {
-      "string_match": 77.78
+      "string_match": 73.53
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 95.4
     },
     "niah_multikey_2": {
-      "string_match": 0.0
+      "string_match": 20.0
     },
     "niah_multikey_3": {
-      "string_match": 0.0
+      "string_match": 1.0
     },
     "niah_multiquery": {
-      "string_match": 87.5
+      "string_match": 81.35
     },
     "niah_multivalue": {
-      "string_match": 90.0
+      "string_match": 92.35
     },
     "niah_single_1": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_single_2": {
-      "string_match": 62.5
+      "string_match": 98.4
     },
     "niah_single_3": {
-      "string_match": 71.43
+      "string_match": 94.0
     },
     "qa_1": {
-      "string_match": 40.0
+      "string_match": 29.2
     },
     "qa_2": {
-      "string_match": 0.0
+      "string_match": 19.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "filtering__0.01__4096": {
     "cwe": {
-      "string_match": 93.33
+      "string_match": 97.16
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 94.8
     },
     "niah_multikey_1": {
       "string_match": 100.0
@@ -396,10 +426,10 @@
       "string_match": 100.0
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 99.95
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.95
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -408,36 +438,39 @@
       "string_match": 100.0
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "qa_1": {
-      "string_match": 80.0
+      "string_match": 76.2
     },
     "qa_2": {
-      "string_match": 62.5
+      "string_match": 55.4
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "filtering__0.01__8192": {
     "cwe": {
-      "string_match": 86.67
+      "string_match": 91.62
     },
     "fwe": {
-      "string_match": 94.44
+      "string_match": 90.73
     },
     "niah_multikey_1": {
       "string_match": 100.0
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 99.2
     },
     "niah_multikey_3": {
-      "string_match": 100.0
+      "string_match": 99.2
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 99.85
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.75
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -449,33 +482,36 @@
       "string_match": 100.0
     },
     "qa_1": {
-      "string_match": 60.0
+      "string_match": 69.4
     },
     "qa_2": {
-      "string_match": 37.5
+      "string_match": 56.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "filtering__0.25__4096": {
     "cwe": {
-      "string_match": 100.0
+      "string_match": 95.18
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 92.93
     },
     "niah_multikey_1": {
       "string_match": 100.0
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 98.2
     },
     "niah_multikey_3": {
-      "string_match": 50.0
+      "string_match": 81.0
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 99.85
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.7
     },
     "niah_single_1": {
       "string_match": 100.0
@@ -484,203 +520,221 @@
       "string_match": 100.0
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "qa_1": {
-      "string_match": 80.0
+      "string_match": 72.6
     },
     "qa_2": {
-      "string_match": 62.5
+      "string_match": 53.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "filtering__0.25__8192": {
     "cwe": {
-      "string_match": 86.67
+      "string_match": 94.1
     },
     "fwe": {
-      "string_match": 88.89
+      "string_match": 89.47
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 99.4
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 97.2
     },
     "niah_multikey_3": {
-      "string_match": 75.0
+      "string_match": 57.2
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 98.4
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.15
     },
     "niah_single_1": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_single_2": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_single_3": {
       "string_match": 100.0
     },
     "qa_1": {
-      "string_match": 60.0
+      "string_match": 57.6
     },
     "qa_2": {
-      "string_match": 12.5
+      "string_match": 48.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "filtering__0.5__4096": {
     "cwe": {
-      "string_match": 83.33
+      "string_match": 86.84
     },
     "fwe": {
-      "string_match": 77.78
+      "string_match": 86.13
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 84.4
     },
     "niah_multikey_3": {
-      "string_match": 25.0
+      "string_match": 31.2
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 97.75
     },
     "niah_multivalue": {
-      "string_match": 95.0
+      "string_match": 99.6
     },
     "niah_single_1": {
       "string_match": 100.0
     },
     "niah_single_2": {
-      "string_match": 100.0
+      "string_match": 99.2
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 99.0
     },
     "qa_1": {
-      "string_match": 60.0
+      "string_match": 62.2
     },
     "qa_2": {
-      "string_match": 25.0
+      "string_match": 37.6
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "filtering__0.5__8192": {
     "cwe": {
-      "string_match": 86.67
+      "string_match": 91.34
     },
     "fwe": {
-      "string_match": 83.33
+      "string_match": 86.33
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 98.6
     },
     "niah_multikey_2": {
-      "string_match": 100.0
+      "string_match": 72.8
     },
     "niah_multikey_3": {
-      "string_match": 25.0
+      "string_match": 15.0
     },
     "niah_multiquery": {
-      "string_match": 100.0
+      "string_match": 96.85
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 99.4
     },
     "niah_single_1": {
-      "string_match": 100.0
+      "string_match": 99.8
     },
     "niah_single_2": {
-      "string_match": 87.5
+      "string_match": 100.0
     },
     "niah_single_3": {
-      "string_match": 85.71
+      "string_match": 99.2
     },
     "qa_1": {
-      "string_match": 40.0
+      "string_match": 45.4
     },
     "qa_2": {
-      "string_match": 0.0
+      "string_match": 38.8
+    },
+    "vt": {
+      "string_match": 100.0
     }
   },
   "filtering__0.75__4096": {
     "cwe": {
-      "string_match": 36.67
+      "string_match": 62.54
     },
     "fwe": {
-      "string_match": 50.0
+      "string_match": 66.6
     },
     "niah_multikey_1": {
-      "string_match": 25.0
+      "string_match": 94.8
     },
     "niah_multikey_2": {
-      "string_match": 50.0
+      "string_match": 35.4
     },
     "niah_multikey_3": {
-      "string_match": 0.0
+      "string_match": 1.6
     },
     "niah_multiquery": {
-      "string_match": 87.5
+      "string_match": 73.9
     },
     "niah_multivalue": {
-      "string_match": 85.0
+      "string_match": 91.05
     },
     "niah_single_1": {
       "string_match": 100.0
     },
     "niah_single_2": {
-      "string_match": 100.0
+      "string_match": 92.8
     },
     "niah_single_3": {
-      "string_match": 100.0
+      "string_match": 91.8
     },
     "qa_1": {
-      "string_match": 40.0
+      "string_match": 40.8
     },
     "qa_2": {
-      "string_match": 25.0
+      "string_match": 20.0
+    },
+    "vt": {
+      "string_match": 95.96
     }
   },
   "filtering__0.75__8192": {
     "cwe": {
-      "string_match": 86.67
+      "string_match": 80.24
     },
     "fwe": {
-      "string_match": 77.78
+      "string_match": 73.0
     },
     "niah_multikey_1": {
-      "string_match": 100.0
+      "string_match": 97.2
     },
     "niah_multikey_2": {
-      "string_match": 50.0
+      "string_match": 20.2
     },
     "niah_multikey_3": {
-      "string_match": 0.0
+      "string_match": 0.8
     },
     "niah_multiquery": {
-      "string_match": 79.17
+      "string_match": 81.8
     },
     "niah_multivalue": {
-      "string_match": 100.0
+      "string_match": 93.25
     },
     "niah_single_1": {
-      "string_match": 100.0
+      "string_match": 99.0
     },
     "niah_single_2": {
-      "string_match": 87.5
+      "string_match": 98.2
     },
     "niah_single_3": {
-      "string_match": 85.71
+      "string_match": 94.2
     },
     "qa_1": {
-      "string_match": 40.0
+      "string_match": 27.6
     },
     "qa_2": {
-      "string_match": 12.5
+      "string_match": 17.8
+    },
+    "vt": {
+      "string_match": 99.56
     }
   }
 }
