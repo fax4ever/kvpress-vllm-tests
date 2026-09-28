@@ -1,56 +1,56 @@
 {
   "filtering__0.01__gov_report": {
-    "rougeL": 0.2232
+    "rougeL": 0.1898
   },
   "filtering__0.01__hotpotqa": {
-    "f1": 16.9856
+    "f1": 9.0928
   },
   "filtering__0.25__gov_report": {
-    "rougeL": 0.2707
+    "rougeL": 0.2018
   },
   "filtering__0.25__hotpotqa": {
-    "f1": 14.5378
+    "f1": 8.1785
   },
   "filtering__0.5__gov_report": {
-    "rougeL": 0.2386
+    "rougeL": 0.1915
   },
   "filtering__0.5__hotpotqa": {
-    "f1": 14.5614
+    "f1": 6.2574
   },
   "filtering__0.75__gov_report": {
-    "rougeL": 0.0571
+    "rougeL": 0.1422
   },
   "filtering__0.75__hotpotqa": {
-    "f1": 16.2281
+    "f1": 4.6097
   },
   "full_replacement__0.01__gov_report": {
-    "rougeL": 0.2303
+    "rougeL": 0.1922
   },
   "full_replacement__0.01__hotpotqa": {
-    "f1": 16.9856
+    "f1": 9.0948
   },
   "full_replacement__0.25__gov_report": {
-    "rougeL": 0.2335
+    "rougeL": 0.1985
   },
   "full_replacement__0.25__hotpotqa": {
-    "f1": 13.0314
+    "f1": 7.8597
   },
   "full_replacement__0.5__gov_report": {
-    "rougeL": 0.254
+    "rougeL": 0.1877
   },
   "full_replacement__0.5__hotpotqa": {
-    "f1": 14.9263
+    "f1": 6.4015
   },
   "full_replacement__0.75__gov_report": {
-    "rougeL": 0.0559
+    "rougeL": 0.1392
   },
   "full_replacement__0.75__hotpotqa": {
-    "f1": 13.8947
+    "f1": 4.4188
   },
   "no_press__0.0__gov_report": {
-    "rougeL": 0.2386
+    "rougeL": 0.1849
   },
   "no_press__0.0__hotpotqa": {
-    "f1": 7.6923
+    "f1": 9.7021
   }
 }
