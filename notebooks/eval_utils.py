@@ -1,7 +1,7 @@
 """
-Shared evaluation utilities for Needle-in-a-Haystack (NIAH) experiments.
+Shared evaluation utilities for the kvpress / vLLM benchmarks.
 
-Replicates the NIAH benchmark approach from kvpress:
+Needle-in-a-Haystack (NIAH) replicates the benchmark approach from kvpress:
 - Paul Graham essays as haystack filler
 - Token-level needle insertion at configurable depths
 - ROUGE scoring between needle text and predicted answer
@@ -104,3 +104,44 @@ def calculate_niah_metrics(df: pd.DataFrame) -> list[dict]:
 def rouge_l_f_scores(metrics: list[dict]) -> list[float]:
     """Extract ROUGE-L F1 scores from calculate_niah_metrics output."""
     return [m["rouge-l"]["f"] for m in metrics]
+
+
+# Qwen3-8B supports 40960 positions (max_position_embeddings). vLLM rejects any
+# request beyond it; transformers silently extrapolates RoPE instead.
+MAX_MODEL_LEN = 40960
+
+
+def truncate_context_middle(
+    context: str,
+    question: str,
+    max_new_tokens: int,
+    tokenizer: PreTrainedTokenizer,
+    max_model_len: int = MAX_MODEL_LEN,
+    margin: int = 128,
+) -> tuple[str, bool]:
+    """
+    Truncate a LongBench context so context + question + generation fit the model.
+
+    Follows the official LongBench protocol (THUDM/LongBench pred.py): drop the
+    middle of the context and keep its head and tail, since the instruction
+    depends on both ends. The margin covers chat template and answer prefix
+    tokens, which are added by the caller.
+
+    Returns the (possibly unchanged) context and whether it was truncated.
+    """
+    budget = (
+        max_model_len
+        - max_new_tokens
+        - margin
+        - len(tokenizer.encode(question, add_special_tokens=False))
+    )
+    tokenized_context = tokenizer.encode(context, add_special_tokens=False)
+    if len(tokenized_context) <= budget:
+        return context, False
+
+    half = budget // 2
+    truncated = (
+        tokenizer.decode(tokenized_context[:half])
+        + tokenizer.decode(tokenized_context[-half:])
+    )
+    return truncated, True
