@@ -22,7 +22,9 @@ same setup as the [kvpress leaderboard](https://huggingface.co/spaces/nvidia/kvp
 
 New presses and evaluation entries added by: https://github.com/NVIDIA/kvpress/pull/258
 
-![RULER heatmaps](../notebooks/results/ruler_heatmaps.png)
+Notebook 06 supports the filtering design discussion but is not part of the
+thesis benchmark evaluation. Its saved data and figures are not retained
+in `notebooks/results`.
 
 #### NIAH ([notebook 02](../notebooks/02_kvpress_niah.ipynb))
 
@@ -43,4 +45,6 @@ Custom loop, compared against vLLM baseline (notebook 04).
 No compression — vLLM with PagedAttention, same model/dataset/depths/contexts as notebook 02.
 Results compared in [notebook 05](../notebooks/05_compare_results.ipynb).
 
-![NIAH heatmaps](../notebooks/results/niah_heatmaps.png)
+These early NIAH results are not presented in the thesis. Their saved data
+and figures have been removed from `notebooks/results`; the notebooks remain
+available to reproduce the experiment.

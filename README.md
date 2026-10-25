@@ -83,6 +83,9 @@ This allows us to apply the compression ratio to both the prefill and decoding p
 
 ## Evaluations
 
+The [results guide](notebooks/results/README.md) identifies the saved data,
+comparison figures used in the thesis.
+
 We tested RULER, Qasper, and LongBench on the baseline (no compression) and on the two algorithms (total-replacement, filtering), applying various compression ratios (0.01, 0.25, 0.5, 0.75) across both kvpress and vLLM implementations.
 
 1. **RULER**
