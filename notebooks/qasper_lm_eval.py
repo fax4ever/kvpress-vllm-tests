@@ -1,10 +1,54 @@
 """Connect the standard lm-eval SCROLLS/Qasper task to our compression runs."""
 
-from contextlib import nullcontext
+from contextlib import contextmanager, nullcontext, redirect_stderr, redirect_stdout
+from datetime import datetime
+from pathlib import Path
+import sys
+import time
+import traceback
 from datasets import load_dataset
 from lm_eval import simple_evaluate
 from lm_eval.loggers import EvaluationTracker
 from lm_eval.tasks.scrolls.task import Qasper, _drop_duplicates_in_input
+
+
+class _Tee:
+    """Keep notebook output visible and flush a readable copy to disk."""
+
+    def __init__(self, stream, log):
+        self.stream, self.log = stream, log
+
+    def write(self, text):
+        self.log.write(text.replace("\r", "\n"))
+        self.log.flush()
+        return self.stream.write(text)
+
+    def flush(self):
+        self.log.flush()
+        self.stream.flush()
+
+    def __getattr__(self, name):
+        return getattr(self.stream, name)
+
+
+@contextmanager
+def evaluation_log(output_dir):
+    """Save notebook prints, stderr progress bars, and exceptions for this run."""
+    directory = Path(output_dir)
+    directory.mkdir(parents=True, exist_ok=True)
+    path = directory / f"run_{datetime.now():%Y%m%d_%H%M%S_%f}.log"
+    started = time.perf_counter()
+    with path.open("w", encoding="utf-8") as log:
+        with redirect_stdout(_Tee(sys.stdout, log)), redirect_stderr(_Tee(sys.stderr, log)):
+            print(f"[{datetime.now().isoformat(timespec='seconds')}] Run started. Log: {path}")
+            try:
+                yield path
+            except BaseException:
+                print(f"[{datetime.now().isoformat(timespec='seconds')}] Run interrupted or failed")
+                traceback.print_exc()
+                raise
+            else:
+                print(f"[{datetime.now().isoformat(timespec='seconds')}] Run finished in {time.perf_counter() - started:.0f}s")
 
 
 class QasperTask(Qasper):
