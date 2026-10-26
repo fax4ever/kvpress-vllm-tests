@@ -101,12 +101,12 @@ We tested RULER, Qasper, and LongBench on the baseline (no compression) and on t
   ![RULER scores](notebooks/results/compare_ruler_score_vs_ratio.png)
 
 2. **LongBench**
-   *Ideal for testing decoding compression.*
+   *GovReport tests compression during longer generation.*
   * [kvpress notebook](notebooks/11_kvpress_longbench.ipynb)
   * [vLLM notebook](notebooks/12_vllm_longbench.ipynb)
   * [comparison notebook](notebooks/15_compare_longbench.ipynb)
 
-  ![LongBench Scores](notebooks/results/compare_longbench_scores.png)  
+  Results pending.
 
 3. **Qasper**
    *Should cover both prefill and decoding.*
