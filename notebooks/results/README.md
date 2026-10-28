@@ -27,7 +27,9 @@ The comparison notebooks read the saved metrics above:
   over all 13 tasks and both context lengths.
 - Notebook 14: [Qasper scores](compare_qasper_scores.png), showing F1.
 - Notebook 15: [LongBench scores](compare_longbench_lm_eval_scores.png), showing
-  ROUGE-L for `gov_report` and F1 for `hotpotqa`.
+  ROUGE-L for `gov_report` and F1 for `hotpotqa`, plus per-task heatmaps:
+  [GovReport](compare_longbench_gov_report_heatmaps.png) and
+  [HotpotQA](compare_longbench_hotpotqa_heatmaps.png).
 
 These figures compare both algorithms and frameworks with their uncompressed baselines.
 
