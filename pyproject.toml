@@ -1,0 +1,11 @@
+[project]
+name = "kvpress-vllm-tests"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "kvpress==0.5.4",
+    "lm-eval==0.4.13",
+    "torch==2.10.0",
+]
